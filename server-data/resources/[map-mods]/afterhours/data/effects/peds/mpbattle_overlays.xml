@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PedDecorationCollection>
+  <bRequiredForSync value="true" />
+  <presets>
+	<Item>
+      <uvPos x="0.737000" y="0.680000" />
+      <scale x="0.170000" y="0.170000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_000_M</nameHash>
+      <txdHash>MP_Battle_Clothing_000</txdHash>
+      <txtHash>MP_Battle_Clothing_000</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.727000" y="0.700000" />
+      <scale x="0.180000" y="0.160000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_000_F</nameHash>
+      <txdHash>MP_Battle_Clothing_000</txdHash>
+      <txtHash>MP_Battle_Clothing_000</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.237000" y="0.840000" />
+      <scale x="0.100000" y="0.100000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_001_M</nameHash>
+      <txdHash>MP_Battle_Clothing_001</txdHash>
+      <txtHash>MP_Battle_Clothing_001</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.227000" y="0.870000" />
+      <scale x="0.090000" y="0.100000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_001_F</nameHash>
+      <txdHash>MP_Battle_Clothing_001</txdHash>
+      <txtHash>MP_Battle_Clothing_001</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_002_M</nameHash>
+      <txdHash>MP_Battle_Clothing_002</txdHash>
+      <txtHash>MP_Battle_Clothing_002</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_002_F</nameHash>
+      <txdHash>MP_Battle_Clothing_002</txdHash>
+      <txtHash>MP_Battle_Clothing_002</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_003_M</nameHash>
+      <txdHash>MP_Battle_Clothing_003</txdHash>
+      <txtHash>MP_Battle_Clothing_003</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.667000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_003_F</nameHash>
+      <txdHash>MP_Battle_Clothing_003</txdHash>
+      <txtHash>MP_Battle_Clothing_003</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_004_M</nameHash>
+      <txdHash>MP_Battle_Clothing_004</txdHash>
+      <txtHash>MP_Battle_Clothing_004</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_004_F</nameHash>
+      <txdHash>MP_Battle_Clothing_004</txdHash>
+      <txtHash>MP_Battle_Clothing_004</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_005_M</nameHash>
+      <txdHash>MP_Battle_Clothing_005</txdHash>
+      <txtHash>MP_Battle_Clothing_005</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_005_F</nameHash>
+      <txdHash>MP_Battle_Clothing_005</txdHash>
+      <txtHash>MP_Battle_Clothing_005</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_006_M</nameHash>
+      <txdHash>MP_Battle_Clothing_006</txdHash>
+      <txtHash>MP_Battle_Clothing_006</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_006_F</nameHash>
+      <txdHash>MP_Battle_Clothing_006</txdHash>
+      <txtHash>MP_Battle_Clothing_006</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_007_M</nameHash>
+      <txdHash>MP_Battle_Clothing_007</txdHash>
+      <txtHash>MP_Battle_Clothing_007</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.747000" y="0.677000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_007_F</nameHash>
+      <txdHash>MP_Battle_Clothing_007</txdHash>
+      <txtHash>MP_Battle_Clothing_007</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_008_M</nameHash>
+      <txdHash>MP_Battle_Clothing_008</txdHash>
+      <txtHash>MP_Battle_Clothing_008</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_008_F</nameHash>
+      <txdHash>MP_Battle_Clothing_008</txdHash>
+      <txtHash>MP_Battle_Clothing_008</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_009_M</nameHash>
+      <txdHash>MP_Battle_Clothing_009</txdHash>
+      <txtHash>MP_Battle_Clothing_009</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_009_F</nameHash>
+      <txdHash>MP_Battle_Clothing_009</txdHash>
+      <txtHash>MP_Battle_Clothing_009</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_010_M</nameHash>
+      <txdHash>MP_Battle_Clothing_010</txdHash>
+      <txtHash>MP_Battle_Clothing_010</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_010_F</nameHash>
+      <txdHash>MP_Battle_Clothing_010</txdHash>
+      <txtHash>MP_Battle_Clothing_010</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_011_M</nameHash>
+      <txdHash>MP_Battle_Clothing_011</txdHash>
+      <txtHash>MP_Battle_Clothing_011</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.687000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_011_F</nameHash>
+      <txdHash>MP_Battle_Clothing_011</txdHash>
+      <txtHash>MP_Battle_Clothing_011</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_012_M</nameHash>
+      <txdHash>MP_Battle_Clothing_012</txdHash>
+      <txtHash>MP_Battle_Clothing_012</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_012_F</nameHash>
+      <txdHash>MP_Battle_Clothing_012</txdHash>
+      <txtHash>MP_Battle_Clothing_012</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_013_M</nameHash>
+      <txdHash>MP_Battle_Clothing_013</txdHash>
+      <txtHash>MP_Battle_Clothing_013</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_013_F</nameHash>
+      <txdHash>MP_Battle_Clothing_013</txdHash>
+      <txtHash>MP_Battle_Clothing_013</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.647000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_014_M</nameHash>
+      <txdHash>MP_Battle_Clothing_014</txdHash>
+      <txtHash>MP_Battle_Clothing_014</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.667000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_014_F</nameHash>
+      <txdHash>MP_Battle_Clothing_014</txdHash>
+      <txtHash>MP_Battle_Clothing_014</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_015_M</nameHash>
+      <txdHash>MP_Battle_Clothing_015</txdHash>
+      <txtHash>MP_Battle_Clothing_015</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_015_F</nameHash>
+      <txdHash>MP_Battle_Clothing_015</txdHash>
+      <txtHash>MP_Battle_Clothing_015</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_016_M</nameHash>
+      <txdHash>MP_Battle_Clothing_016</txdHash>
+      <txtHash>MP_Battle_Clothing_016</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_016_F</nameHash>
+      <txdHash>MP_Battle_Clothing_016</txdHash>
+      <txtHash>MP_Battle_Clothing_016</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_017_M</nameHash>
+      <txdHash>MP_Battle_Clothing_017</txdHash>
+      <txtHash>MP_Battle_Clothing_017</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_017_F</nameHash>
+      <txdHash>MP_Battle_Clothing_017</txdHash>
+      <txtHash>MP_Battle_Clothing_017</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_018_M</nameHash>
+      <txdHash>MP_Battle_Clothing_018</txdHash>
+      <txtHash>MP_Battle_Clothing_018</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_018_F</nameHash>
+      <txdHash>MP_Battle_Clothing_018</txdHash>
+      <txtHash>MP_Battle_Clothing_018</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_019_M</nameHash>
+      <txdHash>MP_Battle_Clothing_019</txdHash>
+      <txtHash>MP_Battle_Clothing_019</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_019_F</nameHash>
+      <txdHash>MP_Battle_Clothing_019</txdHash>
+      <txtHash>MP_Battle_Clothing_019</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_020_M</nameHash>
+      <txdHash>MP_Battle_Clothing_020</txdHash>
+      <txtHash>MP_Battle_Clothing_020</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_020_F</nameHash>
+      <txdHash>MP_Battle_Clothing_020</txdHash>
+      <txtHash>MP_Battle_Clothing_020</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.637000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_021_M</nameHash>
+      <txdHash>MP_Battle_Clothing_021</txdHash>
+      <txtHash>MP_Battle_Clothing_021</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.657000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_021_F</nameHash>
+      <txdHash>MP_Battle_Clothing_021</txdHash>
+      <txtHash>MP_Battle_Clothing_021</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.667000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_022_M</nameHash>
+      <txdHash>MP_Battle_Clothing_022</txdHash>
+      <txtHash>MP_Battle_Clothing_022</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_022_F</nameHash>
+      <txdHash>MP_Battle_Clothing_022</txdHash>
+      <txtHash>MP_Battle_Clothing_022</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_023_M</nameHash>
+      <txdHash>MP_Battle_Clothing_023</txdHash>
+      <txtHash>MP_Battle_Clothing_023</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_023_F</nameHash>
+      <txdHash>MP_Battle_Clothing_023</txdHash>
+      <txtHash>MP_Battle_Clothing_023</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.667000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_024_M</nameHash>
+      <txdHash>MP_Battle_Clothing_024</txdHash>
+      <txtHash>MP_Battle_Clothing_024</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_024_F</nameHash>
+      <txdHash>MP_Battle_Clothing_024</txdHash>
+      <txtHash>MP_Battle_Clothing_024</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.667000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_025_M</nameHash>
+      <txdHash>MP_Battle_Clothing_025</txdHash>
+      <txtHash>MP_Battle_Clothing_025</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.150000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_025_F</nameHash>
+      <txdHash>MP_Battle_Clothing_025</txdHash>
+      <txtHash>MP_Battle_Clothing_025</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_026_M</nameHash>
+      <txdHash>MP_Battle_Clothing_026</txdHash>
+      <txtHash>MP_Battle_Clothing_026</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_026_F</nameHash>
+      <txdHash>MP_Battle_Clothing_026</txdHash>
+      <txtHash>MP_Battle_Clothing_026</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.657000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_027_M</nameHash>
+      <txdHash>MP_Battle_Clothing_027</txdHash>
+      <txtHash>MP_Battle_Clothing_027</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_027_F</nameHash>
+      <txdHash>MP_Battle_Clothing_027</txdHash>
+      <txtHash>MP_Battle_Clothing_027</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_028_M</nameHash>
+      <txdHash>MP_Battle_Clothing_028</txdHash>
+      <txtHash>MP_Battle_Clothing_028</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.150000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_028_F</nameHash>
+      <txdHash>MP_Battle_Clothing_028</txdHash>
+      <txtHash>MP_Battle_Clothing_028</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.677000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_029_M</nameHash>
+      <txdHash>MP_Battle_Clothing_029</txdHash>
+      <txtHash>MP_Battle_Clothing_029</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.677000" />
+      <scale x="0.150000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_029_F</nameHash>
+      <txdHash>MP_Battle_Clothing_029</txdHash>
+      <txtHash>MP_Battle_Clothing_029</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.647000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_030_M</nameHash>
+      <txdHash>MP_Battle_Clothing_030</txdHash>
+      <txtHash>MP_Battle_Clothing_030</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.667000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_030_F</nameHash>
+      <txdHash>MP_Battle_Clothing_030</txdHash>
+      <txtHash>MP_Battle_Clothing_030</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.680000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_031_M</nameHash>
+      <txdHash>MP_Battle_Clothing_031</txdHash>
+      <txtHash>MP_Battle_Clothing_031</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.695000" />
+      <scale x="0.140000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_031_F</nameHash>
+      <txdHash>MP_Battle_Clothing_031</txdHash>
+      <txtHash>MP_Battle_Clothing_031</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.680000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_032_M</nameHash>
+      <txdHash>MP_Battle_Clothing_032</txdHash>
+      <txtHash>MP_Battle_Clothing_032</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.695000" />
+      <scale x="0.140000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_032_F</nameHash>
+      <txdHash>MP_Battle_Clothing_032</txdHash>
+      <txtHash>MP_Battle_Clothing_032</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.647000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_033_M</nameHash>
+      <txdHash>MP_Battle_Clothing_033</txdHash>
+      <txtHash>MP_Battle_Clothing_033</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.680000" />
+      <scale x="0.110000" y="0.095000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_033_F</nameHash>
+      <txdHash>MP_Battle_Clothing_033</txdHash>
+      <txtHash>MP_Battle_Clothing_033</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.647000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_034_M</nameHash>
+      <txdHash>MP_Battle_Clothing_034</txdHash>
+      <txtHash>MP_Battle_Clothing_034</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.680000" />
+      <scale x="0.110000" y="0.095000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_034_F</nameHash>
+      <txdHash>MP_Battle_Clothing_034</txdHash>
+      <txtHash>MP_Battle_Clothing_034</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.667000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_035_M</nameHash>
+      <txdHash>MP_Battle_Clothing_035</txdHash>
+      <txtHash>MP_Battle_Clothing_035</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_035_F</nameHash>
+      <txdHash>MP_Battle_Clothing_035</txdHash>
+      <txtHash>MP_Battle_Clothing_035</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.647000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_036_M</nameHash>
+      <txdHash>MP_Battle_Clothing_036</txdHash>
+      <txtHash>MP_Battle_Clothing_036</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.680000" />
+      <scale x="0.120000" y="0.095000" />
+      <rotation value="-3.960000" />
+      <nameHash>MP_Battle_Clothing_036_F</nameHash>
+      <txdHash>MP_Battle_Clothing_036</txdHash>
+      <txtHash>MP_Battle_Clothing_036</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.667000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_037_M</nameHash>
+      <txdHash>MP_Battle_Clothing_037</txdHash>
+      <txtHash>MP_Battle_Clothing_037</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_037_F</nameHash>
+      <txdHash>MP_Battle_Clothing_037</txdHash>
+      <txtHash>MP_Battle_Clothing_037</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.687000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_038_M</nameHash>
+      <txdHash>MP_Battle_Clothing_038</txdHash>
+      <txtHash>MP_Battle_Clothing_038</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.145000" y="0.120000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_038_F</nameHash>
+      <txdHash>MP_Battle_Clothing_038</txdHash>
+      <txtHash>MP_Battle_Clothing_038</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.670000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_039_M</nameHash>
+      <txdHash>MP_Battle_Clothing_039</txdHash>
+      <txtHash>MP_Battle_Clothing_039</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.140000" y="0.120000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_039_F</nameHash>
+      <txdHash>MP_Battle_Clothing_039</txdHash>
+      <txtHash>MP_Battle_Clothing_039</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.670000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_040_M</nameHash>
+      <txdHash>MP_Battle_Clothing_040</txdHash>
+      <txtHash>MP_Battle_Clothing_040</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.130000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_040_F</nameHash>
+      <txdHash>MP_Battle_Clothing_040</txdHash>
+      <txtHash>MP_Battle_Clothing_040</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.685000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_041_M</nameHash>
+      <txdHash>MP_Battle_Clothing_041</txdHash>
+      <txtHash>MP_Battle_Clothing_041</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.690000" />
+      <scale x="0.130000" y="0.120000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_041_F</nameHash>
+      <txdHash>MP_Battle_Clothing_041</txdHash>
+      <txtHash>MP_Battle_Clothing_041</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.832000" y="0.677000" />
+      <scale x="0.080000" y="0.075000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_042_M</nameHash>
+      <txdHash>MP_Battle_Clothing_042</txdHash>
+      <txtHash>MP_Battle_Clothing_042</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.810000" y="0.700000" />
+      <scale x="0.080000" y="0.065000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_042_F</nameHash>
+      <txdHash>MP_Battle_Clothing_042</txdHash>
+      <txtHash>MP_Battle_Clothing_042</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.670000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_043_M</nameHash>
+      <txdHash>MP_Battle_Clothing_043</txdHash>
+      <txtHash>MP_Battle_Clothing_043</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.125000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_043_F</nameHash>
+      <txdHash>MP_Battle_Clothing_043</txdHash>
+      <txtHash>MP_Battle_Clothing_043</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.670000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_044_M</nameHash>
+      <txdHash>MP_Battle_Clothing_044</txdHash>
+      <txtHash>MP_Battle_Clothing_044</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.125000" y="0.105000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_044_F</nameHash>
+      <txdHash>MP_Battle_Clothing_044</txdHash>
+      <txtHash>MP_Battle_Clothing_044</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.680000" />
+      <scale x="0.145000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_045_M</nameHash>
+      <txdHash>MP_Battle_Clothing_045</txdHash>
+      <txtHash>MP_Battle_Clothing_045</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_045_F</nameHash>
+      <txdHash>MP_Battle_Clothing_045</txdHash>
+      <txtHash>MP_Battle_Clothing_045</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.680000" />
+      <scale x="0.145000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_046_M</nameHash>
+      <txdHash>MP_Battle_Clothing_046</txdHash>
+      <txtHash>MP_Battle_Clothing_046</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.140000" y="0.115000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_046_F</nameHash>
+      <txdHash>MP_Battle_Clothing_046</txdHash>
+      <txtHash>MP_Battle_Clothing_046</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.657000" />
+      <scale x="0.115000" y="0.095000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_047_M</nameHash>
+      <txdHash>MP_Battle_Clothing_047</txdHash>
+      <txtHash>MP_Battle_Clothing_047</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.670000" />
+      <scale x="0.115000" y="0.095000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_047_F</nameHash>
+      <txdHash>MP_Battle_Clothing_047</txdHash>
+      <txtHash>MP_Battle_Clothing_047</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.685000" />
+      <scale x="0.140000" y="0.120000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_048_M</nameHash>
+      <txdHash>MP_Battle_Clothing_048</txdHash>
+      <txtHash>MP_Battle_Clothing_048</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.135000" y="0.110000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_048_F</nameHash>
+      <txdHash>MP_Battle_Clothing_048</txdHash>
+      <txtHash>MP_Battle_Clothing_048</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.685000" />
+      <scale x="0.140000" y="0.120000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_049_M</nameHash>
+      <txdHash>MP_Battle_Clothing_049</txdHash>
+      <txtHash>MP_Battle_Clothing_049</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.700000" />
+      <scale x="0.135000" y="0.110000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_049_F</nameHash>
+      <txdHash>MP_Battle_Clothing_049</txdHash>
+      <txtHash>MP_Battle_Clothing_049</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.657000" />
+      <scale x="0.115000" y="0.095000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_050_M</nameHash>
+      <txdHash>MP_Battle_Clothing_050</txdHash>
+      <txtHash>MP_Battle_Clothing_050</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.670000" />
+      <scale x="0.115000" y="0.095000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_050_F</nameHash>
+      <txdHash>MP_Battle_Clothing_050</txdHash>
+      <txtHash>MP_Battle_Clothing_050</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.547000" />
+      <scale x="0.200000" y="0.175000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_051_M</nameHash>
+      <txdHash>MP_Battle_Clothing_051</txdHash>
+      <txtHash>MP_Battle_Clothing_051</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.570000" />
+      <scale x="0.180000" y="0.165000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_051_F</nameHash>
+      <txdHash>MP_Battle_Clothing_051</txdHash>
+      <txtHash>MP_Battle_Clothing_051</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.625000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_052_M</nameHash>
+      <txdHash>MP_Battle_Clothing_052</txdHash>
+      <txtHash>MP_Battle_Clothing_052</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.716000" y="0.645000" />
+      <scale x="0.160000" y="0.130000" />
+      <rotation value="-3.960000" />
+      <nameHash>MP_Battle_Clothing_052_F</nameHash>
+      <txdHash>MP_Battle_Clothing_052</txdHash>
+      <txtHash>MP_Battle_Clothing_052</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.607000" />
+      <scale x="0.150000" y="0.125000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_053_M</nameHash>
+      <txdHash>MP_Battle_Clothing_053</txdHash>
+      <txtHash>MP_Battle_Clothing_053</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.640000" />
+      <scale x="0.160000" y="0.130000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_053_F</nameHash>
+      <txdHash>MP_Battle_Clothing_053</txdHash>
+      <txtHash>MP_Battle_Clothing_053</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.607000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_054_M</nameHash>
+      <txdHash>MP_Battle_Clothing_054</txdHash>
+      <txtHash>MP_Battle_Clothing_054</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.640000" />
+      <scale x="0.160000" y="0.130000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_054_F</nameHash>
+      <txdHash>MP_Battle_Clothing_054</txdHash>
+      <txtHash>MP_Battle_Clothing_054</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.687000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_055_M</nameHash>
+      <txdHash>MP_Battle_Clothing_055</txdHash>
+      <txtHash>MP_Battle_Clothing_055</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.710000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_055_F</nameHash>
+      <txdHash>MP_Battle_Clothing_055</txdHash>
+      <txtHash>MP_Battle_Clothing_055</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.687000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_056_M</nameHash>
+      <txdHash>MP_Battle_Clothing_056</txdHash>
+      <txtHash>MP_Battle_Clothing_056</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.710000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_056_F</nameHash>
+      <txdHash>MP_Battle_Clothing_056</txdHash>
+      <txtHash>MP_Battle_Clothing_056</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.687000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_057_M</nameHash>
+      <txdHash>MP_Battle_Clothing_057</txdHash>
+      <txtHash>MP_Battle_Clothing_057</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.710000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_057_F</nameHash>
+      <txdHash>MP_Battle_Clothing_057</txdHash>
+      <txtHash>MP_Battle_Clothing_057</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.687000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_058_M</nameHash>
+      <txdHash>MP_Battle_Clothing_058</txdHash>
+      <txtHash>MP_Battle_Clothing_058</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.710000" />
+      <scale x="0.155000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_058_F</nameHash>
+      <txdHash>MP_Battle_Clothing_058</txdHash>
+      <txtHash>MP_Battle_Clothing_058</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.687000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_059_M</nameHash>
+      <txdHash>MP_Battle_Clothing_059</txdHash>
+      <txtHash>MP_Battle_Clothing_059</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.710000" />
+      <scale x="0.155000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_059_F</nameHash>
+      <txdHash>MP_Battle_Clothing_059</txdHash>
+      <txtHash>MP_Battle_Clothing_059</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.737000" y="0.687000" />
+      <scale x="0.160000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_060_M</nameHash>
+      <txdHash>MP_Battle_Clothing_060</txdHash>
+      <txtHash>MP_Battle_Clothing_060</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.720000" y="0.710000" />
+      <scale x="0.155000" y="0.135000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_060_F</nameHash>
+      <txdHash>MP_Battle_Clothing_060</txdHash>
+      <txtHash>MP_Battle_Clothing_060</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.830000" y="0.670000" />
+      <scale x="0.075000" y="0.065000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_061_M</nameHash>
+      <txdHash>MP_Battle_Clothing_061</txdHash>
+      <txtHash>MP_Battle_Clothing_061</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.800000" y="0.675000" />
+      <scale x="0.075000" y="0.060000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_061_F</nameHash>
+      <txdHash>MP_Battle_Clothing_061</txdHash>
+      <txtHash>MP_Battle_Clothing_061</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.830000" y="0.670000" />
+      <scale x="0.075000" y="0.065000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_062_M</nameHash>
+      <txdHash>MP_Battle_Clothing_062</txdHash>
+      <txtHash>MP_Battle_Clothing_062</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<Item>
+      <uvPos x="0.800000" y="0.675000" />
+      <scale x="0.075000" y="0.060000" />
+      <rotation value="0.000000" />
+      <nameHash>MP_Battle_Clothing_062_F</nameHash>
+      <txdHash>MP_Battle_Clothing_062</txdHash>
+      <txtHash>MP_Battle_Clothing_062</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_FEMALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+  </presets>
+  <nameHash>mpBattle_overlays</nameHash>
+  <medalLocations content="vector2_array">
+    0.140000	0.070000	
+    0.370000	0.070000	
+    0.600000	0.070000	
+    0.835000	0.070000	
+    0.140000	0.150000	
+    0.370000	0.150000	
+    0.600000	0.150000	
+    0.835000	0.150000	
+    0.140000	0.230000	
+    0.370000	0.230000	
+    0.600000	0.230000	
+    0.835000	0.230000	
+    0.100000	0.700000	
+    0.300000	0.700000	
+    0.500000	0.700000	
+    0.700000	0.700000	
+  </medalLocations>
+  <medalScale x="0.240000" y="0.100000" />
+</PedDecorationCollection>

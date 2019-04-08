@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CPtFxAssetInfoMgr>
+  <ptfxAssetDependencyInfos>
+    <Item type="CPtFxAssetDependencyInfo">
+      <parentName>veh_impexp_rocket</parentName>
+      <childName>veh_ba_oppressor2</childName>
+    </Item>
+    <Item type="CPtFxAssetDependencyInfo">
+      <parentName>veh_impexp_rocket</parentName>
+      <childName>weap_ie_vehicle_mg</childName>
+    </Item>
+  </ptfxAssetDependencyInfos>
+</CPtFxAssetInfoMgr>

@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fwClipSetManager>
+  <clipSets>
+  
+	<!-- NIGHTCLUB MOVEMENT VARIATION -->
+
+    <!-- Regular Speed -->
+    <Item type="fwClipSet" key="ANIM@MOVE_M@GROOVING@">
+      <fallbackId>move_m@generic</fallbackId>
+      <clipDictionaryName>ANIM@MOVE_M@GROOVING@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="ANIM@MOVE_F@GROOVING@">
+      <fallbackId>move_f@generic</fallbackId>
+      <clipDictionaryName>ANIM@MOVE_F@GROOVING@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+
+    <!-- Slow Speed -->
+    <Item type="fwClipSet" key="ANIM@MOVE_M@GROOVING@SLOW@">
+      <fallbackId>ANIM@MOVE_M@GROOVING@</fallbackId>
+      <clipDictionaryName>ANIM@MOVE_M@GROOVING@SLOW@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+    <Item type="fwClipSet" key="ANIM@MOVE_F@GROOVING@SLOW@">
+      <fallbackId>ANIM@MOVE_F@GROOVING@</fallbackId>
+      <clipDictionaryName>ANIM@MOVE_F@GROOVING@SLOW@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	
+	<!-- NIGHTCLUB DANCE MINI GAME -->
+	
+	<!-- MALE -->
+    <Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@MALE@VAR_A">
+      <fallbackId>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@MALE@VAR_A@</fallbackId>
+      <clipDictionaryName>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@MALE@VAR_A@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@MALE@VAR_B">
+      <fallbackId>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@MALE@VAR_A@</fallbackId>
+      <clipDictionaryName>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@MALE@VAR_B@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	
+	
+	<!-- FEMALE -->
+    <Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@FEMALE@VAR_A">
+      <fallbackId>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@FEMALE@VAR_A@</fallbackId>
+      <clipDictionaryName>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@FEMALE@VAR_A@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@FEMALE@VAR_B">
+      <fallbackId>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@FEMALE@VAR_A@</fallbackId>
+      <clipDictionaryName>ANIM@AMB@NIGHTCLUB@MINI@DANCE@DANCE_SOLO@FEMALE@VAR_B@</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	
+	<!-- NIGHTCLUB DANCE MINI GAME UPPERBODY -->
+	
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BANGING_TUNES">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERBANGING_TUNES</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BANGING_TUNES_LEFT">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERBANGING_TUNES_LEFT</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BANGING_TUNES_RIGHT">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERBANGING_TUNES_RIGHT</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@CATS_CRADLE">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERCATS_CRADLE</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FIND_THE_FISH">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERFIND_THE_FISH</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@HEART_PUMPING">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERHEART_PUMPING</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@OH_SNAP">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPEROH_SNAP</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@RAISE_THE_ROOF">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERRAISE_THE_ROOF</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SALSA_ROLL">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERSALSA_ROLL</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@UNCLE_DISCO">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERUNCLE_DISCO</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@AIR_GUITAR">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERAIR_GUITAR</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@AIR_SHAGGING">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERAIR_SHAGGING</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@AIR_SYNTH">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERAIR_SYNTH</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BLOW_KISS">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERBLOW_KISS</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@CHICKEN_TAUNT">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERCHICKEN_TAUNT</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@CHIN_BRUSH">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERCHIN_BRUSH</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@DJ">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERDJ</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@DOCK">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERDOCK</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FACE_PALM">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERFACE_PALM</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FINGER">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERFINGER</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FINGER_KISS">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERFINGER_KISS</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FREAKOUT">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERFREAKOUT</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@JAZZ_HANDS">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERJAZZ_HANDS</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@KNUCKLE_CRUNCH">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERKNUCKLE_CRUNCH</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@NOSE_PICK">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERNOSE_PICK</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@NO_WAY">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERNO_WAY</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@PEACE">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERPEACE</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@PHOTOGRAPHY">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERPHOTOGRAPHY</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@ROCK">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERROCK</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SALUTE">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERSALUTE</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SHUSH">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERSHUSH</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SLOW_CLAP">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERSLOW_CLAP</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SURRENDER">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERSURRENDER</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@THUMBS_UP">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERTHUMBS_UP</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@THUMB_ON_EARS">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERTHUMB_ON_EARS</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@V_SIGN">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERV_SIGN</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@WANK">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERWANK</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@WAVE">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERWAVE</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+	<Item type="fwClipSet" key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@YOU_LOCO">
+      <fallbackId/>
+      <clipDictionaryName>ANIM@MP_PLAYER_INTUPPERYOU_LOCO</clipDictionaryName>
+      <clipItems />
+      <moveNetworkFlags />
+    </Item>
+		
+	
+	
+	  	<!-- VEHICLES -->
+	
+	
+  	<!-- MENACER -->
+	<Item type="fwClipSet" key="clipset@veh@menacer@rds@enter_exit">
+	  <fallbackId>clipset@veh@granger@rds@enter_exit</fallbackId>
+      <clipDictionaryName>anim@veh@armordillo@rds@enter_exit</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="shuffle_jack_base_perp" />
+        <Item type="fwClipItem" key="shuffle_jack_base_perp_180" />
+        <Item type="fwClipItem" key="shuffle_jack_dead_perp" />
+        <Item type="fwClipItem" key="shuffle_jack_dead_perp_180" />
+        <Item type="fwClipItem" key="shuffle_seat2" />
+        <Item type="fwClipItem" key="shuffle_seat2_180" />
+      </clipItems>
+      <moveNetworkFlags />
+    </Item>
+	
+	<Item type="fwClipSet" key="clipset@veh@menacer@rps@enter_exit">
+	  <fallbackId>clipset@veh@van@granger@ps@enter_exit</fallbackId>
+      <clipDictionaryName>anim@veh@armordillo@rps@enter_exit</clipDictionaryName>
+      <clipItems>
+        <Item type="fwClipItem" key="shuffle_jack_base_perp" />
+        <Item type="fwClipItem" key="shuffle_jack_base_perp_180" />
+        <Item type="fwClipItem" key="shuffle_jack_dead_perp" />
+        <Item type="fwClipItem" key="shuffle_jack_dead_perp_180" />
+        <Item type="fwClipItem" key="shuffle_seat2" />
+        <Item type="fwClipItem" key="shuffle_seat2_180" />
+      </clipItems>
+      <moveNetworkFlags />
+    </Item>
+  
+
+  </clipSets>
+
+  <clipDictionaryMetadatas>
+	
+    <Item key="ANIM@MOVE_M@GROOVING@">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item key="ANIM@MOVE_F@GROOVING@">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item key="ANIM@MOVE_M@GROOVING@SLOW@">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+    <Item key="ANIM@MOVE_F@GROOVING@SLOW@">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@MALE@VAR_A">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@MALE@VAR_B">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@FEMALE@VAR_A">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@DANCE_SOLO@FEMALE@VAR_B">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@AIR_GUITAR">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@AIR_SHAGGING">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@AIR_SYNTH">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BLOW_KISS">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@CHICKEN_TAUNT">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@CHIN_BRUSH">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@DJ">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@DOCK">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FACE_PALM">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FINGER">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FINGER_KISS">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FREAKOUT">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@JAZZ_HANDS">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@KNUCKLE_CRUNCH">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@NOSE_PICK">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@NO_WAY">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@PEACE">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@PHOTOGRAPHY">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@ROCK">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SALUTE">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SHUSH">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SLOW_CLAP">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SURRENDER">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@THUMBS_UP">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@THUMB_ON_EARS">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@V_SIGN">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@WANK">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@YOU_LOCO">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BANGING_TUNES">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BANGING_TUNES_LEFT">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@BANGING_TUNES_RIGHT">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@CATS_CRADLE">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@FIND_THE_FISH">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@HEART_PUMPING">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@OH_SNAP">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@RAISE_THE_ROOF">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@SALSA_ROLL">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	<Item key="NIGHTCLUB@DANCE_MINIGAME@UPPERBODY@UNCLE_DISCO">
+      <streamingPolicy>SP_STREAMING</streamingPolicy>
+      <memoryGroup>MG_PlayerMovement</memoryGroup>
+      <streamingPriority>SP_Medium</streamingPriority>
+    </Item>
+	
+	
+
+  </clipDictionaryMetadatas>
+</fwClipSetManager>

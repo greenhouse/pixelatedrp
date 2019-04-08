@@ -1,0 +1,150 @@
+@font-face {
+  font-family: bankgothic;
+  src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+  font-family: pcdown;
+  src: url('../fonts/pdown.ttf');
+}
+.menu {
+  font-family: bankgothic;  
+  font-size: 20px;
+  min-width  : 400px;
+  color      : #2d2d2d;
+  position   : absolute;
+  border-radius: 25px;
+  padding: 40px;
+}
+
+.menu.align-left {
+  left: 40;
+  top : 50%;
+  transform: translate(0, -50%); 
+}
+
+.menu.align-top-left {
+  left: 40;
+  top : 40; 
+}
+
+.menu.align-top {
+  left: 50%;
+  top : 40;
+  transform: translate(-50%, 0); 
+}
+
+.menu.align-top-right {
+  right: 10;
+  top  : 40;
+}
+
+.menu.align-right {
+  right: 40;
+  top  : 50%;
+  transform: translate(0, -50%); 
+}
+
+.menu.align-bottom-right {
+  right : 40;
+  bottom: 40;
+}
+
+.menu.align-bottom {
+  left  : 50%;
+  bottom: 40;
+  transform: translate(-50%, 0); 
+}
+
+.menu.align-bottom-left {
+  left  : 40;
+  bottom: 40;
+}
+
+.menu.align-center {
+  left : 50%;
+  top  : 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.menu .head {
+  font-family: pcdown;
+  background-color: #e2181875;
+  box-shadow: inset 0px 0px 0px 0.5px #000000;
+  text-align      : center;
+  height          : 40px;
+  line-height     : 40px;
+  color           : black;
+  background-image: linear-gradient(to right, #BF0A30, white, #002868);
+  opacity: 0.8;
+  /*animation: when-select 2.5s ease infinite;*/
+  /*background-size: 400% 400%;*/
+}
+
+.menu .menu-items {
+  max-height : 600px;
+  overflow-y : auto;
+}
+
+.menu .menu-items .menu-item {
+  height          : 40px;
+  display         : block;
+  height          : 32px;
+  line-height     : 32px;
+  color           : #000;
+  text-align      : center;
+  background-color: #1568d063;
+  font-family: bankgothic;
+  color: white;
+  box-shadow: inset 0px 0px 0px 0.5px #000000;
+  font-style: normal;
+}
+
+.menu .menu-items .menu-item.selected {
+  font-style: italic;
+  /*background: linear-gradient( 90deg , #0000ff99, #1568d063) ;*/
+  background: linear-gradient(to right, #BF0A30, white, #002868);
+  background-size: 400% 400%;
+  background-color: transparent !important;
+  -webkit-animation: when-select 1s ease infinite;
+  -moz-animation: when-select 1s ease infinite;
+  animation: when-select 1s ease infinite;
+  /*animation: american-flag 2s ease infinite;*/
+}
+
+div#wrapperHeader {
+  position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+  opacity: 0.5;
+}
+
+div#wrapperHeader div#header {
+ margin:0 auto;
+}
+
+div#wrapperHeader div#header img {
+ position: center;
+} 
+
+@-webkit-keyframes when-select {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes when-select {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+@keyframes when-select { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+
+@keyframes american-flag { 
+  0%{background-color: #d01528b0;}
+  50%{background-color: #ffffff66}
+  100%{background-color: #001cffb0 }
+}

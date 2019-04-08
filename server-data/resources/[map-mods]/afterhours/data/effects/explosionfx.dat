@@ -1,0 +1,14 @@
+4.00
+
+# COLN TYPE: 1-ground plane, 2-ground bound, 3-vehicle up
+
+#			    				PTFX ------------------------------------------------------------------------------------------------------------------------------------------------------------------------>		FIRES ------------------------------------------------------------------------------------->
+#TYPE							FX_NAME						FX_2_NAME				FX_3_NAME					FX_AIR_NAME					FX_AIR_2_NAME			FX_AIR_3_NAME				SCALE	SCORCH		  NUMBER		   RANGE		 BURN TIME		BURN STRENGTH	 PEAK TIME			FUEL
+#			    																																														DECALS		MIN		MAX		MIN		MAX		MIN		MAX		MIN		MAX		MIN		MAX		LEVEL	BURN
+#	
+																									
+EXPLOSIONFX_TABLE_START		
+
+EXP_VFXTAG_OPPRESSOR2_CANNON	exp_grd_ba_opp2_cannon		-						-							exp_grd_ba_opp2_cannon		-						-							1.0		1			0		0		0.2		0.8		0.5		2.0		0.7		1.0		0.8		2.5		0.0		0.0	
+
+EXPLOSIONFX_TABLE_END

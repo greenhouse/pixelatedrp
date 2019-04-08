@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		
+		<!-- ### Stone Hatchet ### -->
+		<Item>
+		  <modelName>w_me_stonehatchet</modelName>
+		  <txdName>w_me_stonehatchet</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+
+		<!-- Aircraft Missiles -->
+		<Item>
+			<modelName>W_Battle_AirMissile_01</modelName>
+			<txdName>W_Battle_AirMissile_01</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="500"/>
+		</Item>
+		
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

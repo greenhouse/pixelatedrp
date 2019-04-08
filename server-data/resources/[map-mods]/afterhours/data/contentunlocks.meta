@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SContentUnlocks>
+  <listOfUnlocks>
+    <Item>CU_VEH_BLIMP3</Item>
+    <Item>CU_VEH_FREECRAWLER</Item>
+    <Item>CU_VEH_MENACER</Item>
+    <Item>CU_VEH_MULE4</Item>
+    <Item>CU_VEH_OPPRESSOR2</Item>
+    <Item>CU_VEH_PATRIOT2</Item>
+    <Item>CU_VEH_PBUS2</Item>
+    <Item>CU_VEH_POUNDER2</Item>
+	<Item>CU_VEH_SCRAMJET</Item>
+	<Item>CU_VEH_SPEEDO4</Item>
+	<Item>CU_VEH_STAFFORD</Item>
+    <Item>CU_VEH_STRIKEFORCE</Item>
+	<Item>CU_VEH_SWINGER</Item>
+	<Item>CU_VEH_TERBYTE</Item>
+	<Item>CU_WEP_STONE_HATCHET</Item>
+  </listOfUnlocks>
+</SContentUnlocks>

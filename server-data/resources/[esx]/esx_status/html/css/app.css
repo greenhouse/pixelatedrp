@@ -1,0 +1,25 @@
+#status_list {
+	position: absolute;
+	left   : 25;
+	bottom : 0;
+	width  : 14%;
+	opacity: 0.3;
+	background: rgba(0,0,0,0.9);
+}
+
+.status {
+	padding: 1px;
+	margin: 0.2em;
+	max-width: 49%;
+	width: 46%;
+	display: inline-block;
+	float:left;
+}
+
+.status_inner {
+	padding: 1px;
+}
+
+.status_val {
+	height : 0.5em;
+}

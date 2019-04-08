@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+  <Vehicles>
+   	<Item>
+	  <lockHash>CU_VEH_BLIMP3</lockHash>
+	  <modelNameHash>blimp3</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>BLIMP3</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_FREECRAWLER</lockHash>
+	  <modelNameHash>freecrawler</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>freecrawler</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_MENACER</lockHash>
+	  <modelNameHash>menacer</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>MENACER</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_MULE4</lockHash>
+	  <modelNameHash>mule4</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>MULE4</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_OPPRESSOR2</lockHash>
+	  <modelNameHash>oppressor2</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>OPPRESSOR2</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_PATRIOT2</lockHash>
+	  <modelNameHash>patriot2</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>PATRIOT2</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_PBUS2</lockHash>
+	  <modelNameHash>pbus2</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>PBUS2</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_POUNDER2</lockHash>
+	  <modelNameHash>pounder2</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>POUNDER2</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_SCRAMJET</lockHash>
+	  <modelNameHash>scramjet</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>SCRAMJET</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_SPEEDO4</lockHash>
+	  <modelNameHash>speedo4</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>SPEEDO4</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_STAFFORD</lockHash>
+	  <modelNameHash>stafford</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>STAFFORD</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_STRIKEFORCE</lockHash>
+	  <modelNameHash>strikeforce</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>STRIKEFORCE</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_SWINGER</lockHash>
+	  <modelNameHash>swinger</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>SWINGER</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+   	<Item>
+	  <lockHash>CU_VEH_TERBYTE</lockHash>
+	  <modelNameHash>terbyte</modelNameHash>
+	  <cost value="100"/>
+	  <textLabel>TERBYTE</textLabel>
+	  <vehicleMods></vehicleMods>
+	</Item>
+  </Vehicles>	
+</ShopVehicleDataArray>

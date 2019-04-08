@@ -1,0 +1,419 @@
+<FirstPersonAssetDataManager>
+  <peds>
+  <!-- Female battle Setup -->
+    <Item>
+      <name>MP_f_Freemode_01</name>
+      <!-- female -->
+	  <objects>
+        <Item>
+          <!-- 000 Branded Hockey -->
+          <localIndex value="0" />
+          <eCompType>PV_COMP_BERD</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash>mp_f_battle</dlcHash>
+          <timeCycleMods>
+		    <!-- a -->
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- b -->
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- c -->
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- d -->
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- e -->
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- f -->
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- g -->
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- h -->
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- i -->
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- j -->
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- k -->
+            <Item>
+              <textureId value="10" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- l -->
+            <Item>
+              <textureId value="11" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- m -->
+            <Item>
+              <textureId value="12" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- n -->
+            <Item>
+              <textureId value="13" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- o -->
+            <Item>
+              <textureId value="14" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- p -->
+            <Item>
+              <textureId value="15" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- q -->
+            <Item>
+              <textureId value="16" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel></fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.00000" z="-0.00000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>
+		
+		<Item> <!-- This is a prop 000-->
+		  <localIndex value="0" />
+		  <eCompType>PV_COMP_MAX</eCompType>
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <dlcHash>mp_f_battle</dlcHash>
+		  <timeCycleMods>
+				<Item> <!-- This is a texture variation  -->
+					<textureId value="0" />
+					<timeCycleMod>glasses_black</timeCycleMod>
+					<intensity value="0.0000000" />
+				</Item>
+				<Item> <!-- This is b texture variation  -->
+					<textureId value="1" />
+					<timeCycleMod>glasses_black</timeCycleMod>
+					<intensity value="0.0000000" />
+				</Item>
+		  </timeCycleMods>
+		  <audioId>
+		  </audioId>
+		  <flags value="0" />
+		  <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+		  <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+		  <seWeather value="1.0" />
+		  <seEnvironment value="1.0" />
+		  <seDamage value="1.0" />
+		  <putOnAnim>
+			<timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.6" />
+		  </putOnAnim>
+		  <takeOffAnim>
+			<timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.1" />
+		  </takeOffAnim>
+		</Item> <!-- This is the end of prop 000-->
+
+		<Item> <!-- This is a prop 001-->
+		  <localIndex value="1" />
+		  <eCompType>PV_COMP_MAX</eCompType>
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <dlcHash>mp_f_battle</dlcHash>
+		  <timeCycleMods>
+				<Item>
+				  <textureId value="0" />
+				  <!-- This is 0 texture variation-->
+				  <timeCycleMod>glasses_VISOR</timeCycleMod>
+				  <intensity value="0.500000" />
+				</Item>
+				<Item>
+				  <textureId value="1" />
+				  <!-- This is 1 texture variation-->
+				  <timeCycleMod>glasses_VISOR</timeCycleMod>
+				  <intensity value="0.500000" />
+				</Item>
+		  </timeCycleMods>
+		  <audioId>
+		  </audioId>
+		  <flags value="0" />
+		  <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+		  <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+		  <seWeather value="1.0" />
+		  <seEnvironment value="1.0" />
+		  <seDamage value="1.0" />
+		  <putOnAnim>
+			<timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.6" />
+		  </putOnAnim>
+		  <takeOffAnim>
+			<timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.1" />
+		  </takeOffAnim>
+		</Item> <!-- This is the end of prop 001-->
+      </objects>
+	</Item>
+
+  <!-- Male battle Setup -->
+    <Item>
+      <name>MP_m_Freemode_01</name>
+      <!-- male -->
+      <objects>
+        <Item>
+          <!-- 000 Branded Hockey -->
+          <localIndex value="0" />
+          <eCompType>PV_COMP_BERD</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash>mp_m_battle</dlcHash>
+          <timeCycleMods>
+		    <!-- a -->
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- b -->
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- c -->
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- d -->
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- e -->
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- f -->
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- g -->
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- h -->
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- i -->
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- j -->
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- k -->
+            <Item>
+              <textureId value="10" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- l -->
+            <Item>
+              <textureId value="11" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- m -->
+            <Item>
+              <textureId value="12" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- n -->
+            <Item>
+              <textureId value="13" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- o -->
+            <Item>
+              <textureId value="14" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- p -->
+            <Item>
+              <textureId value="15" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+		    <!-- q -->
+            <Item>
+              <textureId value="16" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel></fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.00000" z="-0.00000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>
+		
+		<Item> <!-- This is a prop 000-->
+		  <localIndex value="0" />
+		  <eCompType>PV_COMP_MAX</eCompType>
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <dlcHash>mp_m_battle</dlcHash>
+		  <timeCycleMods>
+				<Item> <!-- This is a texture variation  -->
+					<textureId value="0" />
+					<timeCycleMod>glasses_black</timeCycleMod>
+					<intensity value="0.0000000" />
+				</Item>
+				<Item> <!-- This is b texture variation  -->
+					<textureId value="1" />
+					<timeCycleMod>glasses_black</timeCycleMod>
+					<intensity value="0.0000000" />
+				</Item>
+		  </timeCycleMods>
+		  <audioId>
+		  </audioId>
+		  <flags value="0" />
+		  <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+		  <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+		  <seWeather value="1.0" />
+		  <seEnvironment value="1.0" />
+		  <seDamage value="1.0" />
+		  <putOnAnim>
+			<timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.6" />
+		  </putOnAnim>
+		  <takeOffAnim>
+			<timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.1" />
+		  </takeOffAnim>
+		</Item> <!-- This is the end of prop 000-->
+
+		<Item> <!-- This is a prop 001-->
+		  <localIndex value="1" />
+		  <eCompType>PV_COMP_MAX</eCompType>
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <dlcHash>mp_m_battle</dlcHash>
+		  <timeCycleMods>
+				<Item>
+				  <textureId value="0" />
+				  <!-- This is 0 texture variation-->
+				  <timeCycleMod>glasses_VISOR</timeCycleMod>
+				  <intensity value="0.500000" />
+				</Item>
+				<Item>
+				  <textureId value="1" />
+				  <!-- This is 1 texture variation-->
+				  <timeCycleMod>glasses_VISOR</timeCycleMod>
+				  <intensity value="0.500000" />
+				</Item>
+		  </timeCycleMods>
+		  <audioId>
+		  </audioId>
+		  <flags value="0" />
+		  <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+		  <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+		  <seWeather value="1.0" />
+		  <seEnvironment value="1.0" />
+		  <seDamage value="1.0" />
+		  <putOnAnim>
+			<timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.6" />
+		  </putOnAnim>
+		  <takeOffAnim>
+			<timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+			<maxIntensity value="1.0" />
+			<duration value="0.4" />
+			<delay value="0.1" />
+		  </takeOffAnim>
+		</Item> <!-- This is the end of prop 001-->
+      </objects>
+	</Item>
+  </peds>
+</FirstPersonAssetDataManager>

@@ -1,0 +1,22 @@
+<sOverlayInfos>
+	<overlayInfos>
+		<Item>
+			<nameId>mpBattle_interior_additions</nameId>
+			<changeSet>MPBATTLE_INTERIOR_ADDITIONS</changeSet>
+			<version value="1"/>
+			<changeSetGroupToExecuteWith>GROUP_MAP</changeSetGroupToExecuteWith>
+		</Item>	
+		<Item>
+			<nameId>mpBattle_map_additions</nameId>
+			<changeSet>MPBATTLE_MAP_UPDATE</changeSet>
+			<version value="2"/>
+			<changeSetGroupToExecuteWith>GROUP_MAP</changeSetGroupToExecuteWith>
+		</Item>	
+		<Item>
+			<nameId>navmeshOverlays</nameId>
+			<changeSet>MPBATTLE_MAP_UPDATE_NAVMESH_ONLY</changeSet>
+			<version value="3"/>
+			<changeSetGroupToExecuteWith>GROUP_MAP</changeSetGroupToExecuteWith>
+		</Item>	
+	</overlayInfos>
+</sOverlayInfos>

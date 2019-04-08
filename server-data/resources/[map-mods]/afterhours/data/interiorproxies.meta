@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="1061" />
+  <proxies>
+	<Item>ba_int_placement_ba_interior_0_dlc_int_01_ba_milo_</Item>
+	<Item>ba_int_placement_ba_interior_1_dlc_int_02_ba_milo_</Item>
+	<Item>ba_int_placement_ba_interior_2_dlc_int_03_ba_milo_</Item>
+	</proxies>
+</SInteriorOrderData>
+
+

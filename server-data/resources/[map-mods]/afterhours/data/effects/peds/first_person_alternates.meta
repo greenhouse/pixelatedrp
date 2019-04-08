@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FirstPersonAlternateData>
+    <alternates>
+		<!-- female -->
+		<Item>
+            <assetName>MP_F_Freemode_01_mp_f_battle/jbib_008_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_F_Freemode_01_mp_f_battle/jbib_012_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_F_Freemode_01_mp_f_battle/jbib_013_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_F_Freemode_01_mp_f_battle/jbib_014_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_F_Freemode_01_mp_f_battle/jbib_018_u</assetName>
+            <alternate value="1" />
+        </Item>
+		
+		<!-- male -->
+		<Item>
+            <assetName>MP_m_Freemode_01_mp_m_battle/jbib_008_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_m_Freemode_01_mp_m_battle/jbib_009_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_m_Freemode_01_mp_m_battle/jbib_012_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_m_Freemode_01_mp_m_battle/jbib_013_u</assetName>
+            <alternate value="1" />
+        </Item>
+		<Item>
+            <assetName>MP_m_Freemode_01_mp_m_battle/jbib_014_u</assetName>
+            <alternate value="1" />
+        </Item>
+    </alternates>
+</FirstPersonAlternateData>

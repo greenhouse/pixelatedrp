@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WeaponShopItemArray>
+	<weaponShopItems>
+		<Item>
+			<lockHash>CU_WEP_STONE_HATCHET</lockHash>
+			<nameHash>WEAPON_STONE_HATCHET</nameHash>
+			<cost value ="14500"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_SHATCHET</textLabel>
+			<weaponDesc>WTD_SHATCHET</weaponDesc>
+			<weaponTT>WTT_SHATCHET</weaponTT>
+			<weaponUppercase>WTU_SHATCHET</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>
+	</weaponShopItems>
+</WeaponShopItemArray>	

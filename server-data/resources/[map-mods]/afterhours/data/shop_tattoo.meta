@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TattooShopItemArray>
+  <TattooShopItems>
+	<!-- RADIO TOPS - MALE -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_0</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_000_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_1</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_002_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_2</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_003_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_3</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_004_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_4</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_005_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_5</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_006_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_6</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_007_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_7</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_008_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_8</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_009_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_9</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_010_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_10</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_011_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_11</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_012_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_12</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_013_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_13</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_014_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_14</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_015_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_15</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_016_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_16</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_017_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_17</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_018_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_18</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_019_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_19</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_020_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_20</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_021_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- RADIO TOPS - FEMALE -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_0</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_000_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_1</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_002_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_2</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_003_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_3</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_004_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_4</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_005_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_5</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_006_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_6</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_007_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_7</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_008_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_8</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_009_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_9</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_010_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_10</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_011_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_11</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_012_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_12</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_013_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_13</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_014_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_14</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_015_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_15</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_016_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_16</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_017_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_17</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_018_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_18</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_019_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_19</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_020_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_20</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_021_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- CLUB TOPS - MALE -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_21</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_022_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_22</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_023_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_23</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_024_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_24</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_025_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_25</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_026_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_26</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_027_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_27</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_028_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_28</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_029_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_29</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_030_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- CLUB TOPS - FEMALE -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_21</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_022_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_22</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_023_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_23</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_024_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_24</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_025_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_25</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_026_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_26</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_027_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_27</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_028_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_28</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_029_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_29</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_030_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- DJ TOPS - MALE -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_30</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_031_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_31</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_032_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_32</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_033_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_33</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_034_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_34</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_035_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_35</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_036_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_36</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_037_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_37</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_038_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_38</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_039_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_39</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_040_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_40</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_041_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_41</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_042_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_42</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_043_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_43</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_044_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_44</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_045_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_45</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_046_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_46</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_047_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_47</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_048_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_48</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_049_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_49</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_050_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_50</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_051_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_51</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_052_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_52</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_053_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_53</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_054_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_54</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_055_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_55</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_056_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_56</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_057_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_57</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_058_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_58</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_059_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_59</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_060_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_60</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_061_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHM_DECL_61</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_062_M</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM</eFaction>
+	  <lockHash />
+	</Item>
+	
+	<!-- DJ TOPS - FEMALE -->
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_30</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_031_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_31</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_032_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_32</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_033_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_33</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_034_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_34</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_035_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_35</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_036_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_36</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_037_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_37</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_038_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_38</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_039_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_39</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_040_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_40</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_041_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_41</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_042_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_42</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_043_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_43</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_044_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_44</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_045_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_45</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_046_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_46</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_047_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_47</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_048_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_48</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_049_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_49</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_050_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_50</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_051_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_51</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_052_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_52</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_053_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_53</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_054_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_54</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_055_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_55</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_056_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_56</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_057_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_57</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_058_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_58</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_059_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_59</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_060_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_60</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_061_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	<Item>
+	  <id value="0"/>
+	  <cost value="0"/>
+	  <textLabel>CLO_BHF_DECL_61</textLabel>
+	  <collection>mpBattle_overlays</collection>
+	  <preset>MP_Battle_Clothing_062_F</preset>
+	  <zone>ZONE_TORSO</zone>
+	  <updateGroup>torsoDecal</updateGroup>
+	  <eFaction>TATTOO_MP_FM_F</eFaction>
+	  <lockHash />
+	</Item>
+	
+  </TattooShopItems>
+</TattooShopItemArray>
