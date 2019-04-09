@@ -1,0 +1,3838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:server-data"
+      name = "server-data">
+      <FileRef
+         location = "group:server.cfg">
+      </FileRef>
+      <FileRef
+         location = "group:zap96x96.png">
+      </FileRef>
+      <Group
+         location = "group:resources"
+         name = "resources">
+         <Group
+            location = "group:es_ui"
+            name = "es_ui">
+            <FileRef
+               location = "group:ui.html">
+            </FileRef>
+            <FileRef
+               location = "group:pdown.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+            <FileRef
+               location = "group:client.lua">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:essentialmode"
+            name = "essentialmode">
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <Group
+               location = "group:server"
+               name = "server">
+               <FileRef
+                  location = "group:main.lua">
+               </FileRef>
+               <Group
+                  location = "group:classes"
+                  name = "classes">
+                  <FileRef
+                     location = "group:groups.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:player.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:sqlite"
+                  name = "sqlite">
+                  <FileRef
+                     location = "group:sv_database.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sql.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:db.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:util.lua">
+               </FileRef>
+               <Group
+                  location = "group:player"
+                  name = "player">
+                  <FileRef
+                     location = "group:login.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:wrappers.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:config.lua">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+            <Group
+               location = "group:client"
+               name = "client">
+               <FileRef
+                  location = "group:main.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:[test]"
+            name = "[test]">
+            <Group
+               location = "group:gameInit"
+               name = "gameInit">
+               <FileRef
+                  location = "group:init.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:betaguns"
+               name = "betaguns">
+               <FileRef
+                  location = "group:server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:client.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:keks"
+               name = "keks">
+               <FileRef
+                  location = "group:keks.css">
+               </FileRef>
+               <FileRef
+                  location = "group:index.html">
+               </FileRef>
+               <FileRef
+                  location = "group:bankgothic.ttf">
+               </FileRef>
+               <FileRef
+                  location = "group:loadscreen.jpg">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:[gamemodes]"
+            name = "[gamemodes]">
+            <Group
+               location = "group:race-test"
+               name = "race-test">
+               <FileRef
+                  location = "group:map.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:race"
+               name = "race">
+               <FileRef
+                  location = "group:race_server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:race_client.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:[managers]"
+            name = "[managers]">
+            <Group
+               location = "group:mapmanager"
+               name = "mapmanager">
+               <FileRef
+                  location = "group:mapmanager_client.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:mapmanager_server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:mapmanager_shared.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:trafficadjuster"
+            name = "trafficadjuster">
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <FileRef
+               location = "group:config.lua">
+            </FileRef>
+            <FileRef
+               location = "group:traffic.lua">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:esx.txt">
+         </FileRef>
+         <Group
+            location = "group:fivem-awesome1501"
+            name = "fivem-awesome1501">
+            <FileRef
+               location = "group:omg.lua">
+            </FileRef>
+            <FileRef
+               location = "group:srv.lua">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fivem"
+            name = "fivem">
+            <FileRef
+               location = "group:fivem_client.lua">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:[gameplay]"
+            name = "[gameplay]">
+            <Group
+               location = "group:irc"
+               name = "irc">
+               <FileRef
+                  location = "group:irc.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:irc_run.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:ChatSharp.dll">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:channelfeed"
+               name = "channelfeed">
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <Group
+                     location = "group:html"
+                     name = "html">
+                     <FileRef
+                        location = "group:index.html">
+                     </FileRef>
+                     <FileRef
+                        location = "group:feed.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:channelfeed.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:fonts"
+                     name = "fonts">
+                     <FileRef
+                        location = "group:roboto-regular.ttf">
+                     </FileRef>
+                     <FileRef
+                        location = "group:roboto-condensed.ttf">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <Group
+               location = "group:playernames"
+               name = "playernames">
+               <FileRef
+                  location = "group:playernames_sv.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:playernames_cl.lua">
+               </FileRef>
+               <Group
+                  location = "group:template"
+                  name = "template">
+                  <FileRef
+                     location = "group:LICENSE">
+                  </FileRef>
+                  <FileRef
+                     location = "group:template.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:playernames_api.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:obituary-deaths"
+               name = "obituary-deaths">
+               <FileRef
+                  location = "group:deathmessages.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:obituary"
+               name = "obituary">
+               <FileRef
+                  location = "group:obituary.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:obituary.css">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:es_admin2"
+            name = "es_admin2">
+            <Group
+               location = "group:ui"
+               name = "ui">
+               <FileRef
+                  location = "group:index.html">
+               </FileRef>
+               <FileRef
+                  location = "group:style.css">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <FileRef
+               location = "group:server.lua">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+            <FileRef
+               location = "group:client.lua">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:runcode"
+            name = "runcode">
+            <FileRef
+               location = "group:runcode_sv.lua">
+            </FileRef>
+            <FileRef
+               location = "group:runcode_web.lua">
+            </FileRef>
+            <FileRef
+               location = "group:runcode_shared.lua">
+            </FileRef>
+            <FileRef
+               location = "group:runcode_cl.lua">
+            </FileRef>
+            <Group
+               location = "group:web"
+               name = "web">
+               <FileRef
+                  location = "group:index.html">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:esplugin_mysql"
+            name = "esplugin_mysql">
+            <FileRef
+               location = "group:server.lua">
+            </FileRef>
+            <FileRef
+               location = "group:sql.sql">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:[system]"
+            name = "[system]">
+            <Group
+               location = "group:baseevents"
+               name = "baseevents">
+               <FileRef
+                  location = "group:server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:vehiclechecker.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:deathevents.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:chat"
+               name = "chat">
+               <FileRef
+                  location = "group:cl_chat.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:sv_chat.lua">
+               </FileRef>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <FileRef
+                     location = "group:index.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Message.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:index.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Suggestions.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:config.default.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:App.js">
+                  </FileRef>
+                  <Group
+                     location = "group:vendor"
+                     name = "vendor">
+                     <FileRef
+                        location = "group:flexboxgrid.6.3.1.min.css">
+                     </FileRef>
+                     <FileRef
+                        location = "group:vue.2.3.3.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:latofonts.css">
+                     </FileRef>
+                     <Group
+                        location = "group:fonts"
+                        name = "fonts">
+                        <FileRef
+                           location = "group:LatoLight2.woff2">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LatoBold2.woff2">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LatoLight.woff2">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LatoRegular2.woff2">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LatoBold.woff2">
+                        </FileRef>
+                        <FileRef
+                           location = "group:LatoRegular.woff2">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:animate.3.5.2.min.css">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:spawnmanager"
+               name = "spawnmanager">
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:spawnmanager.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:scoreboard"
+               name = "scoreboard">
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <Group
+                     location = "group:res"
+                     name = "res">
+                     <FileRef
+                        location = "group:futurastd-medium.svg">
+                     </FileRef>
+                     <FileRef
+                        location = "group:futurastd-medium.css">
+                     </FileRef>
+                     <FileRef
+                        location = "group:futurastd-medium.woff">
+                     </FileRef>
+                     <FileRef
+                        location = "group:futurastd-medium.ttf">
+                     </FileRef>
+                     <FileRef
+                        location = "group:futurastd-medium.eot">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:reset.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:scoreboard.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:listener.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:style.css">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:scoreboard.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:[builders]"
+               name = "[builders]">
+               <Group
+                  location = "group:yarn"
+                  name = "yarn">
+                  <FileRef
+                     location = "group:yarn_cli.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:yarn_builder.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:__resource.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:webpack"
+                  name = "webpack">
+                  <FileRef
+                     location = "group:webpack_builder.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:package.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:webpack_runner.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:__resource.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:sessionmanager"
+               name = "sessionmanager">
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:host_lock.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:empty.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:chat-theme-gtao"
+               name = "chat-theme-gtao">
+               <FileRef
+                  location = "group:shadow.js">
+               </FileRef>
+               <FileRef
+                  location = "group:style.css">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rconlog"
+               name = "rconlog">
+               <FileRef
+                  location = "group:rconlog_client.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:rconlog_server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:hardcap"
+               name = "hardcap">
+               <FileRef
+                  location = "group:server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:client.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:mysql-async"
+            name = "mysql-async">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:System.Threading.Tasks.Extensions.dll">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <FileRef
+               location = "group:System.Buffers.dll">
+            </FileRef>
+            <FileRef
+               location = "group:MySqlConnector.dll">
+            </FileRef>
+            <Group
+               location = "group:lib"
+               name = "lib">
+               <FileRef
+                  location = "group:init.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:MySQL.lua">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+            <FileRef
+               location = "group:MySQLAsync.net.dll">
+            </FileRef>
+            <FileRef
+               location = "group:UPGRADING.md">
+            </FileRef>
+            <FileRef
+               location = "group:example.lua">
+            </FileRef>
+            <Group
+               location = "group:src"
+               name = "src">
+               <FileRef
+                  location = "group:Transaction.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:Execute.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:AssemblyInfo.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:FiveMMySQLAsync.sln">
+               </FileRef>
+               <FileRef
+                  location = "group:Operation.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:MySQLThread.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:FiveMMySQLAsync.csproj">
+               </FileRef>
+               <FileRef
+                  location = "group:MySQLAsync.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:app.config">
+               </FileRef>
+               <FileRef
+                  location = "group:FetchAll.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:FetchScalar.cs">
+               </FileRef>
+               <FileRef
+                  location = "group:Insert.cs">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:[esx]"
+            name = "[esx]">
+            <Group
+               location = "group:esx_realestateagentjob"
+               name = "esx_realestateagentjob">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:esx_realestateagentjob.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:fi_esx_realestateagentjob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de_esx_realestateagentjob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_realestateagentjob.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_mecanojob"
+               name = "esx_mecanojob">
+               <FileRef
+                  location = "group:esx_mecanojob.sql">
+               </FileRef>
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:sv_esx_mecanojob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pl_esx_mecanojob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_mecanojob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_esx_mecanojob.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_animations"
+               name = "esx_animations">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:cs_config.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv_config.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_config.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pl_config.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_society"
+               name = "esx_society">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:esx_society.sql">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_addonaccount"
+               name = "esx_addonaccount">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:classes"
+                     name = "classes">
+                     <FileRef
+                        location = "group:addonaccount.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_addonaccount.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_ambulancejob"
+               name = "esx_ambulancejob">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:cs.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_ambulancejob.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:job.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:fi_esx_ambulancejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_ambulancejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:cs_esx_ambulancejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pl_esx_ambulancejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de_esx_ambulancejob.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_vehicleshop"
+               name = "esx_vehicleshop">
+               <FileRef
+                  location = "group:esx_vehicleshop.sql">
+               </FileRef>
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:utils.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:fi_esx_vehicleshop.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv_esx_vehicleshop.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_vehicleshop.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de_esx_vehicleshop.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pl_esx_vehicleshop.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_boat"
+               name = "esx_boat">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_boat.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:marker.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_dmvschool"
+               name = "esx_dmvschool">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <FileRef
+                     location = "group:ui_en.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:debounce.min.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_fi.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:styles.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:questions.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_pl.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:questions_en.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:questions_sv.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:questions_fr.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:questions_fi.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:scripts.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_sv.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:questions_pl.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_fr.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dmv.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_dmvschool.sql">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:fi_esx_dmvschool.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_dmvschool.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv_esx_dmvschool.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:es_camera"
+               name = "es_camera">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_drugs"
+               name = "esx_drugs">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_drugs.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:weed.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:dont-add-resources-here.txt">
+            </FileRef>
+            <Group
+               location = "group:es_extended"
+               name = "es_extended">
+               <FileRef
+                  location = "group:config.weapons.lua">
+               </FileRef>
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:cs.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:functions.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:paycheck.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:classes"
+                     name = "classes">
+                     <FileRef
+                        location = "group:player.lua">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:commands.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:common.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:app.css">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:js"
+                     name = "js">
+                     <FileRef
+                        location = "group:wrapper.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:mustache.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <Group
+                     location = "group:img"
+                     name = "img">
+                     <Group
+                        location = "group:accounts"
+                        name = "accounts">
+                        <FileRef
+                           location = "group:black_money.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:bank.png">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:fonts"
+                     name = "fonts">
+                     <FileRef
+                        location = "group:bankgothic.ttf">
+                     </FileRef>
+                     <FileRef
+                        location = "group:pdown.ttf">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <Group
+                  location = "group:common"
+                  name = "common">
+                  <FileRef
+                     location = "group:functions.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:modules"
+                     name = "modules">
+                     <FileRef
+                        location = "group:math.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:es_extended.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:functions.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:entityiter.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:wrapper.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:common.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:modules"
+                     name = "modules">
+                     <FileRef
+                        location = "group:scaleform.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:streaming.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:death.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:locale.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:locale.js">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_barbershop"
+               name = "esx_barbershop">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_garage"
+               name = "esx_garage">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_garage.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_license"
+               name = "esx_license">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_license.sql">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_addoninventory"
+               name = "esx_addoninventory">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_addoninventory.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:classes"
+                     name = "classes">
+                     <FileRef
+                        location = "group:addoninventory.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:async"
+               name = "async">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:async.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_randomevents"
+               name = "esx_randomevents">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_whitelist"
+               name = "esx_whitelist">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_whitelist.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:commands.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_boilerplate"
+               name = "esx_boilerplate">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_weaponshop"
+               name = "esx_weaponshop">
+               <FileRef
+                  location = "group:esx_weaponshop.sql">
+               </FileRef>
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_skin"
+               name = "esx_skin">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_lscustom"
+               name = "esx_lscustom">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_menu_default"
+               name = "esx_menu_default">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:app.css">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:js"
+                     name = "js">
+                     <FileRef
+                        location = "group:mustache.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <Group
+                     location = "group:fonts"
+                     name = "fonts">
+                     <FileRef
+                        location = "group:bankgothic.ttf">
+                     </FileRef>
+                     <FileRef
+                        location = "group:pdown.ttf">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_holdup"
+               name = "esx_holdup">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_billing"
+               name = "esx_billing">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_billing.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_rpchat"
+               name = "esx_rpchat">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:cs.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_whitelistEnhanced"
+               name = "esx_whitelistEnhanced">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_whitelistEnhanced.sql">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_menu_list"
+               name = "esx_menu_list">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:app.css">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:js"
+                     name = "js">
+                     <FileRef
+                        location = "group:mustache.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <Group
+                     location = "group:fonts"
+                     name = "fonts">
+                     <FileRef
+                        location = "group:bankgothic.ttf">
+                     </FileRef>
+                     <FileRef
+                        location = "group:pdown.ttf">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_property"
+               name = "esx_property">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:offices.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:esx_property.sql">
+               </FileRef>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:pl_esx_property.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de_esx_property.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_property.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_esx_property.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_service"
+               name = "esx_service">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_jobs"
+               name = "esx_jobs">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_jobs.sql">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:jobs"
+                     name = "jobs">
+                     <FileRef
+                        location = "group:fueler.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:miner.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:tailor.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:lumberjack.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:slaughterer.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:reporter.lua">
+                     </FileRef>
+                     <FileRef
+                        location = "group:fisherman.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:de_esx_jobs.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br_esx_jobs.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv_esx_jobs.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_esx_jobs.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_jobs.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_joblisting"
+               name = "esx_joblisting">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:cs.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_joblisting.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_basicneeds"
+               name = "esx_basicneeds">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_basicneeds.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:pl_esx_basicneeds.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv_esx_basicneeds.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_esx_basicneeds.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de_esx_basicneeds.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:instance"
+               name = "instance">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_taxijob"
+               name = "esx_taxijob">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_taxijob.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:sv_esx_taxijob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_taxijob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_esx_taxijob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de_esx_taxijob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pl_esx_taxijob.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_phone"
+               name = "esx_phone">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <FileRef
+                     location = "group:ui_en.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_de.html">
+                  </FileRef>
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:app.css">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui_pl.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <Group
+                     location = "group:img"
+                     name = "img">
+                     <Group
+                        location = "group:icons"
+                        name = "icons">
+                        <FileRef
+                           location = "group:add.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:new-msg.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:ok.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:msg.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:signal.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:reply.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:location.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:edit.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:write.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:rep.png">
+                        </FileRef>
+                        <FileRef
+                           location = "group:back.png">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:phone.png">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:scripts"
+                     name = "scripts">
+                     <FileRef
+                        location = "group:app_en.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app_fr.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app_de.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:mustache.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app_pl.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui_br.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_fr.html">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:esx_phone.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_status"
+               name = "esx_status">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:classes"
+                     name = "classes">
+                     <FileRef
+                        location = "group:status.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:app.css">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <Group
+                     location = "group:scripts"
+                     name = "scripts">
+                     <FileRef
+                        location = "group:app.js">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:classes"
+                     name = "classes">
+                     <FileRef
+                        location = "group:status.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:esx_status.sql">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_cruisecontrol"
+               name = "esx_cruisecontrol">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:ge.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_datastore"
+               name = "esx_datastore">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_datastore.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+                  <Group
+                     location = "group:classes"
+                     name = "classes">
+                     <FileRef
+                        location = "group:datastore.lua">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_bankerjob"
+               name = "esx_bankerjob">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_bankerjob.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:de_esx_bankerjob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_esx_bankerjob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_bankerjob.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_accessories"
+               name = "esx_accessories">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:cs.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_accessories.sql">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:fi_esx_accessories.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv_esx_accessories.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_migrate"
+               name = "esx_migrate">
+               <FileRef
+                  location = "group:server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_policejob"
+               name = "esx_policejob">
+               <FileRef
+                  location = "group:esx_policejob.sql">
+               </FileRef>
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:localization"
+                  name = "localization">
+                  <FileRef
+                     location = "group:sv_esx_policejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:pl_esx_policejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en_esx_policejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de_esx_policejob.sql">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_esx_policejob.sql">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_atm"
+               name = "esx_atm">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <FileRef
+                     location = "group:ui_en.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_fi.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_de.html">
+                  </FileRef>
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:app.css">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:roboto.ttf">
+                  </FileRef>
+                  <Group
+                     location = "group:img"
+                     name = "img">
+                     <FileRef
+                        location = "group:fleeca.png">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:scripts"
+                     name = "scripts">
+                     <FileRef
+                        location = "group:app.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui_br.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ui_fr.html">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_menu_dialog"
+               name = "esx_menu_dialog">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <Group
+                     location = "group:css"
+                     name = "css">
+                     <FileRef
+                        location = "group:app.css">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:js"
+                     name = "js">
+                     <FileRef
+                        location = "group:app_en.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app_fr.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:mustache.min.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app_pl.js">
+                     </FileRef>
+                     <FileRef
+                        location = "group:app.js">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ui.html">
+                  </FileRef>
+                  <Group
+                     location = "group:fonts"
+                     name = "fonts">
+                     <FileRef
+                        location = "group:bankgothic.ttf">
+                     </FileRef>
+                     <FileRef
+                        location = "group:pdown.ttf">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_clotheshop"
+               name = "esx_clotheshop">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_voice"
+               name = "esx_voice">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_sit"
+               name = "esx_sit">
+               <FileRef
+                  location = "group:server.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:lists"
+                  name = "lists">
+                  <FileRef
+                     location = "group:seat.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:client.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:esx_identity"
+               name = "esx_identity">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:html"
+                  name = "html">
+                  <FileRef
+                     location = "group:sv_index.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:index.html">
+                  </FileRef>
+                  <FileRef
+                     location = "group:script.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:style.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi_index.html">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_identity.sql">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_optionalneeds"
+               name = "esx_optionalneeds">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:esx_shops"
+               name = "esx_shops">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:es.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:esx_shops.sql">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:cron"
+               name = "cron">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:server"
+                  name = "server">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:skinchanger"
+               name = "skinchanger">
+               <Group
+                  location = "group:locales"
+                  name = "locales">
+                  <FileRef
+                     location = "group:pl.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sv.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:en.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fr.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fi.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:de.lua">
+                  </FileRef>
+                  <FileRef
+                     location = "group:br.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <FileRef
+                  location = "group:config.lua">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:__resource.lua">
+               </FileRef>
+               <Group
+                  location = "group:client"
+                  name = "client">
+                  <FileRef
+                     location = "group:main.lua">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:locale.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:fivem-map-skater"
+            name = "fivem-map-skater">
+            <FileRef
+               location = "group:map.lua">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:fivem-map-hipster"
+            name = "fivem-map-hipster">
+            <FileRef
+               location = "group:map.lua">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>

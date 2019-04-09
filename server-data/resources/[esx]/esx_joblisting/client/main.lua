@@ -2,10 +2,9 @@ local Keys = {
 	["ESC"] = 322, ["BACKSPACE"] = 177, ["E"] = 38, ["ENTER"] = 18,	["LEFT"] = 174, ["RIGHT"] = 175, ["TOP"] = 27, ["DOWN"] = 173
 }
 
-local menuIsShowed 				 = false
-local hasAlreadyEnteredMarker 	 = false
-local lastZone 					 = nil
-local isInJoblistingMarker 		 = false
+local menuIsShowed = false
+local hasAlreadyEnteredMarker = false
+local isInMarker = false
 
 ESX = nil
 
@@ -16,24 +15,23 @@ Citizen.CreateThread(function()
 	end
 end)
 
-function ShowJobListingMenu(data)
-	ESX.TriggerServerCallback('esx_joblisting:getJobsList', function(data)
+function ShowJobListingMenu()
+	ESX.TriggerServerCallback('esx_joblisting:getJobsList', function(jobs)
 		local elements = {}
 
-		for i = 1, #data, 1 do
-			table.insert(elements, {label = data[i].label, value = data[i].value})
+		for i=1, #jobs, 1 do
+			table.insert(elements, {
+				label = jobs[i].label,
+				job   = jobs[i].job
+			})
 		end
 
-		ESX.UI.Menu.CloseAll()
-
-		ESX.UI.Menu.Open(
-		'default', GetCurrentResourceName(), 'joblisting',
-		{
+		ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'joblisting', {
 			title    = _U('job_center'),
 			align    = 'top-left',
 			elements = elements
 		}, function(data, menu)
-			TriggerServerEvent('esx_joblisting:setJob', data.current.value)
+			TriggerServerEvent('esx_joblisting:setJob', data.current.job)
 			ESX.ShowNotification(_U('new_job'))
 			menu.close()
 		end, function(data, menu)
@@ -47,38 +45,32 @@ AddEventHandler('esx_joblisting:hasExitedMarker', function(zone)
 	ESX.UI.Menu.CloseAll()
 end)
 
--- Display markers
+-- Activate menu when player is inside marker, and draw markers
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1)
-		local coords = GetEntityCoords(GetPlayerPed(-1))
-		for i=1, #Config.Zones, 1 do
-			if(GetDistanceBetweenCoords(coords, Config.Zones[i].x, Config.Zones[i].y, Config.Zones[i].z, true) < Config.DrawDistance) then
-				DrawMarker(Config.MarkerType, Config.Zones[i].x, Config.Zones[i].y, Config.Zones[i].z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.ZoneSize.x, Config.ZoneSize.y, Config.ZoneSize.z, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, 100, false, true, 2, false, false, false, false)
-			end
-		end
-	end
-end)
 
--- Activate menu when player is inside marker
-Citizen.CreateThread(function()
-	while true do
-		Citizen.Wait(1)
-		local coords         = GetEntityCoords(GetPlayerPed(-1))
-		isInJoblistingMarker = false
-		local currentZone    = nil
+		local coords = GetEntityCoords(PlayerPedId())
+		isInMarker = false
+
 		for i=1, #Config.Zones, 1 do
-			if(GetDistanceBetweenCoords(coords, Config.Zones[i].x, Config.Zones[i].y, Config.Zones[i].z, true) < Config.ZoneSize.x / 2) then
-				isInJoblistingMarker  = true
-				SetTextComponentFormat('STRING')
-				AddTextComponentString(_U('access_job_center'))
-				DisplayHelpTextFromStringLabel(0, 0, 1, -1)
+			local distance = GetDistanceBetweenCoords(coords, Config.Zones[i], true)
+
+			if distance < Config.DrawDistance then
+				DrawMarker(Config.MarkerType, Config.Zones[i], 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.ZoneSize.x, Config.ZoneSize.y, Config.ZoneSize.z, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, 100, false, true, 2, false, false, false, false)
+			end
+
+			if distance < (Config.ZoneSize.x / 2) then
+				isInMarker = true
+				ESX.ShowHelpNotification(_U('access_job_center'))
 			end
 		end
-		if isInJoblistingMarker and not hasAlreadyEnteredMarker then
+
+		if isInMarker and not hasAlreadyEnteredMarker then
 			hasAlreadyEnteredMarker = true
 		end
-		if not isInJoblistingMarker and hasAlreadyEnteredMarker then
+
+		if not isInMarker and hasAlreadyEnteredMarker then
 			hasAlreadyEnteredMarker = false
 			TriggerEvent('esx_joblisting:hasExitedMarker')
 		end
@@ -88,14 +80,16 @@ end)
 -- Create blips
 Citizen.CreateThread(function()
 	for i=1, #Config.Zones, 1 do
-		local blip = AddBlipForCoord(Config.Zones[i].x, Config.Zones[i].y, Config.Zones[i].z)
-		SetBlipSprite (blip, 521)
+		local blip = AddBlipForCoord(Config.Zones[i])
+
+		SetBlipSprite (blip, 407)
 		SetBlipDisplay(blip, 4)
-		SetBlipScale  (blip, 1)
+		SetBlipScale  (blip, 1.2)
 		SetBlipColour (blip, 27)
 		SetBlipAsShortRange(blip, true)
+
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString(_U('job_center'))
+		AddTextComponentSubstringPlayerName(_U('job_center'))
 		EndTextCommandSetBlipName(blip)
 	end
 end)
@@ -103,8 +97,10 @@ end)
 -- Menu Controls
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(10)
-		if IsControlJustReleased(0, Keys['E']) and isInJoblistingMarker and not menuIsShowed then
+		Citizen.Wait(0)
+
+		if IsControlJustReleased(0, Keys['E']) and isInMarker and not menuIsShowed then
+			ESX.UI.Menu.CloseAll()
 			ShowJobListingMenu()
 		end
 	end

@@ -12,6 +12,7 @@ MySQL.ready(function()
 		local name   = result[i].name
 		local label  = result[i].label
 		local shared = result[i].shared
+
 		local result2 = MySQL.Sync.fetchAll('SELECT * FROM datastore_data WHERE name = @name', {
 			['@name'] = name
 		})

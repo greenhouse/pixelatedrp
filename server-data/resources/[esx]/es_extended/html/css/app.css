@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Pricedown';
-	src: url('../fonts/pdown.ttf')/* TTF file for CSS3 browsers */
+	src: url('../fonts/pdown.ttf')
 }
 
 @font-face {
 	font-family: 'bankgothic';
-	src: url('../fonts/bankgothic.ttf')/* TTF file for CSS3 browsers */
+	src: url('../fonts/bankgothic.ttf')
 }
 
 html {
@@ -14,20 +14,20 @@ html {
 
 #hud {
 	position: absolute;
-	font-family: 'Cairo';
-	font-size: 28px;
+	font-family: 'Pricedown';
+	font-size: 35px;
 	color: white;
-	padding: 0;
+	padding: 4px;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	text-align: right;
-	top: 70;
-	right:0.5%;
+	top: 80;
+	right: 40;
 }
 
 #inventory_notifications {
 	font-family: bankgothic;
 	position: absolute;
-	right: 20;
+	right: 40;
 	bottom: 40;
 	font-size: 2em;
 	font-weight: bold;
@@ -63,7 +63,7 @@ html {
 }
 
 .menu .head span {
-	font-family: 'Cairo';
+	font-family: 'Pricedown';
 	font-size: 28px;
 	padding-left: 15px;
 	padding-top: 6px;

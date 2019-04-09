@@ -74,7 +74,7 @@ function CreateBlips()
 
 			SetBlipSprite (Blips[property.name], 369)
 			SetBlipDisplay(Blips[property.name], 4)
-			SetBlipScale  (Blips[property.name], 0.6)
+			SetBlipScale  (Blips[property.name], 1.0)
 			SetBlipAsShortRange(Blips[property.name], true)
 
 			BeginTextCommandSetBlipName("STRING")
@@ -274,8 +274,8 @@ function OpenPropertyMenu(property)
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'property',
 	{
 		title    = property.label,
-		align    = 'right',
-		elements = elements,
+		align    = 'top-left',
+		elements = elements
 	}, function(data, menu)
 		menu.close()
 
@@ -307,7 +307,7 @@ function OpenGatewayMenu(property)
 		ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'gateway',
 		{
 			title    = property.name,
-			align    = 'right',
+			align    = 'top-left',
 			elements = {
 				{label = _U('owned_properties'),    value = 'owned_properties'},
 				{label = _U('available_properties'), value = 'available_properties'}
@@ -345,7 +345,7 @@ function OpenGatewayOwnedPropertiesMenu(property)
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'gateway_owned_properties',
 	{
 		title    = property.name .. ' - ' .. _U('owned_properties'),
-		align    = 'right',
+		align    = 'top-left',
 		elements = elements
 	}, function(data, menu)
 		menu.close()
@@ -361,13 +361,14 @@ function OpenGatewayOwnedPropertiesMenu(property)
 		ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'gateway_owned_properties_actions',
 		{
 			title    = data.current.label,
-			align    = 'right',
+			align    = 'top-left',
 			elements = elements
 		}, function(data2, menu2)
 			menu2.close()
 
 			if data2.current.value == 'enter' then
 				TriggerEvent('instance:create', 'property', {property = data.current.value, owner = ESX.GetPlayerData().identifier})
+				ESX.UI.Menu.CloseAll()
 			elseif data2.current.value == 'leave' then
 				TriggerServerEvent('esx_property:removeOwnedProperty', data.current.value)
 			end
@@ -387,7 +388,7 @@ function OpenGatewayAvailablePropertiesMenu(property)
 	for i=1, #gatewayProperties, 1 do
 		if not PropertyIsOwned(gatewayProperties[i]) then
 			table.insert(elements, {
-				label = gatewayProperties[i].label .. ' $' .. gatewayProperties[i].price,
+				label = gatewayProperties[i].label .. ' $' .. ESX.Math.GroupDigits(gatewayProperties[i].price),
 				value = gatewayProperties[i].name,
 				price = gatewayProperties[i].price
 			})
@@ -396,8 +397,8 @@ function OpenGatewayAvailablePropertiesMenu(property)
 
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'gateway_available_properties',
 	{
-		title    = property.name.. ' - ' .. _U('available_properties'),
-		align    = 'right',
+		title    = property.name .. ' - ' .. _U('available_properties'),
+		align    = 'top-left',
 		elements = elements
 	}, function(data, menu)
 
@@ -405,8 +406,8 @@ function OpenGatewayAvailablePropertiesMenu(property)
 
 		ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'gateway_available_properties_actions',
 		{
-			title    = property.name,
-			align    = 'right',
+			title    = property.label .. ' - ' .. _U('available_properties'),
+			align    = 'top-left',
 			elements = {
 				{label = _U('buy'), value = 'buy'},
 				{label = _U('rent'), value = 'rent'},
@@ -456,7 +457,7 @@ function OpenRoomMenu(property, owner)
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'room',
 	{
 		title    = property.label,
-		align    = 'right',
+		align    = 'top-left',
 		elements = elements
 	}, function(data, menu)
 
@@ -474,7 +475,7 @@ function OpenRoomMenu(property, owner)
 			ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'room_invite',
 			{
 				title    = property.label .. ' - ' .. _U('invite'),
-				align    = 'right',
+				align    = 'top-left',
 				elements = elements,
 			}, function(data2, menu2)
 				TriggerEvent('instance:invite', 'property', GetPlayerServerId(data2.current.value), {property = property.name, owner = owner})
@@ -489,13 +490,16 @@ function OpenRoomMenu(property, owner)
 				local elements = {}
 
 				for i=1, #dressing, 1 do
-					table.insert(elements, {label = dressing[i], value = i})
+					table.insert(elements, {
+						label = dressing[i],
+						value = i
+					})
 				end
 
 				ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'player_dressing',
 				{
 					title    = property.label .. ' - ' .. _U('player_clothes'),
-					align    = 'right',
+					align    = 'top-left',
 					elements = elements
 				}, function(data2, menu2)
 
@@ -521,20 +525,21 @@ function OpenRoomMenu(property, owner)
 				local elements = {}
 
 				for i=1, #dressing, 1 do
-					table.insert(elements, {label = dressing[i].label, value = i})
+					table.insert(elements, {
+						label = dressing[i],
+						value = i
+					})
 				end
 
-				ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'remove_cloth',
-				{
+				ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'remove_cloth', {
 					title    = property.label .. ' - ' .. _U('remove_cloth'),
-					align    = 'right',
+					align    = 'top-left',
 					elements = elements
 				}, function(data2, menu2)
 					menu2.close()
 					TriggerServerEvent('esx_property:removeOutfit', data2.current.value)
 					ESX.ShowNotification(_U('removed_cloth'))
-				end,
-				function(data2, menu2)
+				end, function(data2, menu2)
 					menu2.close()
 				end)
 			end)
@@ -561,26 +566,40 @@ function OpenRoomInventoryMenu(property, owner)
 		local elements = {}
 
 		if inventory.blackMoney > 0 then
-			table.insert(elements, {label = _U('dirty_money', inventory.blackMoney), type = 'item_account', value = 'black_money'})
+			table.insert(elements, {
+				label = _U('dirty_money', ESX.Math.GroupDigits(inventory.blackMoney)),
+				type = 'item_account',
+				value = 'black_money'
+			})
 		end
 
 		for i=1, #inventory.items, 1 do
 			local item = inventory.items[i]
 
 			if item.count > 0 then
-				table.insert(elements, {label = item.label .. ' x' .. item.count, type = 'item_standard', value = item.name})
+				table.insert(elements, {
+					label = item.label .. ' x' .. item.count,
+					type = 'item_standard',
+					value = item.name
+				})
 			end
 		end
 
 		for i=1, #inventory.weapons, 1 do
 			local weapon = inventory.weapons[i]
-			table.insert(elements, {label = ESX.GetWeaponLabel(weapon.name) .. ' [' .. weapon.ammo .. ']', type = 'item_weapon', value = weapon.name, ammo = weapon.ammo})
+
+			table.insert(elements, {
+				label = ESX.GetWeaponLabel(weapon.name) .. ' [' .. weapon.ammo .. ']',
+				type  = 'item_weapon',
+				value = weapon.name,
+				ammo  = weapon.ammo
+			})
 		end
 
 		ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'room_inventory',
 		{
 			title    = property.label .. ' - ' .. _U('inventory'),
-			align    = 'right',
+			align    = 'top-left',
 			elements = elements
 		}, function(data, menu)
 
@@ -596,7 +615,7 @@ function OpenRoomInventoryMenu(property, owner)
 			else
 
 				ESX.UI.Menu.Open('dialog', GetCurrentResourceName(), 'get_item_count', {
-					title = _U('amount'),
+					title = _U('amount')
 				}, function(data2, menu)
 
 					local quantity = tonumber(data2.value)
@@ -632,38 +651,46 @@ function OpenPlayerInventoryMenu(property, owner)
 		local elements = {}
 
 		if inventory.blackMoney > 0 then
-			table.insert(elements, {label = _U('dirty_money', inventory.blackMoney), type = 'item_account', value = 'black_money'})
+			table.insert(elements, {
+				label = _U('dirty_money', ESX.Math.GroupDigits(inventory.blackMoney)),
+				type  = 'item_account',
+				value = 'black_money'
+			})
 		end
 
 		for i=1, #inventory.items, 1 do
 			local item = inventory.items[i]
+
 			if item.count > 0 then
-				table.insert(elements, {label = item.label .. ' x' .. item.count, type = 'item_standard', value = item.name})
+				table.insert(elements, {
+					label = item.label .. ' x' .. item.count,
+					type  = 'item_standard',
+					value = item.name
+				})
 			end
 		end
 
-		local playerPed  = PlayerPedId()
-		local weaponList = ESX.GetWeaponList()
+		for i=1, #inventory.weapons, 1 do
+			local weapon = inventory.weapons[i]
 
-		for i=1, #weaponList, 1 do
-			local weaponHash = GetHashKey(weaponList[i].name)
-			if HasPedGotWeapon(playerPed, weaponHash, false) and weaponList[i].name ~= 'WEAPON_UNARMED' then
-				local ammo = GetAmmoInPedWeapon(playerPed, weaponHash)
-				table.insert(elements, {label = weaponList[i].label .. ' [' .. ammo .. ']', type = 'item_weapon', value = weaponList[i].name, ammo = ammo})
-			end
+			table.insert(elements, {
+				label = weapon.label .. ' [' .. weapon.ammo .. ']',
+				type  = 'item_weapon',
+				value = weapon.name,
+				ammo  = weapon.ammo
+			})
 		end
 
 		ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'player_inventory',
 		{
 			title    = property.label .. ' - ' .. _U('inventory'),
-			align    = 'right',
+			align    = 'top-left',
 			elements = elements
 		}, function(data, menu)
 
 			if data.current.type == 'item_weapon' then
 
 				menu.close()
-
 				TriggerServerEvent('esx_property:putItem', owner, data.current.type, data.current.value, data.current.ammo)
 
 				ESX.SetTimeout(300, function()
@@ -673,7 +700,7 @@ function OpenPlayerInventoryMenu(property, owner)
 			else
 
 				ESX.UI.Menu.Open('dialog', GetCurrentResourceName(), 'put_item_count', {
-					title = _U('amount'),
+					title = _U('amount')
 				}, function(data2, menu2)
 
 					local quantity = tonumber(data2.value)
@@ -724,6 +751,16 @@ AddEventHandler('playerSpawned', function()
 			ESX.TriggerServerCallback('esx_property:getLastProperty', function(propertyName)
 				if propertyName ~= nil then
 					if propertyName ~= '' then
+						local property = GetProperty(propertyName)
+
+						for i=1, #property.ipls, 1 do
+							RequestIpl(property.ipls[i])
+				
+							while not IsIplActive(property.ipls[i]) do
+								Citizen.Wait(0)
+							end
+						end
+
 						TriggerEvent('instance:create', 'property', {property = propertyName, owner = ESX.GetPlayerData().identifier})
 					end
 				end
@@ -899,6 +936,9 @@ Citizen.CreateThread(function()
 			TriggerEvent('esx_property:hasExitedMarker', LastProperty, LastPart)
 		end
 
+		if not isInMarker and not HasAlreadyEnteredMarker then
+			Citizen.Wait(500)
+		end
 	end
 end)
 
@@ -906,7 +946,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 
-		Citizen.Wait(10)
+		Citizen.Wait(0)
 
 		if CurrentAction ~= nil then
 

@@ -13,7 +13,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 	self.identifier = self.player.get('identifier')
 
 	self.setMoney = function(money)
-		money = ESX.Round(money)
+		money = ESX.Math.Round(money)
 
 		if money >= 0 then
 			self.player.setMoney(money)
@@ -27,7 +27,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 	end
 
 	self.setBankBalance = function(money)
-		money = ESX.Round(money)
+		money = ESX.Math.Round(money)
 
 		if money >= 0 then
 			self.player.setBankBalance(money)
@@ -53,7 +53,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 	end
 
 	self.addMoney = function(money)
-		money = ESX.Round(money)
+		money = ESX.Math.Round(money)
 
 		if money >= 0 then
 			self.player.addMoney(money)
@@ -63,7 +63,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 	end
 
 	self.removeMoney = function(money)
-		money = ESX.Round(money)
+		money = ESX.Math.Round(money)
 
 		if money >= 0 then
 			self.player.removeMoney(money)
@@ -73,7 +73,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 	end
 
 	self.addBank = function(money)
-		money = ESX.Round(money)
+		money = ESX.Math.Round(money)
 
 		if money >= 0 then
 			self.player.addBank(money)
@@ -83,7 +83,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 	end
 
 	self.removeBank = function(money)
-		money = ESX.Round(money)
+		money = ESX.Math.Round(money)
 
 		if money >= 0 then
 			self.player.removeBank(money)
@@ -194,7 +194,17 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 		return self.name
 	end
 
+	self.setName = function(newName)
+		self.name = newName
+	end
+
 	self.getLastPosition = function()
+		if self.lastPosition and self.lastPosition.x and self.lastPosition.y and self.lastPosition.z then
+			self.lastPosition.x = ESX.Math.Round(self.lastPosition.x, 1)
+			self.lastPosition.y = ESX.Math.Round(self.lastPosition.y, 1)
+			self.lastPosition.z = ESX.Math.Round(self.lastPosition.z, 1)
+		end
+
 		return self.lastPosition
 	end
 
@@ -211,6 +221,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 					for j=1, #result, 1 do
 						if Config.Accounts[i] == result[j].name then
 							found = true
+							break
 						end
 					end
 
@@ -246,7 +257,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 
 		local account   = self.getAccount(acc)
 		local prevMoney = account.money
-		local newMoney  = ESX.Round(money)
+		local newMoney  = ESX.Math.Round(money)
 
 		account.money = newMoney
 
@@ -264,7 +275,7 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 		end
 
 		local account  = self.getAccount(acc)
-		local newMoney = account.money + ESX.Round(money)
+		local newMoney = account.money + ESX.Math.Round(money)
 
 		account.money = newMoney
 
@@ -371,28 +382,14 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 	end
 
 	self.addWeapon = function(weaponName, ammo)
-		local weaponLabel = weaponName
+		local weaponLabel = ESX.GetWeaponLabel(weaponName)
 
-		for i=1, #Config.Weapons, 1 do
-			if Config.Weapons[i].name == weaponName then
-				weaponLabel = Config.Weapons[i].label
-				break
-			end
-		end
-
-		local foundWeapon = false
-
-		for i=1, #self.loadout, 1 do
-			if self.loadout[i].name == weaponName then
-				foundWeapon = true
-			end
-		end
-
-		if not foundWeapon then
+		if not self.hasWeapon(weaponName) then
 			table.insert(self.loadout, {
-				name  = weaponName,
-				ammo  = ammo,
-				label = weaponLabel
+				name = weaponName,
+				ammo = ammo,
+				label = weaponLabel,
+				components = {}
 			})
 		end
 
@@ -400,27 +397,91 @@ function CreateExtendedPlayer(player, accounts, inventory, job, loadout, name, l
 		TriggerClientEvent('esx:addInventoryItem', self.source, {label = weaponLabel}, 1)
 	end
 
-	self.removeWeapon = function(weaponName, ammo)
-		local weaponLabel = weaponName
+	self.addWeaponComponent = function(weaponName, weaponComponent)
+		local loadoutNum, weapon = self.getWeapon(weaponName)
 
-		for i=1, #Config.Weapons, 1 do
-			if Config.Weapons[i].name == weaponName then
-				weaponLabel = Config.Weapons[i].label
-				break
-			end
+		if self.hasWeaponComponent(weaponName, weaponComponent) then
+			return
 		end
 
-		local foundWeapon = false
+		table.insert(self.loadout[loadoutNum].components, weaponComponent)
+
+		TriggerClientEvent('esx:addWeaponComponent', self.source, weaponName, weaponComponent)
+	end
+
+	self.removeWeapon = function(weaponName, ammo)
+		local weaponLabel
 
 		for i=1, #self.loadout, 1 do
 			if self.loadout[i].name == weaponName then
+				weaponLabel = self.loadout[i].label
+
+				for j=1, #self.loadout[i].components, 1 do
+					TriggerClientEvent('esx:removeWeaponComponent', self.source, weaponName, self.loadout[i].components[j])
+				end
+
 				table.remove(self.loadout, i)
 				break
 			end
 		end
 
-		TriggerClientEvent('esx:removeWeapon', self.source, weaponName, ammo)
-		TriggerClientEvent('esx:removeInventoryItem', self.source, {label = weaponLabel}, 1)
+		if weaponLabel then
+			TriggerClientEvent('esx:removeWeapon', self.source, weaponName, ammo)
+			TriggerClientEvent('esx:removeInventoryItem', self.source, {label = weaponLabel}, 1)
+		end
+	end
+
+	self.removeWeaponComponent = function(weaponName, weaponComponent)
+		local loadoutNum, weapon = self.getWeapon(weaponName)
+
+		if not weapon then
+			return
+		end
+
+		for i=1, #self.loadout[loadoutNum].components, 1 do
+			if self.loadout[loadoutNum].components.name == weaponComponent then
+				table.remove(self.loadout[loadoutNum].components, i)
+				break
+			end
+		end
+
+		TriggerClientEvent('esx:removeWeaponComponent', self.source, weaponName, weaponComponent)
+	end
+
+	self.hasWeaponComponent = function(weaponName, weaponComponent)
+		local loadoutNum, weapon = self.getWeapon(weaponName)
+
+		if not weapon then
+			return false
+		end
+
+		for i=1, #weapon.components, 1 do
+			if weapon.components[i] == weaponComponent then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	self.hasWeapon = function(weaponName)
+		for i=1, #self.loadout, 1 do
+			if self.loadout[i].name == weaponName then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	self.getWeapon = function(weaponName)
+		for i=1, #self.loadout, 1 do
+			if self.loadout[i].name == weaponName then
+				return i, self.loadout[i]
+			end
+		end
+
+		return nil
 	end
 
 	return self

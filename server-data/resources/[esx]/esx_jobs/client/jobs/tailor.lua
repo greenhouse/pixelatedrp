@@ -11,7 +11,7 @@ Config.Jobs.tailor = {
 			Spawner = 1,
 			Hash = "youga2",
 			Trailer = "none",
-			HasCaution = false
+			HasCaution = true
 		}
 
 	},
@@ -115,7 +115,7 @@ Config.Jobs.tailor = {
 			Type = "vehspawner",
 			Spawner = 1,
 			Hint = _U("spawn_veh_button"),
-			Caution = 0,
+			Caution = 2000,
 			GPS = {x = 1978.92, y = 5171.70, z = 46.63}
 		},
 
@@ -141,7 +141,7 @@ Config.Jobs.tailor = {
 			Type = "vehdelete",
 			Hint = _U("return_vh_button"),
 			Spawner = 1,
-			Caution = 0,
+			Caution = 2000,
 			GPS = 0,
 			Teleport = 0
 		},
@@ -161,7 +161,7 @@ Config.Jobs.tailor = {
 					time = 500,
 					remove = 1,
 					max = 100, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-					price = 60,
+					price = 40,
 					requires = "clothe",
 					requires_name = _U("dd_clothing"),
 					drop = 100

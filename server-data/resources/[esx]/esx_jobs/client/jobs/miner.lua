@@ -11,7 +11,7 @@ Config.Jobs.miner = {
 			Spawner = 1,
 			Hash = "rubble",
 			Trailer = "none",
-			HasCaution = false
+			HasCaution = true
 		}
 
 	},
@@ -136,7 +136,7 @@ Config.Jobs.miner = {
 			Type = "vehspawner",
 			Spawner = 1,
 			Hint = _U("spawn_veh_button"),
-			Caution = 0,
+			Caution = 2000,
 			GPS = {x = 2962.40, y = 2746.20, z = 42.39}
 		},
 
@@ -162,7 +162,7 @@ Config.Jobs.miner = {
 			Type = "vehdelete",
 			Hint = _U("return_vh_button"),
 			Spawner = 1,
-			Caution = 0,
+			Caution = 2000,
 			GPS = 0,
 			Teleport = 0
 		},
@@ -182,7 +182,7 @@ Config.Jobs.miner = {
 					time = 500,
 					remove = 1,
 					max = 56, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-					price = 22,
+					price = 5,
 					requires = "copper",
 					requires_name = _U("m_copper"),
 					drop = 100
@@ -208,7 +208,7 @@ Config.Jobs.miner = {
 					time = 500,
 					remove = 1,
 					max = 42, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-					price = 30,
+					price = 9,
 					requires = "iron",
 					requires_name = _U("m_iron"),
 					drop = 100
@@ -234,7 +234,7 @@ Config.Jobs.miner = {
 					time = 500,
 					remove = 1,
 					max = 21, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-					price = 40,
+					price = 25,
 					requires = "gold",
 					requires_name = _U("m_gold"),
 					drop = 100
@@ -260,7 +260,7 @@ Config.Jobs.miner = {
 					time = 500,
 					remove = 1,
 					max = 50, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-					price = 520,
+					price = 250,
 					requires = "diamond",
 					requires_name = _U("m_diamond"),
 					drop = 100

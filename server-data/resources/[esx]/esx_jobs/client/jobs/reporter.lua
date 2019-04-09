@@ -11,7 +11,7 @@ Config.Jobs.reporter = {
 			Spawner = 1,
 			Hash = "rumpo",
 			Trailer = "none",
-			HasCaution = false
+			HasCaution = true
 		}
 
 	},
@@ -28,7 +28,7 @@ Config.Jobs.reporter = {
 			Type = "vehspawner",
 			Spawner = 1,
 			Hint = _U("reporter_garage"),
-			Caution = 0
+			Caution = 2000
 		},
 
 		VehicleSpawnPoint = {
@@ -52,7 +52,7 @@ Config.Jobs.reporter = {
 			Type = "vehdelete",
 			Hint = _U("return_vh_button"),
 			Spawner = 1,
-			Caution = 0,
+			Caution = 2000,
 			GPS = 0,
 			Teleport = {x = -139.09, y = -620.74, z = 167.82}
 		}

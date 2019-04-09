@@ -90,8 +90,8 @@ ESX.SavePlayer = function(xPlayer, cb)
 		{
 			['@job']        = xPlayer.job.name,
 			['@job_grade']  = xPlayer.job.grade,
-			['@loadout']    = json.encode(xPlayer.loadout),
-			['@position']   = json.encode(xPlayer.lastPosition),
+			['@loadout']    = json.encode(xPlayer.getLoadout()),
+			['@position']   = json.encode(xPlayer.getLastPosition()),
 			['@identifier'] = xPlayer.identifier
 		}, function(rowsChanged)
 			cb()
@@ -171,21 +171,6 @@ end
 ESX.GetItemLabel = function(item)
 	if ESX.Items[item] ~= nil then
 		return ESX.Items[item].label
-	end
-end
-
-ESX.GetWeaponList = function()
-	return Config.Weapons
-end
-
-ESX.GetWeaponLabel = function(name)
-	name          = string.upper(name)
-	local weapons = ESX.GetWeaponList()
-
-	for i=1, #weapons, 1 do
-		if weapons[i].name == name then
-			return weapons[i].label
-		end
 	end
 end
 

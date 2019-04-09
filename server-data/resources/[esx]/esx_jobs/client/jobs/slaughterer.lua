@@ -11,7 +11,7 @@ Config.Jobs.slaughterer = {
 			Spawner = 1,
 			Hash = "benson",
 			Trailer = "none",
-			HasCaution = false
+			HasCaution = true
 		}
 	},
 
@@ -110,7 +110,7 @@ Config.Jobs.slaughterer = {
 			Type = "vehspawner",
 			Spawner = 1,
 			Hint = _U("spawn_veh_button"),
-			Caution = 0
+			Caution = 2000
 		},
 
 		VehicleSpawnPoint = {
@@ -134,7 +134,7 @@ Config.Jobs.slaughterer = {
 			Type = "vehdelete",
 			Hint = _U("return_vh_button"),
 			Spawner = 1,
-			Caution = 0,
+			Caution = 2000,
 			GPS = 0,
 			Teleport = 0
 		},
@@ -154,7 +154,7 @@ Config.Jobs.slaughterer = {
 					time = 500,
 					remove = 1,
 					max = 100, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-					price = 30,
+					price = 23,
 					requires = "packaged_chicken",
 					requires_name = _U("s_packagechicken"),
 					drop = 100

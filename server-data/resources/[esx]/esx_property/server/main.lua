@@ -24,9 +24,9 @@ function SetPropertyOwned(name, price, rented, owner)
 			TriggerClientEvent('esx_property:setPropertyOwned', xPlayer.source, name, true)
 
 			if rented then
-				TriggerClientEvent('esx:showNotification', xPlayer.source, _U('rented_for', price))
+				TriggerClientEvent('esx:showNotification', xPlayer.source, _U('rented_for', ESX.Math.GroupDigits(price)))
 			else
-				TriggerClientEvent('esx:showNotification', xPlayer.source, _U('purchased_for', price))
+				TriggerClientEvent('esx:showNotification', xPlayer.source, _U('purchased_for', ESX.Math.GroupDigits(price)))
 			end
 		end
 	end)
@@ -132,6 +132,7 @@ AddEventHandler('esx_ownedproperty:getOwnedProperties', function(cb)
 			table.insert(properties, {
 				id     = result[i].id,
 				name   = result[i].name,
+				label  = GetProperty(result[i].name).label,
 				price  = result[i].price,
 				rented = (result[i].rented == 1 and true or false),
 				owner  = result[i].owner
@@ -154,8 +155,9 @@ RegisterServerEvent('esx_property:rentProperty')
 AddEventHandler('esx_property:rentProperty', function(propertyName)
 	local xPlayer  = ESX.GetPlayerFromId(source)
 	local property = GetProperty(propertyName)
+	local rent     = ESX.Math.Round(property.price / 200)
 
-	SetPropertyOwned(propertyName, property.price / 200, true, xPlayer.identifier)
+	SetPropertyOwned(propertyName, rent, true, xPlayer.identifier)
 end)
 
 RegisterServerEvent('esx_property:buyProperty')
@@ -210,10 +212,10 @@ AddEventHandler('esx_property:getItem', function(owner, type, item, count)
 	if type == 'item_standard' then
 
 		local sourceItem = xPlayer.getInventoryItem(item)
-		
+
 		TriggerEvent('esx_addoninventory:getInventory', 'property', xPlayerOwner.identifier, function(inventory)
 			local inventoryItem = inventory.getItem(item)
-			
+
 			-- is there enough in the property?
 			if count > 0 and inventoryItem.count >= count then
 			
@@ -339,7 +341,7 @@ end)
 ESX.RegisterServerCallback('esx_property:getLastProperty', function(source, cb)
 	local xPlayer = ESX.GetPlayerFromId(source)
 
-	MySQL.Async.fetchAll('SELECT * FROM users WHERE identifier = @identifier', {
+	MySQL.Async.fetchAll('SELECT last_property FROM users WHERE identifier = @identifier', {
 		['@identifier'] = xPlayer.identifier
 	}, function(users)
 		cb(users[1].last_property)
@@ -361,7 +363,7 @@ ESX.RegisterServerCallback('esx_property:getPropertyInventory', function(source,
 	end)
 
 	TriggerEvent('esx_datastore:getDataStore', 'property', xPlayer.identifier, function(store)
-		local storeWeapons = store.get('weapons') or {}
+		weapons = store.get('weapons') or {}
 	end)
 
 	cb({
@@ -378,7 +380,8 @@ ESX.RegisterServerCallback('esx_property:getPlayerInventory', function(source, c
 
 	cb({
 		blackMoney = blackMoney,
-		items      = items
+		items      = items,
+		weapons    = xPlayer.getLoadout()
 	})
 end)
 
@@ -386,8 +389,8 @@ ESX.RegisterServerCallback('esx_property:getPlayerDressing', function(source, cb
 	local xPlayer  = ESX.GetPlayerFromId(source)
 
 	TriggerEvent('esx_datastore:getDataStore', 'property', xPlayer.identifier, function(store)
-		local count    = store.count('dressing')
-		local labels   = {}
+		local count  = store.count('dressing')
+		local labels = {}
 
 		for i=1, count, 1 do
 			local entry = store.get('dressing', i)
@@ -425,9 +428,9 @@ function PayRent(d, h, m)
 			local xPlayer = ESX.GetPlayerFromIdentifier(result[i].owner)
 
 			-- message player if connected
-			if xPlayer ~= nil then
+			if xPlayer then
 				xPlayer.removeAccountMoney('bank', result[i].price)
-				TriggerClientEvent('esx:showNotification', xPlayer.source, _U('paid_rent', result[i].price))
+				TriggerClientEvent('esx:showNotification', xPlayer.source, _U('paid_rent', ESX.Math.GroupDigits(result[i].price)))
 			else -- pay rent either way
 				MySQL.Sync.execute('UPDATE users SET bank = bank - @bank WHERE identifier = @identifier',
 				{

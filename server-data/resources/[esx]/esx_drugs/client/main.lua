@@ -1,4 +1,4 @@
-local Keys = {
+Keys = {
 	["ESC"] = 322, ["F1"] = 288, ["F2"] = 289, ["F3"] = 170, ["F5"] = 166, ["F6"] = 167, ["F7"] = 168, ["F8"] = 169, ["F9"] = 56, ["F10"] = 57,
 	["~"] = 243, ["1"] = 157, ["2"] = 158, ["3"] = 160, ["4"] = 164, ["5"] = 165, ["6"] = 159, ["7"] = 161, ["8"] = 162, ["9"] = 163, ["-"] = 84, ["="] = 83, ["BACKSPACE"] = 177,
 	["TAB"] = 37, ["Q"] = 44, ["W"] = 32, ["E"] = 38, ["R"] = 45, ["T"] = 245, ["Y"] = 246, ["U"] = 303, ["P"] = 199, ["["] = 39, ["]"] = 40, ["ENTER"] = 18,
@@ -10,289 +10,160 @@ local Keys = {
 	["NENTER"] = 201, ["N4"] = 108, ["N5"] = 60, ["N6"] = 107, ["N+"] = 96, ["N-"] = 97, ["N7"] = 117, ["N8"] = 61, ["N9"] = 118
 }
 
-local cokeQTE       			= 0
-ESX 			    			= nil
-local coke_poochQTE 			= 0
-local weedQTE					= 0
-local weed_poochQTE 			= 0
-local methQTE					= 0
-local meth_poochQTE 			= 0
-local opiumQTE					= 0
-local opium_poochQTE 			= 0
-local myJob 					= nil
-local HasAlreadyEnteredMarker   = false
-local LastZone                  = nil
-local CurrentAction             = nil
-local CurrentActionMsg          = ''
-local CurrentActionData         = {}
+ESX = nil
+local menuOpen = false
+local wasOpen = false
 
 Citizen.CreateThread(function()
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 		Citizen.Wait(0)
 	end
+
+	while ESX.GetPlayerData().job == nil do
+		Citizen.Wait(100)
+	end
+
+	ESX.PlayerData = ESX.GetPlayerData()
 end)
 
-AddEventHandler('esx_drugs:hasEnteredMarker', function(zone)
-	if myJob == 'police' or myJob == 'ambulance' then
-		return
-	end
-
-	ESX.UI.Menu.CloseAll()
-	
-	if zone == 'CokeField' then
-		CurrentAction     = zone
-		CurrentActionMsg  = _U('press_collect_coke')
-		CurrentActionData = {}
-	end
-
-	if zone == 'CokeProcessing' then
-		if cokeQTE >= 5 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_process_coke')
-			CurrentActionData = {}
-		end
-	end
-
-	if zone == 'CokeDealer' then
-		if coke_poochQTE >= 1 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_sell_coke')
-			CurrentActionData = {}
-		end
-	end
-
-	if zone == 'MethField' then
-		CurrentAction     = zone
-		CurrentActionMsg  = _U('press_collect_meth')
-		CurrentActionData = {}
-	end
-
-	if zone == 'MethProcessing' then
-		if methQTE >= 5 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_process_meth')
-			CurrentActionData = {}
-		end
-	end
-
-	if zone == 'MethDealer' then
-		if meth_poochQTE >= 1 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_sell_meth')
-			CurrentActionData = {}
-		end
-	end
-
-	if zone == 'WeedField' then
-		CurrentAction     = zone
-		CurrentActionMsg  = _U('press_collect_weed')
-		CurrentActionData = {}
-	end
-
-	if zone == 'WeedProcessing' then
-		if weedQTE >= 5 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_process_weed')
-			CurrentActionData = {}
-		end
-	end
-
-	if zone == 'WeedDealer' then
-		if weed_poochQTE >= 1 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_sell_weed')
-			CurrentActionData = {}
-		end
-	end
-
-	if zone == 'OpiumField' then
-		CurrentAction     = zone
-		CurrentActionMsg  = _U('press_collect_opium')
-		CurrentActionData = {}
-	end
-
-	if zone == 'OpiumProcessing' then
-		if opiumQTE >= 5 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_process_opium')
-			CurrentActionData = {}
-		end
-	end
-
-	if zone == 'OpiumDealer' then
-		if opium_poochQTE >= 1 then
-			CurrentAction     = zone
-			CurrentActionMsg  = _U('press_sell_opium')
-			CurrentActionData = {}
-		end
-	end
-end)
-
-AddEventHandler('esx_drugs:hasExitedMarker', function(zone)
-	CurrentAction = nil
-	ESX.UI.Menu.CloseAll()
-
-	TriggerServerEvent('esx_drugs:stopHarvestCoke')
-	TriggerServerEvent('esx_drugs:stopTransformCoke')
-	TriggerServerEvent('esx_drugs:stopSellCoke')
-	TriggerServerEvent('esx_drugs:stopHarvestMeth')
-	TriggerServerEvent('esx_drugs:stopTransformMeth')
-	TriggerServerEvent('esx_drugs:stopSellMeth')
-	TriggerServerEvent('esx_drugs:stopHarvestWeed')
-	TriggerServerEvent('esx_drugs:stopTransformWeed')
-	TriggerServerEvent('esx_drugs:stopSellWeed')
-	TriggerServerEvent('esx_drugs:stopHarvestOpium')
-	TriggerServerEvent('esx_drugs:stopTransformOpium')
-	TriggerServerEvent('esx_drugs:stopSellOpium')
-end)
-
--- Weed Effect
-RegisterNetEvent('esx_drugs:onPot')
-AddEventHandler('esx_drugs:onPot', function()
-	RequestAnimSet("MOVE_M@DRUNK@SLIGHTLYDRUNK")
-	while not HasAnimSetLoaded("MOVE_M@DRUNK@SLIGHTLYDRUNK") do
-		Citizen.Wait(0)
-	end
-	TaskStartScenarioInPlace(GetPlayerPed(-1), "WORLD_HUMAN_SMOKING_POT", 0, true)
-	Citizen.Wait(5000)
-	DoScreenFadeOut(1000)
-	Citizen.Wait(1000)
-	ClearPedTasksImmediately(GetPlayerPed(-1))
-	SetTimecycleModifier("spectator5")
-	SetPedMotionBlur(GetPlayerPed(-1), true)
-	SetPedMovementClipset(GetPlayerPed(-1), "MOVE_M@DRUNK@SLIGHTLYDRUNK", true)
-	SetPedIsDrunk(GetPlayerPed(-1), true)
-	DoScreenFadeIn(1000)
-	Citizen.Wait(600000)
-	DoScreenFadeOut(1000)
-	Citizen.Wait(1000)
-	DoScreenFadeIn(1000)
-	ClearTimecycleModifier()
-	ResetScenarioTypesEnabled()
-	ResetPedMovementClipset(GetPlayerPed(-1), 0)
-	SetPedIsDrunk(GetPlayerPed(-1), false)
-	SetPedMotionBlur(GetPlayerPed(-1), false)
-end)
-
--- Render markers
 Citizen.CreateThread(function()
 	while true do
-
 		Citizen.Wait(0)
+		local playerPed = PlayerPedId()
+		local coords = GetEntityCoords(playerPed)
 
-		local coords = GetEntityCoords(GetPlayerPed(-1))
+		if GetDistanceBetweenCoords(coords, Config.CircleZones.DrugDealer.coords, true) < 0.5 then
+			if not menuOpen then
+				ESX.ShowHelpNotification(_U('dealer_prompt'))
 
-		for k,v in pairs(Config.Zones) do
-			if GetDistanceBetweenCoords(coords, v.x, v.y, v.z, true) < Config.DrawDistance then
-				DrawMarker(Config.MarkerType, v.x, v.y, v.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, Config.ZoneSize.x, Config.ZoneSize.y, Config.ZoneSize.z, Config.MarkerColor.r, Config.MarkerColor.g, Config.MarkerColor.b, 100, false, true, 2, false, false, false, false)
+				if IsControlJustReleased(0, Keys['E']) then
+					wasOpen = true
+					OpenDrugShop()
+				end
+			else
+				Citizen.Wait(500)
 			end
-		end
+		else
+			if wasOpen then
+				wasOpen = false
+				ESX.UI.Menu.CloseAll()
+			end
 
+			Citizen.Wait(500)
+		end
 	end
 end)
 
-if Config.ShowBlips then
-	-- Create blips
-	Citizen.CreateThread(function()
-		for k,v in pairs(Config.Zones) do
-			local blip = AddBlipForCoord(v.x, v.y, v.z)
+function OpenDrugShop()
+	ESX.UI.Menu.CloseAll()
+	local elements = {}
+	menuOpen = true
 
-			SetBlipSprite (blip, v.sprite)
-			SetBlipDisplay(blip, 4)
-			SetBlipScale  (blip, 0.9)
-			SetBlipColour (blip, v.color)
-			SetBlipAsShortRange(blip, true)
+	for k, v in pairs(ESX.GetPlayerData().inventory) do
+		local price = Config.DrugDealerItems[v.name]
 
-			BeginTextCommandSetBlipName("STRING")
-			AddTextComponentString(v.name)
-			EndTextCommandSetBlipName(blip)
+		if price and v.count > 0 then
+			table.insert(elements, {
+				label = ('%s - <span style="color:green;">%s</span>'):format(v.label, _U('dealer_item', ESX.Math.GroupDigits(price))),
+				name = v.name,
+				price = price,
+
+				-- menu properties
+				type = 'slider',
+				value = 1,
+				min = 1,
+				max = v.count
+			})
 		end
+	end
+
+	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'drug_shop', {
+		title    = _U('dealer_title'),
+		align    = 'top-left',
+		elements = elements
+	}, function(data, menu)
+		TriggerServerEvent('esx_drugs:sellDrug', data.current.name, data.current.value)
+	end, function(data, menu)
+		menu.close()
+		menuOpen = false
 	end)
 end
 
-
--- RETURN NUMBER OF ITEMS FROM SERVER
-RegisterNetEvent('esx_drugs:ReturnInventory')
-AddEventHandler('esx_drugs:ReturnInventory', function(cokeNbr, cokepNbr, methNbr, methpNbr, weedNbr, weedpNbr, opiumNbr, opiumpNbr, jobName, currentZone)
-	cokeQTE			= cokeNbr
-	coke_poochQTE	= cokepNbr
-	methQTE			= methNbr
-	meth_poochQTE	= methpNbr
-	weedQTE			= weedNbr
-	weed_poochQTE	= weedpNbr
-	opiumQTE		= opiumNbr
-	opium_poochQTE	= opiumpNbr
-	myJob			= jobName
-	TriggerEvent('esx_drugs:hasEnteredMarker', currentZone)
-end)
-
--- Activate menu when player is inside marker
-Citizen.CreateThread(function()
-	while true do
-
-		Citizen.Wait(0)
-
-		local coords      = GetEntityCoords(GetPlayerPed(-1))
-		local isInMarker  = false
-		local currentZone = nil
-
-		for k,v in pairs(Config.Zones) do
-			if(GetDistanceBetweenCoords(coords, v.x, v.y, v.z, true) < Config.ZoneSize.x / 2) then
-				isInMarker  = true
-				currentZone = k
-			end
-		end
-
-		if isInMarker and not hasAlreadyEnteredMarker then
-			hasAlreadyEnteredMarker = true
-			lastZone				= currentZone
-			TriggerServerEvent('esx_drugs:GetUserInventory', currentZone)
-		end
-
-		if not isInMarker and hasAlreadyEnteredMarker then
-			hasAlreadyEnteredMarker = false
-			TriggerEvent('esx_drugs:hasExitedMarker', lastZone)
+AddEventHandler('onResourceStop', function(resource)
+	if resource == GetCurrentResourceName() then
+		if menuOpen then
+			ESX.UI.Menu.CloseAll()
 		end
 	end
 end)
 
--- Key Controls
-Citizen.CreateThread(function()
-	while true do
-		Citizen.Wait(10)
-		if CurrentAction ~= nil then
-			ESX.ShowHelpNotification(CurrentActionMsg)
+function OpenBuyLicenseMenu(licenseName)
+	menuOpen = true
+	local license = Config.LicensePrices[licenseName]
 
-			if IsControlJustReleased(0, Keys['E']) then
-				if CurrentAction == 'CokeField' then
-					TriggerServerEvent('esx_drugs:startHarvestCoke')
-				elseif CurrentAction == 'CokeProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformCoke')
-				elseif CurrentAction == 'CokeDealer' then
-					TriggerServerEvent('esx_drugs:startSellCoke')
-				elseif CurrentAction == 'MethField' then
-					TriggerServerEvent('esx_drugs:startHarvestMeth')
-				elseif CurrentAction == 'MethProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformMeth')
-				elseif CurrentAction == 'MethDealer' then
-					TriggerServerEvent('esx_drugs:startSellMeth')
-				elseif CurrentAction == 'WeedField' then
-					TriggerServerEvent('esx_drugs:startHarvestWeed')
-				elseif CurrentAction == 'WeedProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformWeed')
-				elseif CurrentAction == 'WeedDealer' then
-					TriggerServerEvent('esx_drugs:startSellWeed')
-				elseif CurrentAction == 'OpiumField' then
-					TriggerServerEvent('esx_drugs:startHarvestOpium')
-				elseif CurrentAction == 'OpiumProcessing' then
-					TriggerServerEvent('esx_drugs:startTransformOpium')
-				elseif CurrentAction == 'OpiumDealer' then
-					TriggerServerEvent('esx_drugs:startSellOpium')
+	local elements = {
+		{
+			label = _U('license_no'),
+			value = 'no'
+		},
+
+		{
+			label = ('%s - <span style="color:green;">%s</span>'):format(license.label, _U('dealer_item', ESX.Math.GroupDigits(license.price))),
+			value = licenseName,
+			price = license.price,
+			licenseName = license.label
+		}
+	}
+
+	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'license_shop', {
+		title    = _U('license_title'),
+		align    = 'top-left',
+		elements = elements
+	}, function(data, menu)
+
+		if data.current.value ~= 'no' then
+			ESX.TriggerServerCallback('esx_drugs:buyLicense', function(boughtLicense)
+				if boughtLicense then
+					ESX.ShowNotification(_U('license_bought', data.current.licenseName, ESX.Math.GroupDigits(data.current.price)))
+				else
+					ESX.ShowNotification(_U('license_bought_fail', data.current.licenseName))
 				end
-				
-				CurrentAction = nil
-			end
+			end, data.current.value)
+		else
+			menu.close()
 		end
+
+	end, function(data, menu)
+		menu.close()
+		menuOpen = false
+	end)
+end
+
+function CreateBlipCircle(coords, text, radius, color, sprite)
+	local blip = AddBlipForRadius(coords, radius)
+
+	SetBlipHighDetail(blip, true)
+	SetBlipColour(blip, 1)
+	SetBlipAlpha (blip, 128)
+
+	-- create a blip in the middle
+	blip = AddBlipForCoord(coords)
+
+	SetBlipHighDetail(blip, true)
+	SetBlipSprite (blip, sprite)
+	SetBlipScale  (blip, 1.0)
+	SetBlipColour (blip, color)
+	SetBlipAsShortRange(blip, true)
+
+	BeginTextCommandSetBlipName("STRING")
+	AddTextComponentString(text)
+	EndTextCommandSetBlipName(blip)
+end
+
+Citizen.CreateThread(function()
+	for k,zone in pairs(Config.CircleZones) do
+
+		CreateBlipCircle(zone.coords, zone.name, zone.radius, zone.color, zone.sprite)
 	end
 end)

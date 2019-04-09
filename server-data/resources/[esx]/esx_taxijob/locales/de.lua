@@ -12,7 +12,7 @@ Locales['de'] = {
   ['spawnpoint_blocked'] = 'there is a vehicle blocking the spawnpoint!',
   ['only_taxi'] = 'Du kannst nur Taxis parken.',
 
-  ['taking_service'] = 'Service annehmen: ',
+  ['taking_service'] = 'Service annehmen: Taxi/Uber',
   ['full_service'] = 'Voller Service: ',
   ['amount_invalid'] = 'Betrag ungültig',
   ['press_to_open'] = 'Drücke ~INPUT_CONTEXT~ um das Menü zu öffnen',
@@ -45,4 +45,5 @@ Locales['de'] = {
   ['have_deposited'] = 'you have deposited ~y~x%s~s~ ~b~%s~s~',
   ['player_cannot_hold'] = 'you do ~r~not~s~ have enough ~y~free space~s~ in your inventory!',
   ['blip_taxi'] = 'taxi',
+  ['phone_taxi'] = 'taxi',
 }

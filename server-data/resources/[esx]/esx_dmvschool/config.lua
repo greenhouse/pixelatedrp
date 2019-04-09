@@ -2,13 +2,13 @@ Config                 = {}
 Config.DrawDistance    = 100.0
 Config.MaxErrors       = 5
 Config.SpeedMultiplier = 3.6
-Config.Locale = 'en'
+Config.Locale          = 'sv'
 
 Config.Prices = {
 	dmv         = 500,
-	drive       = 800,
-	drive_bike  = 500,
-	drive_truck = 1200
+	drive       = 2500,
+	drive_bike  = 3000,
+	drive_truck = 5000
 }
 
 Config.VehicleModels = {

@@ -10,12 +10,12 @@ local Keys = {
 	["NENTER"] = 201, ["N4"] = 108, ["N5"] = 60, ["N6"] = 107, ["N+"] = 96, ["N-"] = 97, ["N7"] = 117, ["N8"] = 61, ["N9"] = 118
 }
 
-local voice = {default = 8.0, shout = 13.0, whisper = 1.0, current = 0, level = nil}
+local voice = {default = 5.0, shout = 12.0, whisper = 1.0, current = 0, level = nil}
 
 function drawLevel(r, g, b, a)
 	SetTextFont(4)
 	SetTextProportional(1)
-	SetTextScale(0.4, 0.4)
+	SetTextScale(0.5, 0.5)
 	SetTextColour(r, g, b, a)
 	SetTextDropShadow(0, 0, 0, 0, 255)
 	SetTextEdge(1, 0, 0, 0, 255)
@@ -24,7 +24,7 @@ function drawLevel(r, g, b, a)
 
 	BeginTextCommandDisplayText("STRING")
 	AddTextComponentSubstringPlayerName(_U('voice', voice.level))
-	EndTextCommandDisplayText(0.170, 0.90)
+	EndTextCommandDisplayText(0.175, 0.92)
 end
 
 AddEventHandler('onClientMapStart', function()

@@ -11,7 +11,7 @@ Config.Jobs.fueler = {
 			Spawner = 1,
 			Hash = "phantom",
 			Trailer = "tanker",
-			HasCaution = false
+			HasCaution = true
 		}
 
 	},
@@ -115,12 +115,12 @@ Config.Jobs.fueler = {
 			Type = "vehspawner",
 			Spawner = 1,
 			Hint = _U("spawn_truck_button"),
-			Caution = 0,
+			Caution = 2000,
 			GPS = {x = 602.25, y = 2926.62, z = 39.68}
 		},
 
 		VehicleSpawnPoint = {
-			Pos = {x = 580.54, y = -2309.70, z = 4.90},
+			Pos = {x = 570.54, y = -2309.70, z = 4.90},
 			Size = {x = 3.0, y = 3.0, z = 1.0},
 			Marker = -1,
 			Blip = false,
@@ -141,7 +141,7 @@ Config.Jobs.fueler = {
 			Type = "vehdelete",
 			Hint = _U("return_vh_button"),
 			Spawner = 1,
-			Caution = 0,
+			Caution = 2000,
 			GPS = 0,
 			Teleport = 0
 		},
@@ -161,7 +161,7 @@ Config.Jobs.fueler = {
 					time = 500,
 					remove = 1,
 					max = 100, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-					price = 100,
+					price = 61,
 					requires = "essence",
 					requires_name = _U("f_gas"),
 					drop = 100

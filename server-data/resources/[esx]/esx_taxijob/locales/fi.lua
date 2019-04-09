@@ -12,7 +12,7 @@ Locales['fi'] = {
   ['spawnpoint_blocked'] = 'there is a vehicle blocking the spawnpoint!',
   ['only_taxi'] = 'Voit vain tallettaa taxeja',
 
-  ['taking_service'] = 'Aloitetaan työ: ',
+  ['taking_service'] = 'Aloitetaan työ: Taxi/Uber',
   ['full_service'] = 'täysi palvelu: ',
   ['amount_invalid'] = 'virheellinen summa',
   ['press_to_open'] = 'paina ~INPUT_CONTEXT~ avataksesi valikko',
@@ -45,4 +45,5 @@ Locales['fi'] = {
   ['have_deposited'] = 'sinä talletit ~y~x%s~s~ ~b~%s~s~',
   ['player_cannot_hold'] = 'sinulla ~r~ei ole~s~ enempää ~y~vapaata tilaa~s~ repussasi!',
   ['blip_taxi'] = 'taxi',
+  ['phone_taxi'] = 'taxi',
 }

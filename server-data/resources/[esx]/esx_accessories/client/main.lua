@@ -1,10 +1,10 @@
 local Keys = {
-	["ESC"] = 322, ["F1"] = 288, ["F2"] = 289, ["F3"] = 170, ["F5"] = 166, ["F6"] = 167, ["F7"] = 168, ["F8"] = 169, ["F9"] = 56, ["F10"] = 57,
-	["~"] = 243, ["1"] = 157, ["2"] = 158, ["3"] = 160, ["4"] = 164, ["5"] = 165, ["6"] = 159, ["7"] = 161, ["8"] = 162, ["9"] = 163, ["-"] = 84, ["="] = 83, ["BACKSPACE"] = 177,
+	["ESC"] = 322, ["F1"] = 288, ["F2"] = 289, ["F3"] = 170, ["F5"] = 166, ["F6"] = 167, ["F7"] = 168, ["F8"] = 169, ["F9"] = 56, ["F10"] = 57, 
+	["~"] = 243, ["1"] = 157, ["2"] = 158, ["3"] = 160, ["4"] = 164, ["5"] = 165, ["6"] = 159, ["7"] = 161, ["8"] = 162, ["9"] = 163, ["-"] = 84, ["="] = 83, ["BACKSPACE"] = 177, 
 	["TAB"] = 37, ["Q"] = 44, ["W"] = 32, ["E"] = 38, ["R"] = 45, ["T"] = 245, ["Y"] = 246, ["U"] = 303, ["P"] = 199, ["["] = 39, ["]"] = 40, ["ENTER"] = 18,
 	["CAPS"] = 137, ["A"] = 34, ["S"] = 8, ["D"] = 9, ["F"] = 23, ["G"] = 47, ["H"] = 74, ["K"] = 311, ["L"] = 182,
 	["LEFTSHIFT"] = 21, ["Z"] = 20, ["X"] = 73, ["C"] = 26, ["V"] = 0, ["B"] = 29, ["N"] = 249, ["M"] = 244, [","] = 82, ["."] = 81,
-	["LEFTCTRL"] = 36, ["LEFTALT"] = 19, ["SPACE"] = 22, ["RIGHTCTRL"] = 70,
+	["LEFTCTRL"] = 36, ["LEFTALT"] = 19, ["SPACE"] = 22, ["RIGHTCTRL"] = 70, 
 	["HOME"] = 213, ["PAGEUP"] = 10, ["PAGEDOWN"] = 11, ["DELETE"] = 178,
 	["LEFT"] = 174, ["RIGHT"] = 175, ["TOP"] = 27, ["DOWN"] = 173,
 	["NENTER"] = 201, ["N4"] = 108, ["N5"] = 60, ["N6"] = 107, ["N+"] = 96, ["N-"] = 97, ["N7"] = 117, ["N8"] = 61, ["N9"] = 118
@@ -34,7 +34,7 @@ function OpenAccessoryMenu()
 			{label = _U('helmet'), value = 'Helmet'},
 			{label = _U('ears'), value = 'Ears'},
 			{label = _U('mask'), value = 'Mask'},
-			{label = _U('glasses'), value = 'Glasses'},
+			{label = _U('glasses'), value = 'Glasses'}
 		}
 	}, function(data, menu)
 		menu.close()
@@ -53,13 +53,16 @@ function SetUnsetAccessory(accessory)
 			TriggerEvent('skinchanger:getSkin', function(skin)
 				local mAccessory = -1
 				local mColor = 0
+
 				if _accessory == "mask" then
 					mAccessory = 0
 				end
+
 				if skin[_accessory .. '_1'] == mAccessory then
 					mAccessory = accessorySkin[_accessory .. '_1']
 					mColor = accessorySkin[_accessory .. '_2']
 				end
+
 				local accessorySkin = {}
 				accessorySkin[_accessory .. '_1'] = mAccessory
 				accessorySkin[_accessory .. '_2'] = mColor
@@ -77,7 +80,7 @@ function OpenShopMenu(accessory)
 	local restrict = {}
 
 	restrict = { _accessory .. '_1', _accessory .. '_2' }
-
+	
 	TriggerEvent('esx_skin:openRestrictedMenu', function(data, menu)
 
 		menu.close()
@@ -88,7 +91,7 @@ function OpenShopMenu(accessory)
 			align = 'top-left',
 			elements = {
 				{label = _U('no'), value = 'no'},
-				{label = _U('yes', Config.Price), value = 'yes'}
+				{label = _U('yes', ESX.Math.GroupDigits(Config.Price)), value = 'yes'}
 			}
 		}, function(data, menu)
 			menu.close()
@@ -109,14 +112,14 @@ function OpenShopMenu(accessory)
 			end
 
 			if data.current.value == 'no' then
-				local player = GetPlayerPed(-1)
+				local player = PlayerPedId()
 				TriggerEvent('esx_skin:getLastSkin', function(skin)
 					TriggerEvent('skinchanger:loadSkin', skin)
 				end)
 				if accessory == "Ears" then
 					ClearPedProp(player, 2)
 				elseif accessory == "Mask" then
-					SetPedComponentVariation(player, 1, 0 ,0 ,2)
+					SetPedComponentVariation(player, 1, 0 ,0, 2)
 				elseif accessory == "Helmet" then
 					ClearPedProp(player, 0)
 				elseif accessory == "Glasses" then
@@ -169,7 +172,7 @@ Citizen.CreateThread(function()
 
 				SetBlipSprite (blip, v.Blip.sprite)
 				SetBlipDisplay(blip, 4)
-				SetBlipScale  (blip, 0.8)
+				SetBlipScale  (blip, 1.0)
 				SetBlipColour (blip, v.Blip.color)
 				SetBlipAsShortRange(blip, true)
 
@@ -185,7 +188,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
-		local coords = GetEntityCoords(GetPlayerPed(-1))
+		local coords = GetEntityCoords(PlayerPedId())
 		for k,v in pairs(Config.Zones) do
 			for i = 1, #v.Pos, 1 do
 				if(Config.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos[i].x, v.Pos[i].y, v.Pos[i].z, true) < Config.DrawDistance) then
@@ -199,13 +202,14 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(10)
-		local coords      = GetEntityCoords(GetPlayerPed(-1))
+		Citizen.Wait(200)
+
+		local coords      = GetEntityCoords(PlayerPedId())
 		local isInMarker  = false
 		local currentZone = nil
 		for k,v in pairs(Config.Zones) do
 			for i = 1, #v.Pos, 1 do
-				if(GetDistanceBetweenCoords(coords, v.Pos[i].x, v.Pos[i].y, v.Pos[i].z, true) < Config.Size.x) then
+				if GetDistanceBetweenCoords(coords, v.Pos[i].x, v.Pos[i].y, v.Pos[i].z, true) < Config.Size.x then
 					isInMarker  = true
 					currentZone = k
 				end
@@ -229,23 +233,21 @@ end)
 -- Key controls
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(10)
-
+		Citizen.Wait(0)
+		
 		if CurrentAction ~= nil then
-
 			ESX.ShowHelpNotification(CurrentActionMsg)
 
 			if IsControlJustReleased(0, Keys['E']) and CurrentActionData.accessory then
 				OpenShopMenu(CurrentActionData.accessory)
 				CurrentAction = nil
 			end
-
 		elseif CurrentAction == nil and not Config.EnableControls then
 			Citizen.Wait(500)
 		end
 
 		if Config.EnableControls then
-			if IsControlJustReleased(0, Keys['-']) then
+			if IsControlJustReleased(0, Keys['K']) and GetLastInputMethod(2) and not isDead then
 				OpenAccessoryMenu()
 			end
 		end

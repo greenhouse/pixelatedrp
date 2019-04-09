@@ -1,19 +1,14 @@
 #status_list {
 	position: absolute;
-	left   : 25;
-	bottom : 0;
-	width  : 14%;
+	left   : 23;
+	bottom : 21%;
+	width  : 14.5%;
 	opacity: 0.3;
-	background: rgba(0,0,0,0.9);
 }
 
 .status {
 	padding: 1px;
-	margin: 0.2em;
-	max-width: 49%;
-	width: 46%;
-	display: inline-block;
-	float:left;
+	margin: 0.3em;
 }
 
 .status_inner {

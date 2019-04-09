@@ -34,7 +34,7 @@ Locales['en'] = {
   ['amount_invalid']            = 'invalid amount',
   ['no_players_nearby']         = 'there is no nearby player',
   ['no_vehicle_nearby']         = 'there is no nearby vehicle',
-  ['inside_vehicle']            = 'you can\'t do this from inside the vehicle!',
+  ['inside_vehicle']            = 'you can\'t do this from inside the vehicle!', 
   ['vehicle_unlocked']          = 'the vehicle has been ~g~unlocked',
   ['vehicle_repaired']          = 'the vehicle has been ~g~repaired',
   ['vehicle_cleaned']           = 'the vehicle has been ~g~cleaned',
@@ -81,6 +81,5 @@ Locales['en'] = {
   ['you_used_body_kit']         = 'you used a ~b~Body Kit',
   ['have_withdrawn']            = 'you have withdrawn ~y~x%s~s~ ~b~%s~s~',
   ['have_deposited']            = 'you have deposited ~y~x%s~s~ ~b~%s~s~',
-  ['player_cannot_hold']        = 'you do ~r~not~w~ have enough ~y~free space~w~ in your inventory!',
-  ['you_earned']        = 'You have earned :',
+  ['player_cannot_hold']        = 'you do ~r~not~s~ have enough ~y~free space~s~ in your inventory!',
 }
