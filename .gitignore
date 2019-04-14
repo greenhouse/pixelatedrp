@@ -1,6 +1,5 @@
 # misc
 *~
 
-# ignore large file types
-
-stream/
+# ignore large file types (note: stream folder needed for resources: nw_bahamaMama)
+#stream/
