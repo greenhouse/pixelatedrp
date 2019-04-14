@@ -14,6 +14,33 @@
          location = "group:resources"
          name = "resources">
          <Group
+            location = "group:Pixelated_Animations"
+            name = "Pixelated_Animations">
+            <FileRef
+               location = "group:config.lua">
+            </FileRef>
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+            <Group
+               location = "group:Client"
+               name = "Client">
+               <FileRef
+                  location = "group:main.lua">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:radiant_animations"
+            name = "radiant_animations">
+            <FileRef
+               location = "group:__resource.lua">
+            </FileRef>
+            <FileRef
+               location = "group:client.lua">
+            </FileRef>
+         </Group>
+         <Group
             location = "group:es_ui"
             name = "es_ui">
             <FileRef
