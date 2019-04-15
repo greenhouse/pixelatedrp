@@ -94,7 +94,7 @@ AddEventHandler('esx_addons_gcphone:startCall', function (number, message, coord
       }, PhoneNumbers[number].sources)
     end)
   else
-    print('Appels sur un service non enregistre => numero : ' .. number)
+    print('Calls on an unregistered service => number : ' .. number)
   end
 end)
 
