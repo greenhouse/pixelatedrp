@@ -95,11 +95,6 @@ AddEventHandler('esx_addons_gcphone:startCall', function (number, message, coord
     end)
   else
     print('Calls on an unregistered service => number : ' .. number)
-    print('PhoneNumbers[] dump...')
-    for x in PhoneNumbers do
-        print('x : ' .. x)
-        print('PhoneNumbers[x] : ' .. PhoneNumbers[x])
-    end
   end
 end)
 
