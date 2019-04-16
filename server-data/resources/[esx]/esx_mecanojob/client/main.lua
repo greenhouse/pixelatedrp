@@ -891,18 +891,17 @@ end)
 -- Create Blips
 
 Citizen.CreateThread(function()
-	for k,v in pairs(Config.Zones.MecanoActions) do
-		local blip = AddBlipForCoord(v.Pos.x, v.Pos.y, v.Pos.z)
-    SetBlipSprite (blip, 446)
-  	SetBlipDisplay(blip, 4)
-  	SetBlipScale  (blip, 1.0)
-  	SetBlipColour (blip, 5)
-  	SetBlipAsShortRange(blip, true)
+	local blip = AddBlipForCoord(Config.Zones.MecanoActions.Pos.x, Config.Zones.MecanoActions.Pos.y, Config.Zones.MecanoActions.Pos.z)
 
-		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString(_U('mechanic'))
-		EndTextCommandSetBlipName(blip)
-	end
+	SetBlipSprite (blip, 446)
+	SetBlipDisplay(blip, 4)
+	SetBlipScale  (blip, 1.8)
+	SetBlipColour (blip, 5)
+	SetBlipAsShortRange(blip, true)
+
+	BeginTextCommandSetBlipName("STRING")
+	AddTextComponentString(_U('mechanic'))
+	EndTextCommandSetBlipName(blip)
 end)
 
 -- Display markers
@@ -912,29 +911,11 @@ Citizen.CreateThread(function()
 		if PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
 			local coords = GetEntityCoords(PlayerPedId())
 
-			for k,v in pairs(Config.Zones.MecanoActions) do
+			for k,v in pairs(Config.Zones) do
 				      if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
 					        DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
-				      end
+				end
 			end
-
-      for k,v in pairs(Config.Zones.VehicleSpawnPoint) do
-              if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
-                  DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
-              end
-      end
-
-      for k,v in pairs(Config.Zones.VehicleDeleter) do
-              if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
-                  DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
-              end
-      end
-
-      for k,v in pairs(Config.Zones.VehicleSpawnPoint) do
-              if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
-                  DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
-              end
-      end
 		end
 	end
 end)
@@ -950,7 +931,7 @@ Citizen.CreateThread(function()
 			local isInMarker  = false
 			local currentZone = nil
 
-			for k,v in pairs(Config.Zones.MecanoActions) do
+			for k,v in pairs(Config.Zones) do
 				if(GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < v.Size.x) then
 				isInMarker  = true
 				currentZone = k
@@ -971,7 +952,6 @@ Citizen.CreateThread(function()
 		end
 	end
 end)
-
 
 Citizen.CreateThread(function()
 	local trackedEntities = {

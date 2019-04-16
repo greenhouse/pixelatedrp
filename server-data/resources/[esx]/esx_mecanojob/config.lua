@@ -19,63 +19,28 @@ Config.Vehicles = {
 Config.Zones = {
 
 	MecanoActions = {
-		central = {
-		Pos   = { x = -342.291, y = -133.370, z = 38.009 },
-		Size  = { x = 1.5, y = 1.5, z = 1.0 },
-		Color = { r = 204, g = 204, b = 0 },
-		Type  = 1,
-		},
-		bennys = {
 			Pos   = { x = -207.316, y = -1341.096, z = 33.89 },
 			Size  = { x = 1.5, y = 1.5, z = 1.0 },
 			Color = { r = 204, g = 204, b = 0 },
 			Type  = 1,
 		},
-	},
-
 	VehicleSpawnPoint = {
-		{
 			Pos   = {x = -210.89, y = -1304.43, z = 30.29},
 			Size  = { x = 1.5, y = 1.5, z = 1.0 },
 			Type  = -1,
 		},
-		{
-			Pos   = { x = -366.354, y = -110.766, z = 37.696 },
-			Size  = { x = 1.5, y = 1.5, z = 1.0 },
-			Type  = -1,
-		},
-	},
-
 	VehicleDeleter = {
-		{
 			Pos   = { x = -199.82, y = -1306.86, z = 30.28 },
 			Size  = { x = 3.0, y = 3.0, z = 1.0 },
 			Color = { r = 204, g = 204, b = 0 },
 			Type  = 1,
 		},
-		{
-			Pos   = { x = -386.899, y = -105.675, z = 37.683 },
-			Size  = { x = 3.0, y = 3.0, z = 1.0 },
-			Color = { r = 204, g = 204, b = 0 },
-			Type  = 1,
-		},
-	},
-
 	VehicleDelivery = {
-		{
 			Pos   = { x = -222.22, y = -1329.97, z = 29.89},
 			Size  = { x = 20.0, y = 20.0, z = 3.0 },
 			Color = { r = 204, g = 204, b = 0 },
 			Type  = -1,
 		},
-		{
-			Pos   = { x = -382.925, y = -133.748, z = 37.685 },
-			Size  = { x = 20.0, y = 20.0, z = 3.0 },
-			Color = { r = 204, g = 204, b = 0 },
-			Type  = -1,
-		},
-	}
-
 }
 
 Config.Towables = {
