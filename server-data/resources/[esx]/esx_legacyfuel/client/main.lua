@@ -511,7 +511,7 @@ function DisplayHud()
 		local speed   = GetEntitySpeed(vehicle)
 		local kmh     = round(speed * 3.6, 0)
 		local mph     = round(speed * 2.236936, 0)
-		local concatDisplay = mph .. " mp/h " .. kmh .. " km/h " .. fuel .. " fuel"
+		local concatDisplay = mph .. " mp/h   " .. kmh .. " km/h   " .. fuel .. " fuel"
 		if fuel == 0 then
 			fuel = "0"
 		end
@@ -527,11 +527,10 @@ function DisplayHud()
 
 		--DrawAdvancedText(x,y ,w,h,sc, text, r,g,b,a,font,jus)
 	--	DrawAdvancedText(0.2195 - x, 0.77 - y, 0.005, 0.0028, 0.6, fuel, 255, 255, 255, 255, 6, 1)
-
 	--	DrawAdvancedText(0.130 - x, 0.77 - y, 0.005, 0.0028, 0.6, mph, 255, 255, 255, 255, 6, 1)
 	--	DrawAdvancedText(0.174 - x, 0.77 - y, 0.005, 0.0028, 0.6, kmh, 255, 255, 255, 255, 6, 1)
 
-		DrawAdvancedText(0.268 - x, 0.7765 - y, 0.005, 0.0158, 0.5, concatDisplay, 255, 255, 255, 255, 6, 1)
+		DrawAdvancedText(0.268 - x, 0.7765 - y, 0.005, 0.258, 0.5, concatDisplay, 255, 255, 255, 255, 6, 1)
 	end
 end
 
