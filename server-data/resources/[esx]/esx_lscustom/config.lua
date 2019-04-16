@@ -48,7 +48,7 @@ Config.Zones = {
 		Marker= 1,
 		Name  = _U('blip_name'),
 		Hint  = _U('press_custom')
-	}
+	},
 
 	ls6 = {
 		Pos   = { x = -210.34, y = -1321.82, z = 29.89},
