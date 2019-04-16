@@ -96,7 +96,7 @@ Citizen.CreateThread(function()
 				elseif IsFueling then
 					local position = GetEntityCoords(vehicle)
 
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press ~g~G ~w~to cancel the fueling of your vehicle. $~r~" .. price .. "     ~w~+  tax")
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press ~g~G ~w~to cancel the fueling of your vehicle. $~r~" .. price .. "    ~w~+  tax")
 					DrawText3Ds(position.x, position.y, position.z + 0.5, fuel .. "%")
 
 					DisableControlAction(0, 0, true) -- Changing view (V)
@@ -530,7 +530,7 @@ function DisplayHud()
 	--	DrawAdvancedText(0.130 - x, 0.77 - y, 0.005, 0.0028, 0.6, mph, 255, 255, 255, 255, 6, 1)
 	--	DrawAdvancedText(0.174 - x, 0.77 - y, 0.005, 0.0028, 0.6, kmh, 255, 255, 255, 255, 6, 1)
 
-		DrawAdvancedText(0.268 - x, 0.7765 - y, 0.005, 0.088, 0.5, concatDisplay, 255, 255, 255, 255, 6, 1)
+		DrawAdvancedText(0.268 - x, 0.7765 - y, 0.005, 0.108, 0.5, concatDisplay, 255, 255, 255, 255, 6, 1)
 	end
 end
 
