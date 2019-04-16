@@ -9,11 +9,11 @@ PlayersCrafting3   = {}
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 if Config.MaxInService ~= -1 then
-	TriggerEvent('esx_service:activateService', 'mecano', Config.MaxInService)
+	TriggerEvent('esx_service:activateService', 'mechanic', Config.MaxInService)
 end
 
-TriggerEvent('esx_phone:registerNumber', 'mecano', _U('mechanic_customer'), true, true)
-TriggerEvent('esx_society:registerSociety', 'mecano', 'Mecano', 'society_mecano', 'society_mecano', 'society_mecano', {type = 'private'})
+TriggerEvent('esx_phone:registerNumber', 'mechanic', _U('mechanic_customer'), true, true)
+TriggerEvent('esx_society:registerSociety', 'mechanic', 'Mechanic', 'society_mechanic', 'society_mechanic', 'society_mehanic', {type = 'private'})
 
 local function Harvest(source)
 	SetTimeout(4000, function()
@@ -219,7 +219,7 @@ AddEventHandler('esx_mecanojob:onNPCJobMissionCompleted', function()
 		total = total * 2
 	end
 
-	TriggerEvent('esx_addonaccount:getSharedAccount', 'society_mecano', function(account)
+	TriggerEvent('esx_addonaccount:getSharedAccount', 'society_mechanic', function(account)
 		account.addMoney(total)
 	end)
 
@@ -260,7 +260,7 @@ RegisterServerEvent('esx_mecanojob:getStockItem')
 AddEventHandler('esx_mecanojob:getStockItem', function(itemName, count)
 	local xPlayer = ESX.GetPlayerFromId(source)
 
-	TriggerEvent('esx_addoninventory:getSharedInventory', 'society_mecano', function(inventory)
+	TriggerEvent('esx_addoninventory:getSharedInventory', 'society_mechanic', function(inventory)
 		local item = inventory.getItem(itemName)
 		local sourceItem = xPlayer.getInventoryItem(itemName)
 
@@ -282,7 +282,7 @@ AddEventHandler('esx_mecanojob:getStockItem', function(itemName, count)
 end)
 
 ESX.RegisterServerCallback('esx_mecanojob:getStockItems', function(source, cb)
-	TriggerEvent('esx_addoninventory:getSharedInventory', 'society_mecano', function(inventory)
+	TriggerEvent('esx_addoninventory:getSharedInventory', 'society_mechanic', function(inventory)
 		cb(inventory.items)
 	end)
 end)
@@ -291,7 +291,7 @@ RegisterServerEvent('esx_mecanojob:putStockItems')
 AddEventHandler('esx_mecanojob:putStockItems', function(itemName, count)
 	local xPlayer = ESX.GetPlayerFromId(source)
 
-	TriggerEvent('esx_addoninventory:getSharedInventory', 'society_mecano', function(inventory)
+	TriggerEvent('esx_addoninventory:getSharedInventory', 'society_mechanic', function(inventory)
 		local item = inventory.getItem(itemName)
 		local playerItemCount = xPlayer.getInventoryItem(itemName).count
 
