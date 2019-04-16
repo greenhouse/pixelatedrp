@@ -530,7 +530,7 @@ function DisplayHud()
 	--	DrawAdvancedText(0.130 - x, 0.77 - y, 0.005, 0.0028, 0.6, mph, 255, 255, 255, 255, 6, 1)
 	--	DrawAdvancedText(0.174 - x, 0.77 - y, 0.005, 0.0028, 0.6, kmh, 255, 255, 255, 255, 6, 1)
 
-		DrawAdvancedText(0.275 - x, 0.7765 - y, 0.005, 0.128, 0.5, concatDisplay, 255, 255, 255, 255, 6, 1)
+		DrawAdvancedText(0.282 - x, 0.7765 - y, 0.005, 0.128, 0.5, concatDisplay, 255, 255, 255, 255, 6, 1)
 	end
 end
 
