@@ -912,13 +912,37 @@ Citizen.CreateThread(function()
 		if PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
 			local coords = GetEntityCoords(PlayerPedId())
 
-			for k,v in pairs(Config.Zones) do
+			for k,v in pairs(Config.Zones.MecanoActions) do
         for j,c in pairs (v) do
 				      if(c.Type ~= -1 and GetDistanceBetweenCoords(coords, c.Pos.x, c.Pos.y, c.Pos.z, true) < Config.DrawDistance) then
 					        DrawMarker(c.Type, c.Pos.x, c.Pos.y, c.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, c.Size.x, c.Size.y, c.Size.z, c.Color.r, c.Color.g, c.Color.b, 100, false, true, 2, false, false, false, false)
               end
 				end
 			end
+
+      for k,v in pairs(Config.Zones.VehicleSpawnPoint) do
+        for j,c in pairs (v) do
+              if(c.Type ~= -1 and GetDistanceBetweenCoords(coords, c.Pos.x, c.Pos.y, c.Pos.z, true) < Config.DrawDistance) then
+                  DrawMarker(c.Type, c.Pos.x, c.Pos.y, c.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, c.Size.x, c.Size.y, c.Size.z, c.Color.r, c.Color.g, c.Color.b, 100, false, true, 2, false, false, false, false)
+              end
+        end
+      end
+
+      for k,v in pairs(Config.Zones.VehicleDeleter) do
+        for j,c in pairs (v) do
+              if(c.Type ~= -1 and GetDistanceBetweenCoords(coords, c.Pos.x, c.Pos.y, c.Pos.z, true) < Config.DrawDistance) then
+                  DrawMarker(c.Type, c.Pos.x, c.Pos.y, c.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, c.Size.x, c.Size.y, c.Size.z, c.Color.r, c.Color.g, c.Color.b, 100, false, true, 2, false, false, false, false)
+              end
+        end
+      end
+
+      for k,v in pairs(Config.Zones.VehicleDelivery) do
+        for j,c in pairs (v) do
+              if(c.Type ~= -1 and GetDistanceBetweenCoords(coords, c.Pos.x, c.Pos.y, c.Pos.z, true) < Config.DrawDistance) then
+                  DrawMarker(c.Type, c.Pos.x, c.Pos.y, c.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, c.Size.x, c.Size.y, c.Size.z, c.Color.r, c.Color.g, c.Color.b, 100, false, true, 2, false, false, false, false)
+              end
+        end
+      end
 		end
 	end
 end)
