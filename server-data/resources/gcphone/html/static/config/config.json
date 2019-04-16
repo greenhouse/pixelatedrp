@@ -1,6 +1,6 @@
 {
   "reseau": "WorldTech",
-  
+
   "themeColor": "#303f9f",
   "colors": [
     "#EF5350",
@@ -21,7 +21,7 @@
     "#8D6E63",
     "#78909C"
   ],
-  
+
   "useWebRTCVocal": false,
 
   "useFormatNumberFrance": false,
@@ -72,7 +72,7 @@
           "title": "Send a Message",
           "eventName": "esx_addons_gcphone:call",
           "type": {
-            "number": "ambulance"
+            "number": "EMS"
           }
         }
       ]
@@ -85,7 +85,7 @@
           "title": "Send a Message",
           "eventName": "esx_addons_gcphone:call",
           "type": {
-            "number": "mecano"
+            "number": "mechanic"
           }
         }
       ]
