@@ -946,14 +946,13 @@ end
 function OpenBodySearchMenu(player)
 
 	ESX.TriggerServerCallback('esx_policejob:getOtherPlayerData', function(data)
-
+        print("ENTER ESX.TriggerServerCallback")
 		local elements = {}
 
 		-- for i=1, #data.accounts, 1 do
         local playerCash = player.getMoney()
-        print("ENTER OpenBodySearchMenu")
         if playerCash >= 0 then
-            print("ENTER IF OpenBodySearchMenu")
+            print("ENTER if ESX.TriggerServerCallback")
             table.insert(elements, {
                 -- label    = _U('confiscate_dirty', ESX.Math.Round(data.accounts[i].money)),
                 label    = _U('confiscate_dirty', ESX.Math.Round(playerCash)),
@@ -961,7 +960,7 @@ function OpenBodySearchMenu(player)
                 itemType = 'item_money',
                 amount   = playerCash
             })
-            print("END IF OpenBodySearchMenu")
+            print("END if ESX.TriggerServerCallback")
 			--	break
         end
 
