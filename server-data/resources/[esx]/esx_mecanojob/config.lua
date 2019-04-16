@@ -40,7 +40,7 @@ Config.Zones = {
 			Size  = { x = 20.0, y = 20.0, z = 3.0 },
 			Color = { r = 204, g = 204, b = 0 },
 			Type  = -1,
-		},
+		}
 }
 
 Config.Towables = {
