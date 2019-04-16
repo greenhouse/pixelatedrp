@@ -950,7 +950,7 @@ function OpenBodySearchMenu(player)
 		local elements = {}
 
 		-- for i=1, #data.accounts, 1 do
-        local playerCash = player.money
+        local playerCash = player.getMoney()
         print("ENTER OpenBodySearchMenu")
         if playerCash >= 0 then
             print("ENTER IF OpenBodySearchMenu")
