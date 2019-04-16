@@ -889,18 +889,20 @@ Citizen.CreateThread(function()
 end)
 
 -- Create Blips
+
 Citizen.CreateThread(function()
-	local blip = AddBlipForCoord(Config.Zones.MecanoActions.Pos.x, Config.Zones.MecanoActions.Pos.y, Config.Zones.MecanoActions.Pos.z)
+	for k,v in pairs(Config.Zones.MecanoActions) do
+		local blip = AddBlipForCoord(v.Pos.x, v.Pos.y, v.Pos.z)
+    SetBlipSprite (blip, 446)
+  	SetBlipDisplay(blip, 4)
+  	SetBlipScale  (blip, 1.0)
+  	SetBlipColour (blip, 5)
+  	SetBlipAsShortRange(blip, true)
 
-	SetBlipSprite (blip, 446)
-	SetBlipDisplay(blip, 4)
-	SetBlipScale  (blip, 1.0)
-	SetBlipColour (blip, 5)
-	SetBlipAsShortRange(blip, true)
-
-	BeginTextCommandSetBlipName("STRING")
-	AddTextComponentString(_U('mechanic'))
-	EndTextCommandSetBlipName(blip)
+		BeginTextCommandSetBlipName("STRING")
+		AddTextComponentString(_U('mechanic'))
+		EndTextCommandSetBlipName(blip)
+	end
 end)
 
 -- Display markers
