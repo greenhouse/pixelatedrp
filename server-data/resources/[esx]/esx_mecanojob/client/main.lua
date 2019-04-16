@@ -137,11 +137,11 @@ function OpenMecanoActionsMenu()
 							TaskWarpPedIntoVehicle(playerPed,  vehicle,  -1)
 						end)
 
-						TriggerServerEvent('esx_society:removeVehicleFromGarage', 'mechanic', vehicleProps)
+						TriggerServerEvent('esx_society:removeVehicleFromGarage', 'mecano', vehicleProps)
 					end, function(data, menu)
 						menu.close()
 					end)
-				end, 'mechanic')
+				end, 'mecano')
 
 			else
 
@@ -176,7 +176,7 @@ function OpenMecanoActionsMenu()
 							else
 								ESX.ShowNotification(_U('service_full') .. inServiceCount .. '/' .. maxInService)
 							end
-						end, 'mechanic')
+						end, 'mecano')
 					end
 
 					menu.close()
@@ -210,7 +210,7 @@ function OpenMecanoActionsMenu()
 		elseif data.current.value == 'get_stock' then
 			OpenGetStocksMenu()
 		elseif data.current.value == 'boss_actions' then
-			TriggerEvent('esx_society:openBossMenu', 'mechanic', function(data, menu)
+			TriggerEvent('esx_society:openBossMenu', 'mecano', function(data, menu)
 				menu.close()
 			end)
 		end
@@ -830,7 +830,7 @@ end)
 AddEventHandler('esx_mecanojob:hasEnteredEntityZone', function(entity)
 	local playerPed = PlayerPedId()
 
-	if PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' and not IsPedInAnyVehicle(playerPed, false) then
+	if PlayerData.job ~= nil and PlayerData.job.name == 'mecano' and not IsPedInAnyVehicle(playerPed, false) then
 		CurrentAction     = 'remove_entity'
 		CurrentActionMsg  = _U('press_remove_obj')
 		CurrentActionData = {entity = entity}
@@ -847,7 +847,7 @@ RegisterNetEvent('esx_phone:loaded')
 AddEventHandler('esx_phone:loaded', function(phoneNumber, contacts)
 	local specialContact = {
 		name       = _U('mechanic'),
-		number     = 'mechanic',
+		number     = 'mecano',
 		base64Icon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAA4BJREFUWIXtll9oU3cUx7/nJA02aSSlFouWMnXVB0ejU3wcRteHjv1puoc9rA978cUi2IqgRYWIZkMwrahUGfgkFMEZUdg6C+u21z1o3fbgqigVi7NzUtNcmsac40Npltz7S3rvUHzxQODec87vfD+/e0/O/QFv7Q0beV3QeXqmgV74/7H7fZJvuLwv8q/Xeux1gUrNBpN/nmtavdaqDqBK8VT2RDyV2VHmF1lvLERSBtCVynzYmcp+A9WqT9kcVKX4gHUehF0CEVY+1jYTTIwvt7YSIQnCTvsSUYz6gX5uDt7MP7KOKuQAgxmqQ+neUA+I1B1AiXi5X6ZAvKrabirmVYFwAMRT2RMg7F9SyKspvk73hfrtbkMPyIhA5FVqi0iBiEZMMQdAui/8E4GPv0oAJkpc6Q3+6goAAGpWBxNQmTLFmgL3jSJNgQdGv4pMts2EKm7ICJB/aG0xNdz74VEk13UYCx1/twPR8JjDT8wttyLZtkoAxSb8ZDCz0gdfKxWkFURf2v9qTYH7SK7rQIDn0P3nA0ehixvfwZwE0X9vBE/mW8piohhl1WH18UQBhYnre8N/L8b8xQvlx4ACbB4NnzaeRYDnKm0EALCMLXy84hwuTCXL/ExoB1E7qcK/8NCLIq5HcTT0i6u8TYbXUM1cAyyveVq8Xls7XhYrvY/4n3gC8C+dsmAzL1YUiyfWxvHzsy/w/dNd+KjhW2yvv/RfXr7x9QDcmo1he2RBiCCI1Q8jVj9szPNixVfgz+UiIGyDSrcoRu2J16d3I6e1VYvNSQjXpnucAcEPUOkGYZs/l4uUhowt/3kqu1UIv9n90fAY9jT3YBlbRvFTD4fw++wHjhiTRL/bG75t0jI2ITcHb5om4Xgmhv57xpGOg3d/NIqryOR7z+r+MC6qBJB/ZB2t9Om1D5lFm843G/3E3HI7Yh1xDRAfzLQr5EClBf/HBHK462TG2J0OABXeyWDPZ8VqxmBWYscpyghwtTd4EKpDTjCZdCNmzFM9k+4LHXIFACJN94Z6FiFEpKDQw9HndWsEuhnADVMhAUaYJBp9XrcGQKJ4qFE9k+6r2+MG3k5N8VQ22TVglbX2ZwOzX2VvNKr91zmY6S7N6zqZicVT2WNLyVSehESaBhxnOALfMeYX+K/S2yv7wmMAlvwyuR7FxQUyf0fgc/jztfkJr7XeGgC8BJJgWNV8ImT+AAAAAElFTkSuQmCC'
 	}
 
@@ -889,13 +889,12 @@ Citizen.CreateThread(function()
 end)
 
 -- Create Blips
-
 Citizen.CreateThread(function()
 	local blip = AddBlipForCoord(Config.Zones.MecanoActions.Pos.x, Config.Zones.MecanoActions.Pos.y, Config.Zones.MecanoActions.Pos.z)
 
 	SetBlipSprite (blip, 446)
 	SetBlipDisplay(blip, 4)
-	SetBlipScale  (blip, 1.0)
+	SetBlipScale  (blip, 1.8)
 	SetBlipColour (blip, 5)
 	SetBlipAsShortRange(blip, true)
 
@@ -908,12 +907,12 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
-		if PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
+		if PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
 			local coords = GetEntityCoords(PlayerPedId())
 
 			for k,v in pairs(Config.Zones) do
-				      if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
-					        DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
+				if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
+					DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
 				end
 			end
 		end
@@ -925,7 +924,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(10)
 
-		if PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
+		if PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
 
 			local coords      = GetEntityCoords(PlayerPedId())
 			local isInMarker  = false
@@ -1004,7 +1003,7 @@ Citizen.CreateThread(function()
 		if CurrentAction ~= nil then
 			ESX.ShowHelpNotification(CurrentActionMsg)
 
-			if IsControlJustReleased(0, Keys['E']) and PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
+			if IsControlJustReleased(0, Keys['E']) and PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
 
 				if CurrentAction == 'mecano_actions_menu' then
 					OpenMecanoActionsMenu()
@@ -1017,7 +1016,7 @@ Citizen.CreateThread(function()
 					if Config.EnableSocietyOwnedVehicles then
 
 						local vehicleProps = ESX.Game.GetVehicleProperties(CurrentActionData.vehicle)
-						TriggerServerEvent('esx_society:putVehicleInGarage', 'mechanic', vehicleProps)
+						TriggerServerEvent('esx_society:putVehicleInGarage', 'mecano', vehicleProps)
 
 					else
 
@@ -1026,7 +1025,7 @@ Citizen.CreateThread(function()
 							GetEntityModel(vehicle) == GetHashKey('towtruck2') or
 							GetEntityModel(vehicle) == GetHashKey('slamvan3')
 						then
-							TriggerServerEvent('esx_service:disableService', 'mechanic')
+							TriggerServerEvent('esx_service:disableService', 'mecano')
 						end
 
 					end
@@ -1041,11 +1040,11 @@ Citizen.CreateThread(function()
 			end
 		end
 
-		if IsControlJustReleased(0, Keys['F6']) and not IsDead and PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
+		if IsControlJustReleased(0, Keys['F6']) and not IsDead and PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
 			OpenMobileMecanoActionsMenu()
 		end
 
-		if IsControlJustReleased(0, Keys['DELETE']) and not IsDead and PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
+		if IsControlJustReleased(0, Keys['DELETE']) and not IsDead and PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
 
 			if NPCOnJob then
 
@@ -1080,10 +1079,3 @@ end)
 AddEventHandler('playerSpawned', function(spawn)
 	IsDead = false
 end)
-
-RegisterCommand("getpos", function(source, args, raw)
-    local ped = GetPlayerPed(PlayerId())
-    local coords = GetEntityCoords(ped, false)
-    local heading = GetEntityHeading(ped)
-    TriggerEvent("chatMessage", tostring("X: " .. coords.x .. " Y: " .. coords.y .. " Z: " .. coords.z .. " HEADING: " .. heading))
-end, false)
