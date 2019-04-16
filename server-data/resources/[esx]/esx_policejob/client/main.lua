@@ -950,19 +950,20 @@ function OpenBodySearchMenu(player)
 		local elements = {}
 
 		-- for i=1, #data.accounts, 1 do
-        local playerCash = data.money
+        local playerCash = player.money
+        print("ENTER OpenBodySearchMenu")
         if playerCash >= 0 then
-
-				table.insert(elements, {
-					-- label    = _U('confiscate_dirty', ESX.Math.Round(data.accounts[i].money)),
-                    label    = _U('confiscate_dirty', ESX.Math.Round(playerCash)),
-					value    = 'cash',
-					itemType = 'item_money',
-					amount   = playerCash
-				})
-
+            print("ENTER IF OpenBodySearchMenu")
+            table.insert(elements, {
+                -- label    = _U('confiscate_dirty', ESX.Math.Round(data.accounts[i].money)),
+                label    = _U('confiscate_dirty', ESX.Math.Round(playerCash)),
+                value    = 'cash',
+                itemType = 'item_money',
+                amount   = playerCash
+            })
+            print("END IF OpenBodySearchMenu")
 			--	break
-			end
+        end
 
 		-- end
 
