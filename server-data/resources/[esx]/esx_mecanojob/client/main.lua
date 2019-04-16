@@ -950,6 +950,18 @@ Citizen.CreateThread(function()
 			local isInMarker  = false
 			local currentZone = nil
 
+
+      function loopThroughAllZones(zone)
+        for k,v in pairs(zone) do
+          if(GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < v.Size.x) then
+          isInMarker  = true
+          currentZone = zone
+
+          return currentZone
+          end
+        end
+      end
+      
 			loopThroughAllZones(Config.Zones.MecanoActions)
       loopThroughAllZones(Config.Zones.VehicleSpawnPoint)
       loopthroughAllZones(Config.Zones.VehicleDeleter)
@@ -969,14 +981,7 @@ Citizen.CreateThread(function()
 	end
 end)
 
-function loopThroughAllZones(zone)
-  for k,v in pairs(zone) do
-    if(GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < v.Size.x) then
-    isInMarker  = true
-    currentZone = k
-    end
-  end
-end
+
 
 Citizen.CreateThread(function()
 	local trackedEntities = {
