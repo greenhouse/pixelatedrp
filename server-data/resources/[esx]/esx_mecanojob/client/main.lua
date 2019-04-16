@@ -913,8 +913,10 @@ Citizen.CreateThread(function()
 			local coords = GetEntityCoords(PlayerPedId())
 
 			for k,v in pairs(Config.Zones) do
-				if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
-					DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
+        for j,c in pairs (v) do
+				      if(c.Type ~= -1 and GetDistanceBetweenCoords(coords, c.Pos.x, c.Pos.y, c.Pos.z, true) < Config.DrawDistance) then
+					        DrawMarker(c.Type, c.Pos.x, c.Pos.y, c.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, c.Size.x, c.Size.y, c.Size.z, c.Color.r, c.Color.g, c.Color.b, 100, false, true, 2, false, false, false, false)
+              end
 				end
 			end
 		end
