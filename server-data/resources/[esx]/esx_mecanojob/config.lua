@@ -69,8 +69,6 @@ Config.Zones = {
 			Color = { r = 204, g = 204, b = 0 },
 			Type  = -1,
 		},
-	}
-
 }
 
 Config.Towables = {
