@@ -33,7 +33,7 @@ Config.Zones = {
 	},
 
 	VehicleSpawnPoint = {
-		Pos   = {x = -206.15, y = -1315.35, z = 29.89},
+		Pos   = {x = -210.89, y = -1304.43, z = 30.29},
 		Size  = { x = 1.5, y = 1.5, z = 1.0 },
 		Type  = -1,
 	},
@@ -46,7 +46,7 @@ Config.Zones = {
 	},
 
 	VehicleDelivery = {
-		Pos   = { x = -212.52, y = -1304.82, z = 30.32 },
+		Pos   = { x = -205.53, y = -1316.40, z = 30.89},
 		Size  = { x = 20.0, y = 20.0, z = 3.0 },
 		Color = { r = 204, g = 204, b = 0 },
 		Type  = -1,
