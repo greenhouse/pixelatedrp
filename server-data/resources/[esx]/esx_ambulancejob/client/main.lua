@@ -95,9 +95,9 @@ end)
 function OnPlayerDeath()
 	IsDead = true
 	TriggerServerEvent('esx_ambulancejob:setDeathStatus', true)
-
+	print("isDead now true")
 	StartDeathTimer()
-	StartDistressSignal()
+	--StartDistressSignal()
 
 	StartScreenEffect('DeathFailOut', 0, false)
 end
