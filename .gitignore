@@ -1,5 +1,5 @@
 # misc
 *~
-
+*.DS_Store
 # ignore large file types (note: stream folder needed for resources: nw_bahamaMama)
 #stream/
