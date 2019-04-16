@@ -94,7 +94,7 @@ Citizen.CreateThread(function()
 				elseif IsFueling then
 					local position = GetEntityCoords(vehicle)
 
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y']+10, pumpLoc['z']+20, "Press G to cancel the fueling of your vehicle.")
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y']+50, pumpLoc['z']+50, "Press G to cancel the fueling of your vehicle.")
 					DrawText3Ds(position.x, position.y, position.z + 1.0, fuel .. "%")
 
 					DisableControlAction(0, 0, true) -- Changing view (V)
@@ -344,7 +344,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(250)
 
 		if IsPedInAnyVehicle(GetPlayerPed(-1)) then
-			Citizen.Wait(2500)
+			Citizen.Wait(1500)
 
 			Timer = true
 		else
@@ -462,31 +462,7 @@ function GetSeatPedIsIn(ped)
 	return -2
 end
 
-function DisplayHud()
-	local playerPed = GetPlayerPed(-1)
 
-	if Config.ShouldDisplayHud and IsPedInAnyVehicle(playerPed, false) and GetSeatPedIsIn(playerPed) == -1 then
-		local vehicle = GetPlayersLastVehicle()
-		local fuel    = math.ceil(round(GetVehicleFuelLevel(vehicle), 1))
-		local speed   = GetEntitySpeed(vehicle)
-		local kmh     = round(speed * 3.6, 0)
-		local mph     = round(speed * 2.236936, 0)
-
-		if fuel == 0 then
-			fuel = "0"
-		end
-		if kmh == 0 then
-			kmh = "0"
-		end
-		if mph == 0 then
-			mph = "0"
-		end
-
-		x = 0.01135
-		y = 0.002
-
-	end
-end
 
 RegisterNetEvent('LegacyFuel:ReturnFuelFromServerTable')
 AddEventHandler('LegacyFuel:ReturnFuelFromServerTable', function(vehInfo)
