@@ -485,7 +485,6 @@ function DisplayHud()
 		x = 0.01135
 		y = 0.002
 
-		DrawAdvancedText(0.148 - x, 0.7765 - y, 0.005, -0.0500, 0.4, "mp/h              km/h              Fuel", 255, 255, 255, 255, 6, 1)
 	end
 end
 
