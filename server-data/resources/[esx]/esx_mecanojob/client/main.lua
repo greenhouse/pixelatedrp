@@ -948,6 +948,11 @@ Citizen.CreateThread(function()
 				TriggerEvent('esx_mecanojob:hasExitedMarker', LastZone)
 			end
 
+      if not hasExited and not isInMarker and HasAlreadyEnteredMarker then
+        HasAlreadyEnteredMarker = false
+        TriggerEvent('esx_mecanojob:hasExitedMarker', LastZone)
+      end
+
 		end
 	end
 end)
@@ -1025,9 +1030,9 @@ Citizen.CreateThread(function()
 							GetEntityModel(vehicle) == GetHashKey('towtruck2') or
 							GetEntityModel(vehicle) == GetHashKey('slamvan3')
 						then
-							TriggerServerEvent('esx_service:disableService', 'mechanic')
+              TriggerServerEvent('esx_service:disableService', 'mechanic')
 						end
-
+          HasAlreadyEnteredMarker = true
 					end
 
 					ESX.Game.DeleteVehicle(CurrentActionData.vehicle)
