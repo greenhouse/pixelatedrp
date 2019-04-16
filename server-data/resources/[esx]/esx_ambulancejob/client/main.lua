@@ -95,9 +95,9 @@ end)
 function OnPlayerDeath()
 	IsDead = true
 	TriggerServerEvent('esx_ambulancejob:setDeathStatus', true)
-	print("isDead now true")
+
 	StartDeathTimer()
-	--StartDistressSignal()
+	StartDistressSignal()
 
 	StartScreenEffect('DeathFailOut', 0, false)
 end
@@ -122,6 +122,7 @@ function StartDistressSignal()
 			AddTextComponentSubstringPlayerName(_U('distress_send'))
 			EndTextCommandDisplayText(0.175, 0.805)
 
+
 			if IsControlPressed(0, Keys['G']) then
 				SendDistressSignal()
 
@@ -134,6 +135,7 @@ function StartDistressSignal()
 
 				break
 			end
+
 		end
 	end)
 end
@@ -297,7 +299,7 @@ function RespawnPed(ped, coords, heading)
 	ESX.UI.Menu.CloseAll()
 end
 
-[[--
+
 RegisterNetEvent('esx_addons_gcphone:call')
 AddEventHandler('esx_addons_gcphone:call', function(phoneNumber, contacts)
 	local specialContact = {
@@ -309,7 +311,7 @@ AddEventHandler('esx_addons_gcphone:call', function(phoneNumber, contacts)
 	TriggerEvent('esx_phone:addSpecialContact', specialContact.name, specialContact.number, specialContact.base64Icon)
 
 end)
---]]
+
 
 AddEventHandler('esx:onPlayerDeath', function(reason)
 	OnPlayerDeath()
