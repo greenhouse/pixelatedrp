@@ -950,7 +950,7 @@ function OpenBodySearchMenu(player)
 		local elements = {}
 
 		-- for i=1, #data.accounts, 1 do
-        local playerCash = data.getMoney()
+        local playerCash = data.money
         if playerCash >= 0 then
 
 				table.insert(elements, {
