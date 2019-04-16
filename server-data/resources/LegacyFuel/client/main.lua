@@ -94,7 +94,7 @@ Citizen.CreateThread(function()
 				elseif IsFueling then
 					local position = GetEntityCoords(vehicle)
 
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z']+7, "Press G to cancel the fueling of your vehicle.")
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z']+10, "Press G to cancel the fueling of your vehicle.")
 					DrawText3Ds(position.x, position.y, position.z + 1.0, fuel .. "%")
 
 					DisableControlAction(0, 0, true) -- Changing view (V)
@@ -156,7 +156,7 @@ Citizen.CreateThread(function()
 				local jerrycan = GetAmmoInPedWeapon(GetPlayerPed(-1), 883325847)
 
 				if IsFuelingWithJerryCan then
-					DrawText3Ds(coords.x, coords.y, coords.z + 0.5, "Press ~g~G ~w~to cancel fueling the vehicle. Currently at: " .. fuel .. "% - Jerry Can: " .. jerrycan)
+					DrawText3Ds(coords.x, coords.y, coords.z + 0.5, "Press G to cancel fueling the vehicle. Currently at: " .. fuel .. "% - Jerry Can: " .. jerrycan)
 
 					DisableControlAction(0, 0, true) -- Changing view (V)
 					DisableControlAction(0, 22, true) -- Jumping (SPACE)
@@ -190,7 +190,7 @@ Citizen.CreateThread(function()
 						IsFuelingWithJerryCan = false
 					end
 				else
-					DrawText3Ds(coords.x, coords.y, coords.z + 0.5, "Press ~g~G ~w~to fuel the vehicle with your gas can")
+					DrawText3Ds(coords.x, coords.y, coords.z + 0.5, "Press G to fuel the vehicle with your gas can")
 
 					if IsControlJustReleased(0, 47) then
 						local vehicle = GetPlayersLastVehicle()
@@ -485,7 +485,7 @@ function DisplayHud()
 		x = 0.01135
 		y = 0.002
 
-		DrawAdvancedText(0.2195 - x, 0.77 - y, 0.005, 0.0028, 0.6, fuel, 255, 255, 255, 255, 6, 1)
+		DrawAdvancedText(0.2195 - x, 0.77 - y, 0.005, 0.0050, 0.6, fuel, 255, 255, 255, 255, 6, 1)
 
 		DrawAdvancedText(0.130 - x, 0.77 - y, 0.005, 0.0028, 0.6, mph, 255, 255, 255, 255, 6, 1)
 		DrawAdvancedText(0.174 - x, 0.77 - y, 0.005, 0.0028, 0.6, kmh, 255, 255, 255, 255, 6, 1)
