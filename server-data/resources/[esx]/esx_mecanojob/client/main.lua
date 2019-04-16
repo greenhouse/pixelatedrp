@@ -925,7 +925,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(10)
 
-		if PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
+		if PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
 
 			local coords      = GetEntityCoords(PlayerPedId())
 			local isInMarker  = false
