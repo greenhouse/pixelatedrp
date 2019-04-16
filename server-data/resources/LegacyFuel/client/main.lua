@@ -94,7 +94,7 @@ Citizen.CreateThread(function()
 				elseif IsFueling then
 					local position = GetEntityCoords(vehicle)
 
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press G to cancel the fueling of your vehicle.")
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z']+5, "Press G to cancel the fueling of your vehicle.")
 					DrawText3Ds(position.x, position.y, position.z + 1.0, fuel .. "%")
 
 					DisableControlAction(0, 0, true) -- Changing view (V)
