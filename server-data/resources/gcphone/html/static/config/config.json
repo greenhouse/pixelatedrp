@@ -85,7 +85,7 @@
           "title": "Send a Message",
           "eventName": "esx_addons_gcphone:call",
           "type": {
-            "number": "mechanic"
+            "number": "mecano"
           }
         }
       ]
