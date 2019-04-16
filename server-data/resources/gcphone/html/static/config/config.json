@@ -72,7 +72,7 @@
           "title": "Send a Message",
           "eventName": "esx_addons_gcphone:call",
           "type": {
-            "number": "EMS"
+            "number": "ambulance"
           }
         }
       ]
