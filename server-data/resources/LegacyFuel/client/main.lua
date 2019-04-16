@@ -131,7 +131,7 @@ Citizen.CreateThread(function()
 				elseif fuel > 95.0 then
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Vehicle is too filled with gas to be fueled")
 				else
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press G to fuel your vehicle.")
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z']+5, "Press G to fuel your vehicle.")
 
 					if IsControlJustReleased(0, 47) then
 						local vehicle = GetPlayersLastVehicle()
