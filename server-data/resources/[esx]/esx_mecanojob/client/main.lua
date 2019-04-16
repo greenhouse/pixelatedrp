@@ -891,7 +891,7 @@ end)
 -- Create Blips
 
 Citizen.CreateThread(function()
-	for k,v in pairs(Config.Zones.MecanoActions) do
+	for k,v in pairs(Config.Zones) do
 		local blip = AddBlipForCoord(v.Pos.x, v.Pos.y, v.Pos.z)
     SetBlipSprite (blip, 446)
   	SetBlipDisplay(blip, 4)
