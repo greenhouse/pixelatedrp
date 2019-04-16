@@ -950,12 +950,10 @@ Citizen.CreateThread(function()
 			local isInMarker  = false
 			local currentZone = nil
 
-			for k,v in pairs(Config.Zones.MecanoActions, Config.Zones.VehicleSpawnPoint, Config.Zones.VehicleDeleter, Config.Zones.VehicleDelivery) do
-				if(GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < v.Size.x) then
-				isInMarker  = true
-				currentZone = k
-				end
-			end
+			loopThroughAllZones(Config.Zones.MecanoActions)
+      loopThroughAllZones(Config.Zones.VehicleSpawnPoint)
+      loopthroughAllZones(Config.Zones.VehicleDeleter)
+      loopThroughAllZones(Config.Zones.VehicleDelivery)
 
 			if (isInMarker and not HasAlreadyEnteredMarker) or (isInMarker and LastZone ~= currentZone) then
 				HasAlreadyEnteredMarker = true
@@ -967,10 +965,18 @@ Citizen.CreateThread(function()
 				HasAlreadyEnteredMarker = false
 				TriggerEvent('esx_mecanojob:hasExitedMarker', LastZone)
 			end
-
 		end
 	end
 end)
+
+function loopThroughAllZones(zone)
+  for k,v in pairs(zone) do
+    if(GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < v.Size.x) then
+    isInMarker  = true
+    currentZone = k
+    end
+  end
+end
 
 Citizen.CreateThread(function()
 	local trackedEntities = {
