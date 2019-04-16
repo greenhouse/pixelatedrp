@@ -29,7 +29,7 @@ local NearVehicleWithJerryCan = false
 function DrawText3Ds(x,y,z, text)
     local onScreen,_x,_y=World3dToScreen2d(x,y,z)
     local px,py,pz=table.unpack(GetGameplayCamCoords())
-    
+
     SetTextScale(0.35, 0.35)
     SetTextFont(4)
     SetTextProportional(1)
@@ -88,15 +88,15 @@ Citizen.CreateThread(function()
 			if nearPump and IsCloseToLastVehicle  then
 				local vehicle  = GetPlayersLastVehicle()
 				local fuel 	   = round(GetVehicleFuelLevel(vehicle), 1)
-				
+
 				if IsPedInAnyVehicle(GetPlayerPed(-1), false) then
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Exit to fuel your vehicle")
 				elseif IsFueling then
 					local position = GetEntityCoords(vehicle)
 
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press ~g~G ~w~to cancel the fueling of your vehicle.")
-					DrawText3Ds(position.x, position.y, position.z + 0.5, fuel .. "%")
-					
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press G to cancel the fueling of your vehicle.")
+					DrawText3Ds(position.x, position.y, position.z + 1.0, fuel .. "%")
+
 					DisableControlAction(0, 0, true) -- Changing view (V)
 					DisableControlAction(0, 22, true) -- Jumping (SPACE)
 					DisableControlAction(0, 23, true) -- Entering vehicle (F)
@@ -131,8 +131,8 @@ Citizen.CreateThread(function()
 				elseif fuel > 95.0 then
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Vehicle is too filled with gas to be fueled")
 				else
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press ~g~G ~w~to fuel your vehicle.")
-					
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press G to fuel your vehicle.")
+
 					if IsControlJustReleased(0, 47) then
 						local vehicle = GetPlayersLastVehicle()
 						local plate   = GetVehicleNumberPlateText(vehicle)
@@ -154,7 +154,7 @@ Citizen.CreateThread(function()
 				local coords   = GetEntityCoords(vehicle)
 				local fuel 	   = round(GetVehicleFuelLevel(vehicle), 1)
 				local jerrycan = GetAmmoInPedWeapon(GetPlayerPed(-1), 883325847)
-				
+
 				if IsFuelingWithJerryCan then
 					DrawText3Ds(coords.x, coords.y, coords.z + 0.5, "Press ~g~G ~w~to cancel fueling the vehicle. Currently at: " .. fuel .. "% - Jerry Can: " .. jerrycan)
 
@@ -363,10 +363,10 @@ Citizen.CreateThread(function()
 		NearVehicleWithJerryCan = false
 
 		local myCoords = GetEntityCoords(GetPlayerPed(-1))
-		
+
 		for i = 1, #models do
 			local closestPump = GetClosestObjectOfType(myCoords.x, myCoords.y, myCoords.z, 1.5, models[i], false, false)
-			
+
 			if closestPump ~= nil and closestPump ~= 0 then
 				local coords    = GetEntityCoords(closestPump)
 				local vehicle   = GetPlayersLastVehicle()
@@ -424,7 +424,7 @@ Citizen.CreateThread(function()
 			if blacklistedVehicles[i] == currentVeh then
 				InBlacklistedVehicle = true
 				found 				 = true
-				
+
 				break
 			end
 		end
@@ -434,7 +434,7 @@ Citizen.CreateThread(function()
 		end
 
 		local CurrentWeapon = GetSelectedPedWeapon(GetPlayerPed(-1))
-						
+
 		if CurrentWeapon == 883325847 then
 			local MyCoords 		= GetEntityCoords(GetPlayerPed(-1))
 			local Vehicle  		= GetClosestVehicle(MyCoords.x, MyCoords.y, MyCoords.z, 3.0, false, 23) == GetPlayersLastVehicle() and GetPlayersLastVehicle() or 0
