@@ -895,7 +895,7 @@ Citizen.CreateThread(function()
 
 	SetBlipSprite (blip, 446)
 	SetBlipDisplay(blip, 4)
-	SetBlipScale  (blip, 1.8)
+	SetBlipScale  (blip, 1.0)
 	SetBlipColour (blip, 5)
 	SetBlipAsShortRange(blip, true)
 
@@ -925,7 +925,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(10)
 
-		if PlayerData.job ~= nil and PlayerData.job.name == 'mechanic' then
+		if PlayerData.job ~= nil and PlayerData.job.name == 'mecano' then
 
 			local coords      = GetEntityCoords(PlayerPedId())
 			local isInMarker  = false
