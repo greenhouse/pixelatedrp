@@ -1343,7 +1343,7 @@ RegisterCommand("e",function(source, args)
 end, false)
 
 ----Use /testanimation command, you can use this to easily test new animations---
-[[--
+
 RegisterCommand("testanim",function(source, args)
 
 	local ad = "amb@world_human_aa_coffee@base" --- insert the animation dic here
@@ -1362,7 +1362,7 @@ RegisterCommand("testanim",function(source, args)
 		end       
 	end
 end, false)
---]]
+
 
 ----------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------ functions -----------------------------------------------------------------
