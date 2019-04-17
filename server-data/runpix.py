@@ -77,19 +77,19 @@ if argCnt > 1:
             sys.exit()
 
         if argv == '-dev':
-            print("'-dev' flag detected ... setting %s... (%s)" % (strCfgDev,filename))
+            print("\n '-dev' flag detected ... setting %s... (%s)" % (strCfgDev,filename))
             stringConfig = strCfgDev
         
         if argv == '-prod':
-            print("'-prod' flag detected ... setting %s... (%s)" % (strCfgProd,filename))
-            print("NOTE: '-prod' flag currently disabled; please use '-dev'")
+            print("'\n -prod' flag detected ... setting %s... (%s)" % (strCfgProd,filename))
+            print("\n NOTE: '-prod' flag currently disabled; please use '-dev'")
             print("\n ... sys.exit()\n\n")
             sys.exit()
             stringConfig = strCfgProd
 
         if argv == '-zap':
-            print("'-zap' flag detected ... setting %s (w/o 'sv_licenseKey' set)... (%s)" % (strCfgProd,filename))
-            print("WARNING: '-zap' flag expects yield error ref: no 'sv_licenseKey'")
+            print("\n '-zap' flag detected ... setting %s (w/o 'sv_licenseKey' set)... (%s)" % (strCfgProd,filename))
+            print("\nWARNING: '-zap' flag expects yield error ref: no 'sv_licenseKey'")
             stringConfig = strCfgProd
 
     print(filename, '\n  DONE Checking CLI flags...')
