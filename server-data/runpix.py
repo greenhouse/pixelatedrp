@@ -52,13 +52,13 @@ usage = (":- USAGE examples... \n\n"
          "      - runs server.cfg \n"
          "          - uses no 'sv_licenseKey' var set \n"
          "          - uses dynamic zap IP:port assisgnment (last 185.249.196.40:32070) \n"
-         "          - WARNING: '-zap' flag yields error ref: no 'sv_licenseKey' \n\n"
+         "          - WARNING: '-zap' flag expects yield error ref: no 'sv_licenseKey' \n\n"
          "4) examples... \n"
          "      - '$ python runpix.py -dev' \n"
          "      - '$ python runpix.py -prod' \n"
          "      - '$ python runpix.py -zap' \n"
          "      - NOTE: '-prod' flag currently disabled \n"
-         "      - WARNING: '-zap' flag yields error ref: no 'sv_licenseKey' \n\n"
+         "      - WARNING: '-zap' flag expects yield error ref: no 'sv_licenseKey' \n\n"
          "      - . . . \n\n"
          " exiting... \n"
          )
@@ -82,10 +82,14 @@ if argCnt > 1:
         
         if argv == '-prod':
             print("'-prod' flag detected ... setting %s... (%s)" % (strCfgProd,filename))
+            print("NOTE: '-prod' flag currently disabled; please use '-dev'")
+            print("\n ... sys.exit()\n\n")
+            sys.exit()
             stringConfig = strCfgProd
 
         if argv == '-zap':
             print("'-zap' flag detected ... setting %s (w/o 'sv_licenseKey' set)... (%s)" % (strCfgProd,filename))
+            print("WARNING: '-zap' flag expects yield error ref: no 'sv_licenseKey'")
             stringConfig = strCfgProd
 
     print(filename, '\n  DONE Checking CLI flags...')
