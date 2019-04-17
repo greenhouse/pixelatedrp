@@ -81,7 +81,7 @@ if argCnt > 1:
             stringConfig = strCfgDev
         
         if argv == '-prod':
-            print("'\n -prod' flag detected ... setting %s... (%s)" % (strCfgProd,filename))
+            print("\n '-prod' flag detected ... setting %s... (%s)" % (strCfgProd,filename))
             print("\n NOTE: '-prod' flag currently disabled; please use '-dev'")
             print("\n ... sys.exit()\n\n")
             sys.exit()
