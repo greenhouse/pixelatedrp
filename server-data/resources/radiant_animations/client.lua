@@ -114,8 +114,8 @@
 
 local radioActive 				= false
 local radioButton				= 303 --- U by default  -- use 57 for f10
-local handsUpButton				= 74 --- H by default -- use 73 for X
-local Keys = {["X"] = 73}
+local handsUpButton				= 73 --- H by default -- use 73 for X
+local Keys = {["X"] = 73, ["Z"] = 20}
 
 
 --- Function for radio chatter function
@@ -1379,7 +1379,7 @@ Citizen.CreateThread(function(prop_name, secondaryprop_name)
 			DeleteObject(prop)
 			DetachEntity(secondaryprop, 1, 1)
 			DeleteObject(secondaryprop)
-		elseif IsControlJustReleased(0, Keys['X']) then
+		elseif IsControlJustReleased(0, Keys['Z']) then
 			local playerPed = PlayerPedId()
 			local prop_name = prop_name
 			local secondaryprop_name = secondaryprop_name
@@ -1402,7 +1402,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 
-		if IsControlJustReleased(0, Keys['X']) and IsInputDisabled(0) and not isDead then
+		if IsControlJustReleased(0, Keys['Z']) and IsInputDisabled(0) and not isDead then
 			ClearPedTasks(PlayerPedId())
 			local prop_name = prop_name
 			local secondaryprop_name = secondaryprop_name
