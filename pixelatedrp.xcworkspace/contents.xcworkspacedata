@@ -5,6 +5,9 @@
       location = "group:server-data"
       name = "server-data">
       <FileRef
+         location = "group:../run.py">
+      </FileRef>
+      <FileRef
          location = "group:server.cfg">
       </FileRef>
       <FileRef
