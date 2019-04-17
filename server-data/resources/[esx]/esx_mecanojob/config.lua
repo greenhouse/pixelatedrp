@@ -19,7 +19,7 @@ Config.Vehicles = {
 Config.Zones = {
 
 	MecanoActions = {
-			Pos   = { x = -207.316, y = -1341.096, z = 34.00 },
+			Pos   = { x = -197.14999389648, y = -1318.67468261, z = 30.089344 },
 			Size  = { x = 1.5, y = 1.5, z = 1.0 },
 			Color = { r = 204, g = 204, b = 0 },
 			Type  = 1,
