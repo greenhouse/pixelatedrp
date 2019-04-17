@@ -92,7 +92,7 @@ if argCnt > 1:
             print("\nWARNING: '-zap' flag expects yield error ref: no 'sv_licenseKey'")
             stringConfig = strCfgProd
 
-    print(filename, '\n  DONE Checking CLI flags...')
+    print('\n  DONE Checking CLI flags...')
     runSubprocess([strPath, '+exec', stringConfig])
     sys.exit()
 else:
