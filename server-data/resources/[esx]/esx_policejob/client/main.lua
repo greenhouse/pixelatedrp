@@ -655,6 +655,22 @@ function drawLoadingText(text, red, green, blue, alpha)
 	EndTextCommandDisplayText(0.5, 0.5)
 end
 
+function JailPlayer(player)
+    ESX.UI.Menu.Open('dialog', GetCurrentResourceName(), 'jail_menu', {
+        title = _U('jail_menu_info'),
+    }, function (data2, menu)
+        local jailTime = tonumber(data2.value)
+        if jailTime == nil then
+            ESX.ShowNotification('invalid number!')
+        else
+            TriggerServerEvent("esx_jail:sendToJail", player, jailTime * 60)
+            menu.close()
+        end
+    end, function (data2, menu)
+        menu.close()
+    end)
+end
+
 function OpenPoliceActionsMenu()
 	ESX.UI.Menu.CloseAll()
 
@@ -678,7 +694,8 @@ function OpenPoliceActionsMenu()
 				{label = _U('put_in_vehicle'),	value = 'put_in_vehicle'},
 				{label = _U('out_the_vehicle'),	value = 'out_the_vehicle'},
 				{label = _U('fine'),			value = 'fine'},
-				{label = _U('unpaid_bills'),	value = 'unpaid_bills'}
+				{label = _U('unpaid_bills'),	value = 'unpaid_bills'},
+                {label = _U('jail'),            value = 'jail'}
 			}
 		
 			if Config.EnableLicenses then
@@ -716,6 +733,10 @@ function OpenPoliceActionsMenu()
 					elseif action == 'unpaid_bills' then
 						OpenUnpaidBillsMenu(closestPlayer)
 					end
+
+                    if data2.current.value == 'jail' then
+                        JailPlayer(GetPlayerServerId(closestPlayer))
+                    end
 
 				else
 					ESX.ShowNotification(_U('no_players_nearby'))
@@ -946,25 +967,24 @@ end
 function OpenBodySearchMenu(player)
 
 	ESX.TriggerServerCallback('esx_policejob:getOtherPlayerData', function(data)
-        print("ENTER ESX.TriggerServerCallback")
+
 		local elements = {}
 
-		-- for i=1, #data.accounts, 1 do
-        local playerCash = player.getMoney()
-        if playerCash >= 0 then
-            print("ENTER if ESX.TriggerServerCallback")
-            table.insert(elements, {
-                -- label    = _U('confiscate_dirty', ESX.Math.Round(data.accounts[i].money)),
-                label    = _U('confiscate_dirty', ESX.Math.Round(playerCash)),
-                value    = 'cash',
-                itemType = 'item_money',
-                amount   = playerCash
-            })
-            print("END if ESX.TriggerServerCallback")
-			--	break
-        end
+		for i=1, #data.accounts, 1 do
 
-		-- end
+            if data.accounts[i].name == 'black_money' and data.accounts[i].money > 0 then
+
+                table.insert(elements, {
+                    label    = _U('confiscate_dirty', ESX.Math.Round(data.accounts[i].money)),
+                    value    = 'black_money',
+                    itemType = 'item_account',
+                    amount   = data.accounts[i].money
+                })
+
+                break
+            end
+
+		end
 
 		table.insert(elements, {label = _U('guns_label'), value = nil})
 

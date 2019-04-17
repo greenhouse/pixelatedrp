@@ -35,42 +35,10 @@ function startAttitude(lib, anim)
 	end)
 end
 
-function startAnim(lib, anim)
-	ESX.Streaming.RequestAnimDict(lib, function()
-		TaskPlayAnim(PlayerPedId(), lib, anim, 8.0, -8.0, -1, 0, 0, false, false, false)
-	end)
-end
-
-function startScenario(anim)
-	TaskStartScenarioInPlace(PlayerPedId(), anim, 0, false)
-end
-
 function OpenAnimationsMenu()
 	local elements = {}
 
 	for i=1, #Config.Animations, 1 do
-		table.insert(elements, {label = Config.Animations[i].label, value = Config.Animations[i].name})
-	end
-
-	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'animations',
-	{
-		title    = 'Animations',
-		align    = 'top-left',
-		elements = elements
-	}, function(data, menu)
-		OpenAnimationsSubMenu(data.current.value)
-	end, function(data, menu)
-		menu.close()
-	end)
-end
-
-function OpenAnimationsSubMenu(menu)
-	local title    = nil
-	local elements = {}
-
-	for i=1, #Config.Animations, 1 do
-		if Config.Animations[i].name == menu then
-			title = Config.Animations[i].label
 
 			for j=1, #Config.Animations[i].items, 1 do
 				table.insert(elements, {
@@ -82,12 +50,11 @@ function OpenAnimationsSubMenu(menu)
 
 			break
 
-		end
 	end
 
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'animations_sub',
 	{
-		title    = title,
+		title    = "walking styles",
 		align    = 'top-left',
 		elements = elements
 	}, function(data, menu)
@@ -95,15 +62,12 @@ function OpenAnimationsSubMenu(menu)
 		local lib  = data.current.value.lib
 		local anim = data.current.value.anim
 
-		if type == 'scenario' then
-			startScenario(anim)
-		elseif type == 'attitude' then
+		if type == 'attitude' then
 			startAttitude(lib, anim)
-		elseif type == 'anim' then
-			startAnim(lib, anim)
 		end
-	end, function(data, menu)
-		menu.close()
+		ESX.UI.Menu.CloseAll()
+	end, function()
+		ESX.UI.Menu.CloseAll()
 	end)
 end
 
@@ -112,12 +76,9 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 
-		if IsControlJustReleased(0, Keys['F3']) and GetLastInputMethod(2) and not isDead then
-			OpenAnimationsMenu()
-		end
-
-		if IsControlJustReleased(0, Keys['X']) and GetLastInputMethod(2) and not isDead then
-			ClearPedTasks(PlayerPedId())
+		if IsControlJustReleased(0, Keys['F3']) and IsInputDisabled(0) and not isDead then
+			ESX.UI.Menu.CloseAll()
+			OpenAnimationsMenu(menu)
 		end
 
 	end

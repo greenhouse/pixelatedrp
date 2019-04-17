@@ -163,7 +163,7 @@ Config.Jobs.fisherman = {
 				time   = 500,
 				remove = 1,
 				max    = 100, -- if not present, probably an error at itemQtty >= item.max in esx_jobs_sv.lua
-				price  = 11,
+				price  = 25,
 				requires = "fish",
 				requires_name = _U('fm_fish'),
 				drop   = 100

@@ -369,6 +369,7 @@ RegisterCommand("e",function(source, args)
 				if ( DoesEntityExist( player ) and not IsEntityDead( player )) then 
 					loadAnimDict( ad )
 					if ( IsEntityPlayingAnim( player, ad, "cellphone_call_listen_base", 3 ) ) then 
+				
 						TaskPlayAnim( player, ad, "exit", 8.0, 1.0, -1, 49, 0, 0, 0, 0 )
 						Wait (100)
 						ClearPedSecondaryTask(PlayerPedId())
@@ -381,10 +382,11 @@ RegisterCommand("e",function(source, args)
 						TaskPlayAnim( player, ad, "cellphone_call_listen_base", 8.0, 1.0, -1, 49, 0, 0, 0, 0 )
 					end 
 				end
-			elseif argh == 'umb' then
-				local ad = "amb@world_human_drinking@coffee@male@idle_a"
 				
-				local prop_name = prop_name or 'p_amb_brolly_01'
+			elseif argh == 'umbrella' then
+				local ad = "amb@world_human_drinking@coffee@male@base"
+				
+				local prop_name = prop_name or 'p_amb_brolly_01_s'
 				
 				if ( DoesEntityExist( player ) and not IsEntityDead( player )) then 
 					loadAnimDict( ad )
@@ -1341,11 +1343,11 @@ RegisterCommand("e",function(source, args)
 end, false)
 
 ----Use /testanimation command, you can use this to easily test new animations---
-
+[[--
 RegisterCommand("testanim",function(source, args)
 
-	local ad = "mini@drinking" --- insert the animation dic here
-	local anim = "shots_barman_c" --- insert the animation name here
+	local ad = "amb@world_human_aa_coffee@base" --- insert the animation dic here
+	local anim = "base" --- insert the animation name here
 	local player = PlayerPedId()
 	
 
@@ -1360,6 +1362,7 @@ RegisterCommand("testanim",function(source, args)
 		end       
 	end
 end, false)
+--]]
 
 ----------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------ functions -----------------------------------------------------------------

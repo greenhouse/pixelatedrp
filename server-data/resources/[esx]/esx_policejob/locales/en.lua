@@ -74,6 +74,7 @@ Locales['en'] = {
   ['out_the_vehicle'] = 'drag out from vehicle',
   ['fine'] = 'fine',
   ['unpaid_bills'] = 'manage unpaid bills',
+  ['jail'] = 'jail',
   ['license_check'] = 'manage license',
   ['license_revoke'] = 'revoke license',
   ['license_revoked'] = 'your ~b~%s~s~ has been ~y~revoked~s~!',

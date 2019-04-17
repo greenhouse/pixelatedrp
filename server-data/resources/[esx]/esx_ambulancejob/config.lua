@@ -4,11 +4,11 @@ Config.DrawDistance               = 100.0
 
 Config.Marker                     = { type = 1, x = 1.5, y = 1.5, z = 0.5, r = 102, g = 0, b = 102, a = 100, rotate = false }
 
-Config.ReviveReward               = 700  -- revive reward, set to 0 if you don't want it enabled
+Config.ReviveReward               = 100  -- revive reward, set to 0 if you don't want it enabled
 Config.AntiCombatLog              = true -- enable anti-combat logging?
 Config.LoadIpl                    = true -- disable if you're using fivem-ipl or other IPL loaders
 
-Config.Locale                     = 'fr'
+Config.Locale                     = 'en'
 
 local second = 1000
 local minute = 60 * second
@@ -21,7 +21,7 @@ Config.EnableSocietyOwnedVehicles = false
 
 Config.RemoveWeaponsAfterRPDeath  = true
 Config.RemoveCashAfterRPDeath     = true
-Config.RemoveItemsAfterRPDeath    = true
+Config.RemoveItemsAfterRPDeath    = false
 
 -- Let the player pay for respawning early, only if he can afford it.
 Config.EarlyRespawnFine           = false
@@ -136,7 +136,7 @@ Config.AuthorizedVehicles = {
 		{
 			model = 'ambulance',
 			label = 'Ambulance Van',
-			price = 5000
+			price = 1
 		}
 	},
 
@@ -144,7 +144,7 @@ Config.AuthorizedVehicles = {
 		{
 			model = 'ambulance',
 			label = 'Ambulance Van',
-			price = 4500
+			price = 1
 		}
 	},
 
@@ -152,7 +152,7 @@ Config.AuthorizedVehicles = {
 		{
 			model = 'ambulance',
 			label = 'Ambulance Van',
-			price = 3000
+			price = 1
 		}
 	},
 
@@ -160,7 +160,7 @@ Config.AuthorizedVehicles = {
 		{
 			model = 'ambulance',
 			label = 'Ambulance Van',
-			price = 2000
+			price = 1
 		}
 	}
 
@@ -174,7 +174,7 @@ Config.AuthorizedHelicopters = {
 		{
 			model = 'buzzard2',
 			label = 'Nagasaki Buzzard',
-			price = 150000
+			price = 1
 		}
 	},
 
@@ -182,13 +182,13 @@ Config.AuthorizedHelicopters = {
 		{
 			model = 'buzzard2',
 			label = 'Nagasaki Buzzard',
-			price = 150000
+			price = 1
 		},
 
 		{
 			model = 'seasparrow',
 			label = 'Sea Sparrow',
-			price = 300000
+			price = 1
 		}
 	},
 
@@ -196,13 +196,13 @@ Config.AuthorizedHelicopters = {
 		{
 			model = 'buzzard2',
 			label = 'Nagasaki Buzzard',
-			price = 100000
+			price = 1
 		},
 
 		{
 			model = 'seasparrow',
 			label = 'Sea Sparrow',
-			price = 250000
+			price = 1
 		}
 	}
 

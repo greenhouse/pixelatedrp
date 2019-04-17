@@ -1,4 +1,4 @@
-USE `essentialmode`;
+USE `zap408714-1`;
 
 CREATE TABLE `whitelist` (
 	`identifier` varchar(70) NOT NULL,
