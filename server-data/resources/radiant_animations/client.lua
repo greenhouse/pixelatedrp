@@ -113,7 +113,7 @@
 ------------------------------------------------------------------------------------------ END ESX SUPPORT ------------------------------------------------------------------------------------------
 
 local radioActive 				= false
-local radioButton				= 303 --- U by default  -- use 57 for f10
+local radioButton				= 244 --- U by default  -- use 57 for f10
 local handsUpButton				= 73 --- H by default -- use 73 for X
 local Keys = {["X"] = 73, ["Z"] = 20}
 
@@ -124,8 +124,8 @@ Citizen.CreateThread( function()
 	while true do
 		Citizen.Wait(0)
 		-- if you use ESX Framework and want this to be a cop only thing then replace the line below this with the following:
-		-- if (PlayerData.job ~= nil and PlayerData.job.name == 'police') and (IsControlJustPressed(0,radioButton)) then
-		if (IsControlJustPressed(0,radioButton))  then
+		if (PlayerData.job ~= nil and PlayerData.job.name == 'police') and (IsControlJustPressed(0,radioButton)) then
+		--if (IsControlJustPressed(0,radioButton))  then
 			local ped = PlayerPedId()
 			--TriggerEvent('chatMessage', 'TESTING ANIMATION')
 	
@@ -165,8 +165,8 @@ Citizen.CreateThread( function()
 	while true do
 		Citizen.Wait(0)
 		-- if you use ESX Framework and want this to be a cop only thing then replace the line below this with the following:
-		-- if (PlayerData.job ~= nil and PlayerData.job.name == 'police') and (IsControlJustReleased(0,57))  and (radioActive) then
-		if (IsControlJustReleased(0,raisehandbutton))  and (radioActive) then
+		if (PlayerData.job ~= nil and PlayerData.job.name == 'police') and (IsControlJustReleased(0,57))  and (radioActive) then
+		--if (IsControlJustReleased(0,raisehandbutton))  and (radioActive) then
 			local ped = PlayerPedId()
 	
 			if ( DoesEntityExist( ped ) and not IsEntityDead( ped ) ) then 
@@ -186,7 +186,7 @@ Citizen.CreateThread( function()
 
 	while true do
 		Citizen.Wait(0)
-		if (IsControlJustPressed(0,handsUpButton))  then
+		if (IsControlJustPressed(0,handsUpButton)) and GetLastInputMethod(2) then
 			local ped = PlayerPedId()
 	
 			if ( DoesEntityExist( ped ) and not IsEntityDead( ped ) ) then
@@ -223,7 +223,7 @@ Citizen.CreateThread(function()
     local handsup = false
 	while true do
 		Citizen.Wait(0)
-		if IsControlJustPressed(1, 47) then --Start holding g
+		if IsControlJustPressed(1, 182) then --Start holding g
             if not handsup then
                 TaskPlayAnim(GetPlayerPed(-1), dict, "base", 8.0, 8.0, -1, 50, 0, false, false, false)
                 handsup = true
