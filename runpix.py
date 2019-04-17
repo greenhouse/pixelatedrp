@@ -16,14 +16,14 @@ def runSubprocess(lstArgsRun):
     print('\n')
     subprocess.call(lstArgsRun)
 
-
 ## run.sh path
 strPath = '/srv/pixelatedrp_greenhouse/server/run.sh'
 #strPath = '/srv/PixelatedRp1.0/server/run.sh'
 
-strCfgDev = 'dev_server.cfg'
-strCfgProd = 'server.cfg'
-strCfg = strCfgDev
+strCfgDev = '/srv/pixelatedrp_greenhouse/server-data/dev_server.cfg'
+strCfgProd = '/srv/pixelatedrp_greenhouse/server-data/server.cfg'
+#strCfgDev = '/srv/PixelatedRp1.0/server-data/dev_server.cfg'
+#strCfgProd = '/srv/PixelatedRp1.0/server-data/server.cfg'
 
 def readCliArgs():
     funcname = '(%s) readCliArgs' % filename
