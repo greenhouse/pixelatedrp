@@ -73,3 +73,10 @@ RegisterNetEvent("es:enablePvp")
 AddEventHandler("es:enablePvp", function()
 	pvpEnabled = true
 end)
+
+RegisterCommand("getpos", function(source, args, raw)
+    local ped = GetPlayerPed(PlayerId())
+    local coords = GetEntityCoords(ped, false)
+    local heading = GetEntityHeading(ped)
+    Citizen.Trace(tostring("X: " .. coords.x .. " Y: " .. coords.y .. " Z: " .. coords.z .. " HEADING: " .. heading))
+end, false)
