@@ -163,7 +163,6 @@ Config.AuthorizedVehicles = {
 	},
 
 	sergeant = {
-		{ model = 'policet', label = 'Police Transporter', price = 1},
 		{ model = 'policeb', label = 'Police Bike', price = 1},
 		{ model = 'police3', label = 'Police Interceptor', price = 1},
 		{ model = 'SFBC4',label = 'SFBC4', price = 1 },
@@ -186,12 +185,11 @@ Config.AuthorizedVehicles = {
 
 	lieutenant = {
 		{model = 'fbi2',label = 'FIB SUV',price = 1},
-		{ model = 'policet', label = 'Police Transporter', price = 1},
+		{ model = '2015polstang', label = 'Polstang', price = 1 },
 		{ model = 'policeb', label = 'Police Bike', price = 1},
 		{ model = 'police3', label = 'Police Interceptor', price = 1},
 		{ model = 'SFBC4',label = 'SFBC4', price = 1 },
 		{ model = 'srt8police', label = 'srt8police', price = 1 },
-		{ model = '2015polstang', label = 'Polstang', price = 1 },
 		{ model = '1200rt', label = '1200rt', price = 1 },
 		{ model = 'SFBC3', label = 'SFBC3', price = 1 },
 	},
@@ -200,29 +198,25 @@ Config.AuthorizedVehicles = {
 		{ model = 'SFBC4', label = 'SFBC4', price = 1 },
 		{ model = 'srt8police', label = 'srt8police', price = 1 },
 		{ model = 'SFBC3', 	label = 'SFBC3', price = 1 },
-		{ model = '2015polstang', label = '2015polstang', price = 1 },
+		{ model = '2015polstang', label = 'Polstang', price = 1 },
 		{ model = 'SFBC1', label = 'SFBC1', price = 1 },
 		{ model = 'SFBC2', label = 'SFBC2', price = 1 },
 		{ model = 'SFUM2', label = 'SFUM2', price = 1 },
 		{ model = 'SFUM1', label = 'SFUM1', price = 1 },
-		{ model = 'riot', label = 'Riot', price = 1 },
-		{ model = 'PBus', label = 'Prion Bus', price = 1 },
-		{ model = '2015polstang', label = 'Polstang', price = 1 },
+		{model = 'fbi2',label = 'FIB SUV',price = 1},
 		{ model = '1200rt', label = '1200rt', price = 1 }
 	},
 
 	boss = {
+		{ model = '2015polstang', label = 'Polstang', price = 1 },
 		{ model = 'SFBC4', label = 'SFBC4', price = 1 },
 		{ model = 'srt8police', label = 'srt8police', price = 1 },
 		{ model = 'SFBC3', 	label = 'SFBC3', price = 1 },
-		{ model = '2015polstang', label = '2015polstang', price = 1 },
 		{ model = 'SFBC1', label = 'SFBC1', price = 1 },
 		{ model = 'SFBC2', label = 'SFBC2', price = 1 },
 		{ model = 'SFUM2', label = 'SFUM2', price = 1 },
 		{ model = 'SFUM1', label = 'SFUM1', price = 1 },
-		{ model = 'riot', label = 'Riot', price = 1 },
-		{ model = 'PBus', label = 'Prion Bus', price = 1 },
-		{ model = '2015polstang', label = 'Polstang', price = 1 },
+		{model = 'fbi2',label = 'FIB SUV',price = 1},
 		{ model = '1200rt', label = '1200rt', price = 1 }
 	}
 }
