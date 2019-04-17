@@ -31,7 +31,7 @@ local cash 					  = 0
 function DrawText3Ds(x,y,z, text)
     local onScreen,_x,_y=World3dToScreen2d(x,y,z)
     local px,py,pz=table.unpack(GetGameplayCamCoords())
-    
+
     SetTextScale(0.35, 0.35)
     SetTextFont(4)
     SetTextProportional(1)
@@ -90,15 +90,15 @@ Citizen.CreateThread(function()
 			if nearPump and IsCloseToLastVehicle then
 				local vehicle  = GetPlayersLastVehicle()
 				local fuel 	   = round(GetVehicleFuelLevel(vehicle), 1)
-				
+
 				if IsPedInAnyVehicle(GetPlayerPed(-1), false) then
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Exit to fuel your vehicle")
 				elseif IsFueling then
 					local position = GetEntityCoords(vehicle)
 
-					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press ~g~G ~w~to cancel the fueling of your vehicle. $~r~" .. price .. " ~w~+  tax")
+					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press ~g~G ~w~to cancel the fueling of your vehicle. $~r~" .. price .. "    ~w~+  tax")
 					DrawText3Ds(position.x, position.y, position.z + 0.5, fuel .. "%")
-					
+
 					DisableControlAction(0, 0, true) -- Changing view (V)
 					DisableControlAction(0, 22, true) -- Jumping (SPACE)
 					DisableControlAction(0, 23, true) -- Entering vehicle (F)
@@ -138,7 +138,7 @@ Citizen.CreateThread(function()
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "You currently don't have enough money on you to buy fuel with")
 				else
 					DrawText3Ds(pumpLoc['x'], pumpLoc['y'], pumpLoc['z'], "Press ~g~G ~w~to fuel your vehicle. $~r~0.5/~w~gallon + tax")
-					
+
 					if IsControlJustReleased(0, 47) then
 						local vehicle = GetPlayersLastVehicle()
 						local plate   = GetVehicleNumberPlateText(vehicle)
@@ -160,7 +160,7 @@ Citizen.CreateThread(function()
 				local coords   = GetEntityCoords(vehicle)
 				local fuel 	   = round(GetVehicleFuelLevel(vehicle), 1)
 				local jerrycan = GetAmmoInPedWeapon(GetPlayerPed(-1), 883325847)
-				
+
 				if IsFuelingWithJerryCan then
 					DrawText3Ds(coords.x, coords.y, coords.z + 0.5, "Press ~g~G ~w~to cancel fueling the vehicle. Currently at: " .. fuel .. "% - Jerry Can: " .. jerrycan)
 
@@ -399,10 +399,10 @@ Citizen.CreateThread(function()
 		NearVehicleWithJerryCan = false
 
 		local myCoords = GetEntityCoords(GetPlayerPed(-1))
-		
+
 		for i = 1, #models do
 			local closestPump = GetClosestObjectOfType(myCoords.x, myCoords.y, myCoords.z, 1.5, models[i], false, false)
-			
+
 			if closestPump ~= nil and closestPump ~= 0 then
 				local coords    = GetEntityCoords(closestPump)
 				local vehicle   = GetPlayersLastVehicle()
@@ -460,7 +460,7 @@ Citizen.CreateThread(function()
 			if blacklistedVehicles[i] == currentVeh then
 				InBlacklistedVehicle = true
 				found 				 = true
-				
+
 				break
 			end
 		end
@@ -474,7 +474,7 @@ Citizen.CreateThread(function()
 		end
 
 		local CurrentWeapon = GetSelectedPedWeapon(GetPlayerPed(-1))
-						
+
 		if CurrentWeapon == 883325847 then
 			local MyCoords 		= GetEntityCoords(GetPlayerPed(-1))
 			local Vehicle  		= GetClosestVehicle(MyCoords.x, MyCoords.y, MyCoords.z, 3.0, false, 23) == GetPlayersLastVehicle() and GetPlayersLastVehicle() or 0
@@ -511,7 +511,7 @@ function DisplayHud()
 		local speed   = GetEntitySpeed(vehicle)
 		local kmh     = round(speed * 3.6, 0)
 		local mph     = round(speed * 2.236936, 0)
-
+		local concatDisplay = mph .. " mp/h   " .. kmh .. " km/h   " .. fuel .. " fuel"
 		if fuel == 0 then
 			fuel = "0"
 		end
@@ -526,9 +526,9 @@ function DisplayHud()
 		y = 0.002
 
 		--DrawAdvancedText(x,y ,w,h,sc, text, r,g,b,a,font,jus)
-	--	DrawAdvancedText(0.2195 - x, 0.77 - y, 0.005, 0.0028, 0.6, fuel, 255, 255, 255, 255, 6, 1)
-	--	DrawAdvancedText(0.130 - x, 0.77 - y, 0.005, 0.0028, 0.6, mph, 255, 255, 255, 255, 6, 1)
-	--	DrawAdvancedText(0.174 - x, 0.77 - y, 0.005, 0.0028, 0.6, kmh, 255, 255, 255, 255, 6, 1)
+		--	DrawAdvancedText(0.2195 - x, 0.77 - y, 0.005, 0.0028, 0.6, fuel, 255, 255, 255, 255, 6, 1)
+		--	DrawAdvancedText(0.130 - x, 0.77 - y, 0.005, 0.0028, 0.6, mph, 255, 255, 255, 255, 6, 1)
+		--	DrawAdvancedText(0.174 - x, 0.77 - y, 0.005, 0.0028, 0.6, kmh, 255, 255, 255, 255, 6, 1)
 
 		DrawAdvancedText(0.281 - x, 0.7765 - y, 0.005, 0.130, 0.5, concatDisplay, 255, 255, 255, 255, 6, 1)
 	end
