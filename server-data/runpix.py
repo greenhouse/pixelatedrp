@@ -20,8 +20,11 @@ def runSubprocess(lstArgsRun):
 strPath = '/srv/pixelatedrp_greenhouse/server/run.sh'
 #strPath = '/srv/PixelatedRp1.0/server/run.sh'
 
-strCfgDev = '/srv/pixelatedrp_greenhouse/server-data/dev_server.cfg'
-strCfgProd = '/srv/pixelatedrp_greenhouse/server-data/server.cfg'
+strCfgDev = 'dev_server.cfg'
+strCfgProd = 'server.cfg'
+
+#strCfgDev = '/srv/pixelatedrp_greenhouse/server-data/dev_server.cfg'
+#strCfgProd = '/srv/pixelatedrp_greenhouse/server-data/server.cfg'
 #strCfgDev = '/srv/PixelatedRp1.0/server-data/dev_server.cfg'
 #strCfgProd = '/srv/PixelatedRp1.0/server-data/server.cfg'
 
