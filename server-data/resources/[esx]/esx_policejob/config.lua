@@ -155,7 +155,7 @@ Config.AuthorizedVehicles = {
 	},
 
 	officer = {
-		{ model = 'police3', label = 'Police Interceptor', price = 1}
+		{ model = 'police3', label = 'Police Interceptor', price = 1},
 		{ model = 'SFBC4',label = 'SFBC4', price = 1 },
 		{ model = 'srt8police', label = 'srt8police', price = 1 },
 		{ model = '2015polstang', label = 'Polstang', price = 1 },
