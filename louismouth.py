@@ -42,7 +42,8 @@ lst_badWords = ['fuck',
                 'fagg',
                 'faggot',
                 'faggit',
-                'dick',
+                'dick', 'dic', 'dickbagg', 'dikbagg',
+                'dik', 'dikc', 'dickbag', 'dikcbag', 'dikbag', 'dicbag',
                 'stink']
 
 lst_annoyWords = ['hahaha','hahahah','haha']
