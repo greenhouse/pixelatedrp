@@ -1,14 +1,23 @@
 
 ========================================================================
-	create bot / initial how-to
- 
-Ref: https://www.devdungeon.com/content/make-discord-bot-python#create_a_server
+Misc kb for creating and coding discord bot
+
+========================================================================
+
+#create bot / discord how-to
+https://www.devdungeon.com/content/make-discord-bot-python#create_a_server
+
+#discord api ref
+https://discordpy.readthedocs.io/en/latest/api.html#message
+
+
 ========================================================================
 	set bot permissions (required)
-Ref: https://stackoverflow.com/a/37743722
+#ref: https://stackoverflow.com/a/37743722
 
 # use this url
 https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXX&scope=bot&permissions=X
+
 
 ====================================
 	init test app (Louis' mouth bot)
@@ -18,4 +27,14 @@ Token: NTY4MjQ2ODU5MzA3Njc5NzQ0.XLfTYQ.ShlDQ-J8I4xPLvZo-uCd0Fb4s3s
 Permission integer: 198656
 Permission integer: 206848
 https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXX&scope=bot
+
+
 ====================================
+	potential install issues
+#ref: https://github.com/home-assistant/home-assistant/issues/19757
+#ref: https://stackoverflow.com/a/33812968
+
+# may have trouble with websockets version
+#  may need to change version with pip
+$ pip install 'websockets>=3.0,<3.7' --force-reinstall
+
