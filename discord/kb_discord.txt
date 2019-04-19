@@ -1,0 +1,21 @@
+
+========================================================================
+	create bot / initial how-to
+ 
+Ref: https://www.devdungeon.com/content/make-discord-bot-python#create_a_server
+========================================================================
+	set bot permissions (required)
+Ref: https://stackoverflow.com/a/37743722
+
+# use this url
+https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXX&scope=bot&permissions=X
+
+====================================
+	init test app (Louis' mouth bot)
+
+Client id: 568246859307679744
+Token: NTY4MjQ2ODU5MzA3Njc5NzQ0.XLfTYQ.ShlDQ-J8I4xPLvZo-uCd0Fb4s3s
+Permission integer: 198656
+Permission integer: 206848
+https://discordapp.com/oauth2/authorize?client_id=XXXXXXXXXXXX&scope=bot
+====================================
